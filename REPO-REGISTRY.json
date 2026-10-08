@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "resources": {
+    "storyboard": {
+      "repository": "wakazhangjiahuang/ai-video-storyboard",
+      "asset_ref": "df2d353be470d411fc1f3a523cb513a2f34ba09f",
+      "entrypoint": "knowledge/index.json",
+      "optional_indexes": {
+        "talking": "indexes/REF-BASE10/S06.json",
+        "tutorial": "indexes/REF-BASE10/S04.json",
+        "comparison": "indexes/REF-BASE10/S08.json",
+        "sound": "indexes/KB-CINEMA/S11.json"
+      }
+    },
+    "spoken": {
+      "repository": "wakazhangjiahuang/spoken-script-engine",
+      "manifest_ref": null,
+      "entrypoint": "KB-MANIFEST.json",
+      "status": "pending_repository"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "dimensions": [
+    "audience_value",
+    "logic",
+    "promise_payoff",
+    "evidence",
+    "speakability",
+    "platform_fit",
+    "stage_action",
+    "shootability"
+  ],
+  "weights": [
+    15,
+    15,
+    15,
+    15,
+    10,
+    10,
+    10,
+    10
+  ],
+  "range": [
+    0,
+    4
+  ],
+  "min_each": 3,
+  "min_total": 80,
+  "status": "engineering_initial_not_human_calibrated"
+}

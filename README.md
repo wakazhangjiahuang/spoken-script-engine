@@ -1,0 +1,56 @@
+# 口播稿引擎：三平台规则与资产库
+
+仓库名称：`spoken-script-engine`。所属账号：`wakazhangjiahuang`。可见性：**Private（私有）**。资料版本：**v1.3**；整理日期：**2026-10-08**。
+
+本仓库供已安装的「口播稿引擎」读取规则、选题、钩子、公式、搜索意图、段落、证明方法和学习反馈。它是独立知识资产库；运行、判断、生产、复审和表格导出由 Skill 执行。
+
+## 首次上传
+
+先读 [上传与接入](docs/上传与接入.md)。**解压 ZIP，把本目录中的文件和文件夹上传到新仓库根目录。** 上传后根目录应直接出现 `README.md`、`KB-MANIFEST.json`、`REPO-REGISTRY.json`、`rules/`、`platforms/` 等；不要多套一层 `spoken-script-engine/` 或 `kb-snapshot/`。
+
+## 两个独立资源
+
+| 资源 | 仓库 | 用途 |
+|---|---|---|
+| 已有分镜资产 | [wakazhangjiahuang/ai-video-storyboard](https://github.com/wakazhangjiahuang/ai-video-storyboard) | 按原索引取口播、教程、测评、声音及制作参考 |
+| 本仓库 | `wakazhangjiahuang/spoken-script-engine` | 三平台规则与独立口播资产、判断量规、来源和学习记忆 |
+
+已有分镜仓库固定版本及索引保存在 `REPO-REGISTRY.json`，无需把它复制到本仓库。
+
+## 分类与入口
+
+| 目录或文件 | 内容 |
+|---|---|
+| `rules/xiaohongshu/`、`rules/douyin/`、`rules/channels/` | 各平台的官方核验状态、机制资料、创作假设、待核实说法，四层分开 |
+| `platforms/xiaohongshu/`、`platforms/douyin/`、`platforms/channels/` | 各平台选题、钩子、公式应用、SEO意图、段落、证明、行动及案例/稿件索引 |
+| `shared/` | 18个正文公式、12类钩子、需求标签与匹配方法 |
+| `rubrics/quality.json` | 八维质量量规与硬门槛，属于待真人校准的工程初版 |
+| `sources/` | 原始内容提取、来源哈希、导入映射和开源项目选择依据 |
+| `memory/events.jsonl`、`genes/candidates.jsonl` | 用户反馈与经验候选，初始为空 |
+| `evals/acceptance.md` | 专业等效与工程验收边界 |
+| `KB-MANIFEST.json`、`asset-index.jsonl` | 文件定位与SHA256完整性清单 |
+| `REPO-REGISTRY.json` | 双仓库资源定位与固定版本登记 |
+| `tools/verify_assets.py` | 无第三方依赖的本地完整性检查 |
+
+详细分类、状态和初始数量见 [资产目录](docs/资产目录.md)。
+
+## 内容如何使用
+
+从“给谁、讲什么、希望观众做什么”提取任务，按平台取少量相关资产；专业判断比较候选、选择角度/结构/钩子/证明；GPT生产；独立复审与确定性检查通过后交付。默认一份XLSX，三个可见平台表，每表三篇完整稿；明确单平台则该平台三篇。
+
+用户锁定的选题、事实与漏斗阶段优先。同题通过子问题、用户利益或证明组织形成差异；换标题、同义改写不能当三种方案。公式是可选择结构，不替代事实与判断。SEO条目是搜索意图词，没有捏造搜索量。
+
+## 资料与学习状态
+
+- 共保留1005条来源记录：两份资产表805条、旧包钩子200条；其中259条进入平台候选池，其他内容保留来源或隔离，不全量混入生产。
+- 用户PDF及运营资料属于正式输入，但不自动等于平台官方政策。`official-rules.md`如实记录未取得完整现行条文的缺口；不把未公开推荐权重写成官方算法。
+- 18个公式和12类钩子为设计方法；未用未经验证的流量数据把它们标成爆款。案例、稿件索引和反馈文件初始为空，保留空文件供后续追加。
+- 真实反馈按任务/来源/版本去重，按品牌范围隔离；仅生成稿不算采纳、发布或爆款。策略变更须有证据、适用边界与留出评测，再更新索引和哈希。
+
+## 首次接入与后续更新
+
+上传初始资料后，将仓库链接交回本次对话。需验证仓库私有与访问权限、回读完整性，并登记真实commit，再更新Skill连接配置。**上传ZIP或文件本身不会自动完成Skill远端连接。** 初始 `asset_ref`、`manifest_ref` 为 `null`，`pending_repository` 代表初始化状态，不能手填假commit。
+
+正式更新先发布资产与索引commit A，再发布指向A的Manifest commit M，最后Registry指向M；不编造自引用commit。一次生产固定一个版本。反馈批量回写失败时保持待同步状态；下一次任务才使用核对后的新版本。
+
+可选本地检查：在仓库根目录运行 `python tools/verify_assets.py`。检查的是文件和索引完整性，不是专业能力、平台算法真实性或营销效果认证。
