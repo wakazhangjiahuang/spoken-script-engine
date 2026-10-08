@@ -3,8 +3,8 @@
   "resource_id": "spoken-script-engine",
   "version": "1.3",
   "repository": "wakazhangjiahuang/spoken-script-engine",
-  "asset_ref": null,
-  "release_status": "verified_local_snapshot_pending_github",
+  "asset_ref": "665916ab390cac8e0f0ac192c6fe7ddc745f441e",
+  "release_status": "verified_github_assets",
   "checked_at": "2026-10-08",
   "entrypoints": {
     "shared": [
