@@ -1,6 +1,6 @@
 # 口播稿引擎：三平台规则与资产库
 
-仓库名称：`spoken-script-engine`。所属账号：`wakazhangjiahuang`。可见性：**Private（私有）**。资料版本：**v1.3**；整理日期：**2026-10-08**。
+仓库名称：`spoken-script-engine`。所属账号：`wakazhangjiahuang`。可见性：**Private（私有）**。资料版本：**v1.4.1**；整理日期：**2026-11-04**。
 
 本仓库供已安装的「口播稿引擎」读取规则、选题、钩子、公式、搜索意图、段落、证明方法和学习反馈。它是独立知识资产库；运行、判断、生产、复审和表格导出由 Skill 执行。
 
@@ -23,7 +23,7 @@
 |---|---|
 | `rules/xiaohongshu/`、`rules/douyin/`、`rules/channels/` | 各平台的官方核验状态、机制资料、创作假设、待核实说法，四层分开 |
 | `platforms/xiaohongshu/`、`platforms/douyin/`、`platforms/channels/` | 各平台选题、钩子、公式应用、SEO意图、段落、证明、行动及案例/稿件索引 |
-| `shared/` | 18个正文公式、12类钩子、需求标签与匹配方法 |
+| `shared/` | 18个正文公式、20类口播开场、8类Calling、12类兼容旧钩子、需求标签与匹配方法 |
 | `rubrics/quality.json` | 八维质量量规与硬门槛，属于待真人校准的工程初版 |
 | `sources/` | 原始内容提取、来源哈希、导入映射和开源项目选择依据 |
 | `memory/events.jsonl`、`genes/candidates.jsonl` | 用户反馈与经验候选，初始为空 |
