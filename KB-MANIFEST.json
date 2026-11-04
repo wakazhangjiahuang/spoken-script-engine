@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "resource_id": "spoken-script-engine",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "repository": "wakazhangjiahuang/spoken-script-engine",
-  "asset_ref": "41970a4798c21d2d224c358912cb0e586f2b8098",
+  "asset_ref": "2fbb4116a1d888f1663f9f54c0570733883b7c3f",
   "release_status": "verified_github_assets",
   "checked_at": "2026-11-04",
   "entrypoints": {
@@ -13,7 +13,10 @@
       "shared/needs.jsonl",
       "shared/opening-hooks.jsonl",
       "shared/cta-comment-seeds.jsonl",
-      "shared/audience-value-translation.md"
+      "shared/audience-value-translation.md",
+      "shared/human-voice.md",
+      "shared/human-voice-patterns.jsonl",
+      "shared/creator-voice-profile.md"
     ],
     "platforms": [
       "xiaohongshu",
@@ -25,13 +28,19 @@
     {
       "id": "asset-index",
       "path": "asset-index.jsonl",
-      "sha256": "9133fcd6cb103ca1e2c212016790ba39798adffbc18527990254931bcf17e19d",
+      "sha256": "0d960a52b7a8a7f912403f3462b63b24ad7412849fb50f9090f228f33dc21fc8",
       "platform": "shared"
     },
     {
       "id": "evals/acceptance.md",
       "path": "evals/acceptance.md",
-      "sha256": "e81237bc101de32de1bbdce8cd25c545dd92c2c3574f74c9ddd34186aaa0b8e1",
+      "sha256": "7b6933185c6875ea6b7c22000489a0cc9133b791ddc8bd46e7a3021b44df0654",
+      "platform": "shared"
+    },
+    {
+      "id": "evals/cases-v1.4.1.json",
+      "path": "evals/cases-v1.4.1.json",
+      "sha256": "bcb2a22ec1ae624e41005700c80187b0966b2001f671b4642201c7aba335ce8d",
       "platform": "shared"
     },
     {
@@ -257,9 +266,15 @@
       "platform": "xiaohongshu"
     },
     {
+      "id": "README.md",
+      "path": "README.md",
+      "sha256": "8b1707718c4696841578e2c7f5967033e587fd04c84e1390b04eb20e6c6d6cea",
+      "platform": "shared"
+    },
+    {
       "id": "rubrics/quality.json",
       "path": "rubrics/quality.json",
-      "sha256": "b365d39924b7193b7cea786cef32025d5b110fdde8060bf129519a4466f30c4a",
+      "sha256": "234c00e17accefa72d1e5bb7956ed18c98ccd69700df32bcc618397729747740",
       "platform": "shared"
     },
     {
@@ -341,6 +356,12 @@
       "platform": "shared"
     },
     {
+      "id": "shared/creator-voice-profile.md",
+      "path": "shared/creator-voice-profile.md",
+      "sha256": "30c6c0cf7571b792816b4d3eec20e134e41977a959d058d77f8a961919464424",
+      "platform": "shared"
+    },
+    {
       "id": "shared/cta-comment-seeds.jsonl",
       "path": "shared/cta-comment-seeds.jsonl",
       "sha256": "764c4c818c3757d70345110bdbba2ec2eb37b3276738639097d63b4d4372f8e8",
@@ -359,9 +380,21 @@
       "platform": "shared"
     },
     {
+      "id": "shared/human-voice-patterns.jsonl",
+      "path": "shared/human-voice-patterns.jsonl",
+      "sha256": "356e3cfb9043eda7ac7db859982a3e13d7d3a8dd815583d8a4a3cc7e904aaf66",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/human-voice.md",
+      "path": "shared/human-voice.md",
+      "sha256": "7dc44fadef63d9d6c14e3fcbc6fcc28a855dbf42f9303a00b6b64e77bc6ae6db",
+      "platform": "shared"
+    },
+    {
       "id": "shared/matching.md",
       "path": "shared/matching.md",
-      "sha256": "b76305b5bb20e9307a3187d9d1d97ec515671a7b0b96701289f69f456f721f27",
+      "sha256": "81c145213abbc7b63fbebc3aa1bcd8a8edee33e2c389a16116981cb98ea7f8bd",
       "platform": "shared"
     },
     {
@@ -374,6 +407,12 @@
       "id": "shared/opening-hooks.jsonl",
       "path": "shared/opening-hooks.jsonl",
       "sha256": "128a5495a6d3f7b2be82fbbcbb62ed187cbc55930727850945324a24a863c977",
+      "platform": "shared"
+    },
+    {
+      "id": "sources/human-voice-project-review.md",
+      "path": "sources/human-voice-project-review.md",
+      "sha256": "834548db2901b4cc62e55424f605a62fb33b67ed2ff38d4b57cbbf9f33bc1184",
       "platform": "shared"
     },
     {
@@ -403,13 +442,13 @@
     {
       "id": "sources/source-index.jsonl",
       "path": "sources/source-index.jsonl",
-      "sha256": "2bf34c355efea277a3d50367614d3a5e37a6440b4e1e4b96250604cc38c1e2e0",
+      "sha256": "5f32efde068343c332fc5ec31b8b3c2ceec5d873dc4947fda31dddfcbe7d1fc6",
       "platform": "shared"
     },
     {
       "id": "sources/title-formula-to-hook-mapping.md",
       "path": "sources/title-formula-to-hook-mapping.md",
-      "sha256": "b42d648a0f0a71ee050f28670329cee7e0a8e3eba6ce96e34b3f251965c5a706",
+      "sha256": "375fb0fd443c013473349283d2f06ba0fcab0fc5d42b78b982ec7376d3132731",
       "platform": "shared"
     },
     {
