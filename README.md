@@ -63,3 +63,12 @@
 - 小红书、抖音、视频号继续独立适配；平台规则、创作假设和账号实测数据分层。
 - 现有12类共享钩子保留为兼容资产；新任务优先读取shared/opening-hooks.jsonl。
 - 新公式的效果状态为unknown；需用真实账号数据对照验证，不承诺流量。
+
+## v1.4.1｜真人表达与去模板升级（2026-11-04）
+
+- 新增 shared/human-voice.md：事实冻结、声音识别、导演决策、朗读测试、盖稿复述和交付复查。
+- 新增 shared/human-voice-patterns.jsonl：18类语言模式；检测仅作语境提醒，不按词语命中自动删除。
+- 新增 shared/creator-voice-profile.md：基于用户本人样本提取口吻，不虚构人设。
+- 新增三个GitHub项目研究记录：shuorenhua、taishang-laojun、director-perspective-script-workflow；按许可边界只提炼方法，不复制受限文本或代码。
+- 明确225条标题公式的上游身份：15类标题策略 → 口播心理机制 → 自然口语开场；不等同225条口播钩子。
+- 质量量规拆分口播顺畅度与创作者声音匹配；新增12项去模板回归案例。
