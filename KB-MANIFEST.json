@@ -1,16 +1,19 @@
 {
   "schema_version": 1,
   "resource_id": "spoken-script-engine",
-  "version": "1.3",
+  "version": "1.4.0",
   "repository": "wakazhangjiahuang/spoken-script-engine",
-  "asset_ref": "665916ab390cac8e0f0ac192c6fe7ddc745f441e",
+  "asset_ref": "41970a4798c21d2d224c358912cb0e586f2b8098",
   "release_status": "verified_github_assets",
-  "checked_at": "2026-10-08",
+  "checked_at": "2026-11-04",
   "entrypoints": {
     "shared": [
       "shared/formulas.jsonl",
       "shared/hooks.jsonl",
-      "shared/needs.jsonl"
+      "shared/needs.jsonl",
+      "shared/opening-hooks.jsonl",
+      "shared/cta-comment-seeds.jsonl",
+      "shared/audience-value-translation.md"
     ],
     "platforms": [
       "xiaohongshu",
@@ -20,9 +23,21 @@
   },
   "assets": [
     {
+      "id": "asset-index",
+      "path": "asset-index.jsonl",
+      "sha256": "9133fcd6cb103ca1e2c212016790ba39798adffbc18527990254931bcf17e19d",
+      "platform": "shared"
+    },
+    {
       "id": "evals/acceptance.md",
       "path": "evals/acceptance.md",
-      "sha256": "b226866a338e09e2ea393e477dc10090b1576f109719bcdaa0ec1be1f60e0122",
+      "sha256": "e81237bc101de32de1bbdce8cd25c545dd92c2c3574f74c9ddd34186aaa0b8e1",
+      "platform": "shared"
+    },
+    {
+      "id": "evals/cases-v1.4.json",
+      "path": "evals/cases-v1.4.json",
+      "sha256": "66909c1486a0757014ec7189e5e8320b4284a019fb3328fa29c8f713edc98aeb",
       "platform": "shared"
     },
     {
@@ -40,7 +55,7 @@
     {
       "id": "platforms/channels/adapter.md",
       "path": "platforms/channels/adapter.md",
-      "sha256": "5124f77f4c6097661cb9b826bc710a94ad390e87c850b8b86b6dc2c82278ebae",
+      "sha256": "57af0a5fd693b0a6eaa20743e3040ee5d7cc8248bf5b8e52c65b3f093cfd2fa3",
       "platform": "channels"
     },
     {
@@ -52,7 +67,7 @@
     {
       "id": "platforms/channels/entry-and-actions.jsonl",
       "path": "platforms/channels/entry-and-actions.jsonl",
-      "sha256": "79069cb02ff549f9f4a669f8dd18e8632ff65c25de75e078ce7d00099e24597b",
+      "sha256": "f17379e177417c05d1656ab3e2514b4e83c0dedf2d444ec07b49124231cc5f0a",
       "platform": "channels"
     },
     {
@@ -106,7 +121,7 @@
     {
       "id": "platforms/douyin/adapter.md",
       "path": "platforms/douyin/adapter.md",
-      "sha256": "b8953400920cab18b4e96d6f2d5328af0b5c3ecb0cb32c8797db0525a66843b2",
+      "sha256": "d05f0767dcbabaa18890c35036fcc3a0e5e1b03143ae323c5d13f9d623a78204",
       "platform": "douyin"
     },
     {
@@ -118,7 +133,7 @@
     {
       "id": "platforms/douyin/entry-and-actions.jsonl",
       "path": "platforms/douyin/entry-and-actions.jsonl",
-      "sha256": "66cb61f8f198d87dd3716a2dd30145687ca3d29fa460544f7198a2ed009532ac",
+      "sha256": "33dab118aaa2d8c87aec29964443b1034cab6bdfb803b21be7ae355e5ffd66b9",
       "platform": "douyin"
     },
     {
@@ -172,7 +187,7 @@
     {
       "id": "platforms/xiaohongshu/adapter.md",
       "path": "platforms/xiaohongshu/adapter.md",
-      "sha256": "2b373658681fe4958e812e4b3de676ff2f067ae5130ec90a5f2a3317451cb4ae",
+      "sha256": "8accb61d92929370a06552c8ad6f7ac0183ad6b10331dab81bce2ce328add126",
       "platform": "xiaohongshu"
     },
     {
@@ -184,7 +199,7 @@
     {
       "id": "platforms/xiaohongshu/entry-and-actions.jsonl",
       "path": "platforms/xiaohongshu/entry-and-actions.jsonl",
-      "sha256": "3ce5dbefab87262e326f25f29c8eb31923de5493b2b1fe5c604d067b6229705b",
+      "sha256": "9a8a472b50d11446685aa2852f5469a3e6b60471399e2149540ec637cfed47fc",
       "platform": "xiaohongshu"
     },
     {
@@ -244,7 +259,7 @@
     {
       "id": "rubrics/quality.json",
       "path": "rubrics/quality.json",
-      "sha256": "a07061cd32405c5730168d537b1957cb1058904fa76b6500e3c656c667bc5e76",
+      "sha256": "b365d39924b7193b7cea786cef32025d5b110fdde8060bf129519a4466f30c4a",
       "platform": "shared"
     },
     {
@@ -256,13 +271,13 @@
     {
       "id": "rules/channels/mechanisms.md",
       "path": "rules/channels/mechanisms.md",
-      "sha256": "984004014ff85acfcfcafdc9897083d41ef00c13924bfd34e019337310bd0403",
+      "sha256": "257e7e5c2faa6bb712aa36eaf89a2756ca08107a64c23a9fe726a2e3c9c020b0",
       "platform": "channels"
     },
     {
       "id": "rules/channels/official-rules.md",
       "path": "rules/channels/official-rules.md",
-      "sha256": "c5d861d81f9e5defb1104ca7e018e15572d0e745ce5746b3965ea4ef0a273ee6",
+      "sha256": "7abe6f2896b2ee3585a0ca1f50891bd59d7b395119eb024004360cf640d6d9e4",
       "platform": "channels"
     },
     {
@@ -280,13 +295,13 @@
     {
       "id": "rules/douyin/mechanisms.md",
       "path": "rules/douyin/mechanisms.md",
-      "sha256": "1921235957a5cb018f05e0dfc3ebe6f432d3c97ab9f72003a82871484974f963",
+      "sha256": "98f0d3b9fcf8542c1b7b682e0db37f02c3239001501e523bb7dcdf1e93552ddb",
       "platform": "douyin"
     },
     {
       "id": "rules/douyin/official-rules.md",
       "path": "rules/douyin/official-rules.md",
-      "sha256": "59a0bf12736bcd48d5992585a9d3311e29a64d5f2a4cfb527345c4aae4b07c0a",
+      "sha256": "845f667f2113dfbc2ef4fb02453e4583430bedffe48978a342fcff7c01494c39",
       "platform": "douyin"
     },
     {
@@ -304,13 +319,13 @@
     {
       "id": "rules/xiaohongshu/mechanisms.md",
       "path": "rules/xiaohongshu/mechanisms.md",
-      "sha256": "9b402e4ec65d27e8953a07bb867c5aa893765a3ae468daa10230f5ccc3315482",
+      "sha256": "4846235e5ed60a31eecd182ce4cb03c84a90459ca66ae4fda77b03d82626726c",
       "platform": "xiaohongshu"
     },
     {
       "id": "rules/xiaohongshu/official-rules.md",
       "path": "rules/xiaohongshu/official-rules.md",
-      "sha256": "56aa12c90c4b17dc3d9015f7d280f486ab427682656bfaf86fff065d42a73041",
+      "sha256": "413a55da1cbf679e4c9fbbeb690bfe18c52167b32e45f6b3b3dd697ed89ef6dc",
       "platform": "xiaohongshu"
     },
     {
@@ -318,6 +333,18 @@
       "path": "rules/xiaohongshu/unverified-claims.jsonl",
       "sha256": "c65acd9f66928fb90d3e74d0a1586ef59f1a3a6a45ff51f2b5394393ed4e9439",
       "platform": "xiaohongshu"
+    },
+    {
+      "id": "shared/audience-value-translation.md",
+      "path": "shared/audience-value-translation.md",
+      "sha256": "c3cafecf5395c4cc2cd72d491c7ef4120ef2c86dbfcc221841635cfb51f993fa",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/cta-comment-seeds.jsonl",
+      "path": "shared/cta-comment-seeds.jsonl",
+      "sha256": "764c4c818c3757d70345110bdbba2ec2eb37b3276738639097d63b4d4372f8e8",
+      "platform": "shared"
     },
     {
       "id": "shared/formulas.jsonl",
@@ -334,13 +361,19 @@
     {
       "id": "shared/matching.md",
       "path": "shared/matching.md",
-      "sha256": "53cb4228275ce3857e7132dfb3f81d5645461f008898050100e4d5ab6b29b41f",
+      "sha256": "b76305b5bb20e9307a3187d9d1d97ec515671a7b0b96701289f69f456f721f27",
       "platform": "shared"
     },
     {
       "id": "shared/needs.jsonl",
       "path": "shared/needs.jsonl",
       "sha256": "187cd1ef18acfe8fb336010ffef8d46902b0f61c29fd445187399f07c6813dec",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/opening-hooks.jsonl",
+      "path": "shared/opening-hooks.jsonl",
+      "sha256": "128a5495a6d3f7b2be82fbbcbb62ed187cbc55930727850945324a24a863c977",
       "platform": "shared"
     },
     {
@@ -370,7 +403,19 @@
     {
       "id": "sources/source-index.jsonl",
       "path": "sources/source-index.jsonl",
-      "sha256": "29b32b108dc218bf6045b4697f55c419f80941fd41a0b19c33049408f18d8869",
+      "sha256": "2bf34c355efea277a3d50367614d3a5e37a6440b4e1e4b96250604cc38c1e2e0",
+      "platform": "shared"
+    },
+    {
+      "id": "sources/title-formula-to-hook-mapping.md",
+      "path": "sources/title-formula-to-hook-mapping.md",
+      "sha256": "b42d648a0f0a71ee050f28670329cee7e0a8e3eba6ce96e34b3f251965c5a706",
+      "platform": "shared"
+    },
+    {
+      "id": "sources/xhs_ai_title_formula_knowledge_v2.txt",
+      "path": "sources/xhs_ai_title_formula_knowledge_v2.txt",
+      "sha256": "585c3cb3e9c59bb1b77022b3c1cb685019b9d5b778fd02e5a00ff8cc75bd58ee",
       "platform": "shared"
     },
     {
@@ -395,12 +440,6 @@
       "id": "sources/视频号完整运营流程图.md",
       "path": "sources/视频号完整运营流程图.md",
       "sha256": "6ef16924aeaca2cfc7f4780c03150675e6fbab30d3c1bbf292af5fbeda11090c",
-      "platform": "shared"
-    },
-    {
-      "id": "asset-index",
-      "path": "asset-index.jsonl",
-      "sha256": "b7344db8f21762f2a43ce15ef85d7c93abe2aea9c7db45b57bdc14f5618a6c0d",
       "platform": "shared"
     }
   ]
