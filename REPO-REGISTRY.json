@@ -14,9 +14,11 @@
     },
     "spoken": {
       "repository": "wakazhangjiahuang/spoken-script-engine",
-      "manifest_ref": "5588c92757b268779c8f27fb993a30079783cab8",
+      "manifest_ref": "bffaae875dc69c367c6c2dadfc2001924511e855",
       "entrypoint": "KB-MANIFEST.json",
-      "status": "connected"
+      "status": "connected",
+      "asset_ref": "41970a4798c21d2d224c358912cb0e586f2b8098",
+      "version": "1.4.0"
     }
   }
 }
