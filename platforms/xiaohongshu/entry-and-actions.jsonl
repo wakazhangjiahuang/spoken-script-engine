@@ -1,1 +1,4 @@
-{"asset_id": "XHS:ENTRY:01", "rule": "入口承诺/正文/结尾行动一致；行动服从阶段与真实供给", "platform": "xiaohongshu", "status": "design_method"}
+{"asset_id":"XHS:ENTRY:01","rule":"标题/封面/首句/正文/结尾行动围绕同一用户问题；开场承诺必须兑现","status":"design_method"}
+{"asset_id":"XHS:CTA:01","rule":"一个主要行动；按阶段选择评论征集、收藏理由、关注或合规咨询，不堆叠四连动作","status":"design_method"}
+{"asset_id":"XHS:CTA:02","rule":"评论问题聚焦真实场景、选型困难或经验反馈；可用于后续选题，不伪造评论热度","status":"design_method"}
+{"asset_id":"XHS:CTA:03","rule":"仅当内容具有可复用价值时提示收藏；禁止以点赞/收藏/评论交换答案或福利","status":"design_method"}

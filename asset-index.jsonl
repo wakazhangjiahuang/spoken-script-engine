@@ -1,63 +1,69 @@
-{"id": "evals/acceptance.md", "path": "evals/acceptance.md", "sha256": "b226866a338e09e2ea393e477dc10090b1576f109719bcdaa0ec1be1f60e0122", "platform": "shared"}
-{"id": "genes/candidates.jsonl", "path": "genes/candidates.jsonl", "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "platform": "shared"}
-{"id": "memory/events.jsonl", "path": "memory/events.jsonl", "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "platform": "shared"}
-{"id": "platforms/channels/adapter.md", "path": "platforms/channels/adapter.md", "sha256": "5124f77f4c6097661cb9b826bc710a94ad390e87c850b8b86b6dc2c82278ebae", "platform": "channels"}
-{"id": "platforms/channels/cases-index.jsonl", "path": "platforms/channels/cases-index.jsonl", "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "platform": "channels"}
-{"id": "platforms/channels/entry-and-actions.jsonl", "path": "platforms/channels/entry-and-actions.jsonl", "sha256": "79069cb02ff549f9f4a669f8dd18e8632ff65c25de75e078ce7d00099e24597b", "platform": "channels"}
-{"id": "platforms/channels/formula-applications.jsonl", "path": "platforms/channels/formula-applications.jsonl", "sha256": "3ae981d1d24c6f640149c8721cbbe2a3343ef78162f106ee2dfd30398d78821b", "platform": "channels"}
-{"id": "platforms/channels/hooks.jsonl", "path": "platforms/channels/hooks.jsonl", "sha256": "cec971e21e09c15825f3dda208d210c86a7eafbef84e669a55f048bb4ce86026", "platform": "channels"}
-{"id": "platforms/channels/imported-candidates.jsonl", "path": "platforms/channels/imported-candidates.jsonl", "sha256": "372b6cdb53be607337d9d7c557b786fd5830414b83c4d1a3e6cb948a57ca6445", "platform": "channels"}
-{"id": "platforms/channels/proofs.jsonl", "path": "platforms/channels/proofs.jsonl", "sha256": "3c59100e77f5fb62d2be01231134aad994fbe0ab7e7cbd6c08e733e7bbdb8290", "platform": "channels"}
-{"id": "platforms/channels/scripts-index.jsonl", "path": "platforms/channels/scripts-index.jsonl", "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "platform": "channels"}
-{"id": "platforms/channels/segments.jsonl", "path": "platforms/channels/segments.jsonl", "sha256": "2cf231d8a6246f3491f9c8244aca6b39581ecb9ab8573530aee2fbe940c328bd", "platform": "channels"}
-{"id": "platforms/channels/seo-keywords.jsonl", "path": "platforms/channels/seo-keywords.jsonl", "sha256": "2373fcfb1e850134af76a8b7e01a4f9cff8bcac6b61f33d83427115e41163538", "platform": "channels"}
-{"id": "platforms/channels/topics.jsonl", "path": "platforms/channels/topics.jsonl", "sha256": "4f64bacdc3e7000b90f2c276717188fa104e3ae88cbc253ba92d509ba42e39bf", "platform": "channels"}
-{"id": "platforms/douyin/adapter.md", "path": "platforms/douyin/adapter.md", "sha256": "b8953400920cab18b4e96d6f2d5328af0b5c3ecb0cb32c8797db0525a66843b2", "platform": "douyin"}
-{"id": "platforms/douyin/cases-index.jsonl", "path": "platforms/douyin/cases-index.jsonl", "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "platform": "douyin"}
-{"id": "platforms/douyin/entry-and-actions.jsonl", "path": "platforms/douyin/entry-and-actions.jsonl", "sha256": "66cb61f8f198d87dd3716a2dd30145687ca3d29fa460544f7198a2ed009532ac", "platform": "douyin"}
-{"id": "platforms/douyin/formula-applications.jsonl", "path": "platforms/douyin/formula-applications.jsonl", "sha256": "bc30df9567fce1a8e00d2a6a719e2024bc64a00803a4b9f411b1bb7c35f9d8dd", "platform": "douyin"}
-{"id": "platforms/douyin/hooks.jsonl", "path": "platforms/douyin/hooks.jsonl", "sha256": "ac43b42aa9d698a9b6d061a96d653dc6a78f8fd9d68e941aaf9ecaddfe0ac908", "platform": "douyin"}
-{"id": "platforms/douyin/legacy-hook-map.jsonl", "path": "platforms/douyin/legacy-hook-map.jsonl", "sha256": "091a83c36d0bccdbdd48b9c7592c4f340d2ef88140c48154e73dcf3e8415efa9", "platform": "douyin"}
-{"id": "platforms/douyin/proofs.jsonl", "path": "platforms/douyin/proofs.jsonl", "sha256": "95d1da907a9b2f99c51c1125cc0a25c3e8da3b7b087da2b05025e1ad3a815e4d", "platform": "douyin"}
-{"id": "platforms/douyin/scripts-index.jsonl", "path": "platforms/douyin/scripts-index.jsonl", "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "platform": "douyin"}
-{"id": "platforms/douyin/segments.jsonl", "path": "platforms/douyin/segments.jsonl", "sha256": "52fc15a6cd63062e013518e07a03af9c4f890c51c79743bf216b2939781fc86f", "platform": "douyin"}
-{"id": "platforms/douyin/seo-keywords.jsonl", "path": "platforms/douyin/seo-keywords.jsonl", "sha256": "0cb5fca82f4b44a5cf53aefc03e4414a11e3631d45abe59ab381056e60415e5d", "platform": "douyin"}
-{"id": "platforms/douyin/topics.jsonl", "path": "platforms/douyin/topics.jsonl", "sha256": "2fe17efb2668af27e3393d659ad0a924138603203c01b7fd29e922d03548598e", "platform": "douyin"}
-{"id": "platforms/xiaohongshu/adapter.md", "path": "platforms/xiaohongshu/adapter.md", "sha256": "2b373658681fe4958e812e4b3de676ff2f067ae5130ec90a5f2a3317451cb4ae", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/cases-index.jsonl", "path": "platforms/xiaohongshu/cases-index.jsonl", "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/entry-and-actions.jsonl", "path": "platforms/xiaohongshu/entry-and-actions.jsonl", "sha256": "3ce5dbefab87262e326f25f29c8eb31923de5493b2b1fe5c604d067b6229705b", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/formula-applications.jsonl", "path": "platforms/xiaohongshu/formula-applications.jsonl", "sha256": "4d2304d54b42f25ba57436a463f057836f22a2c33205f883f3506c99bca2b993", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/hooks.jsonl", "path": "platforms/xiaohongshu/hooks.jsonl", "sha256": "44ca1386058cf63de20e2fab25249d2055e2aa52e950f67cfd9a2a40c0bad0b3", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/imported-candidates.jsonl", "path": "platforms/xiaohongshu/imported-candidates.jsonl", "sha256": "c827d2026f146ffa4a638cc454304b5bd29bcf74e9da24ed3f38ddb798c50132", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/legacy-hook-map.jsonl", "path": "platforms/xiaohongshu/legacy-hook-map.jsonl", "sha256": "bf08eee2d5e647a545a0c1fb4ac9c267da4559d864fb5d00e662f0d8c9ed168f", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/proofs.jsonl", "path": "platforms/xiaohongshu/proofs.jsonl", "sha256": "10cd734500adc56cc8e0ab1c0538042b376ddaf12b18beaa9c99fb1711a06dfc", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/scripts-index.jsonl", "path": "platforms/xiaohongshu/scripts-index.jsonl", "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/segments.jsonl", "path": "platforms/xiaohongshu/segments.jsonl", "sha256": "0d137983310b60fb817f40aa62ee6cc2484dfe481067dd1521e1c1bf9ae66e93", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/seo-keywords.jsonl", "path": "platforms/xiaohongshu/seo-keywords.jsonl", "sha256": "dab8899990ab8b99b002843830a3e88252da534fc9166c0241cfef7756b824c6", "platform": "xiaohongshu"}
-{"id": "platforms/xiaohongshu/topics.jsonl", "path": "platforms/xiaohongshu/topics.jsonl", "sha256": "ed85e738fef265a53f556ea714c7c8307b6872f09032d0bcc9c3fc25a1f37bee", "platform": "xiaohongshu"}
-{"id": "rubrics/quality.json", "path": "rubrics/quality.json", "sha256": "a07061cd32405c5730168d537b1957cb1058904fa76b6500e3c656c667bc5e76", "platform": "shared"}
-{"id": "rules/channels/creative-hypotheses.md", "path": "rules/channels/creative-hypotheses.md", "sha256": "4f40523d305d645e22f28563356b1ec716eb6c6360453a8d5d7634100001a2eb", "platform": "channels"}
-{"id": "rules/channels/mechanisms.md", "path": "rules/channels/mechanisms.md", "sha256": "984004014ff85acfcfcafdc9897083d41ef00c13924bfd34e019337310bd0403", "platform": "channels"}
-{"id": "rules/channels/official-rules.md", "path": "rules/channels/official-rules.md", "sha256": "c5d861d81f9e5defb1104ca7e018e15572d0e745ce5746b3965ea4ef0a273ee6", "platform": "channels"}
-{"id": "rules/channels/unverified-claims.jsonl", "path": "rules/channels/unverified-claims.jsonl", "sha256": "c65acd9f66928fb90d3e74d0a1586ef59f1a3a6a45ff51f2b5394393ed4e9439", "platform": "channels"}
-{"id": "rules/douyin/creative-hypotheses.md", "path": "rules/douyin/creative-hypotheses.md", "sha256": "b2364fb7594c0a3477f6f096779f84b5ea60dad840d429a8aa0a0617550891fa", "platform": "douyin"}
-{"id": "rules/douyin/mechanisms.md", "path": "rules/douyin/mechanisms.md", "sha256": "1921235957a5cb018f05e0dfc3ebe6f432d3c97ab9f72003a82871484974f963", "platform": "douyin"}
-{"id": "rules/douyin/official-rules.md", "path": "rules/douyin/official-rules.md", "sha256": "59a0bf12736bcd48d5992585a9d3311e29a64d5f2a4cfb527345c4aae4b07c0a", "platform": "douyin"}
-{"id": "rules/douyin/unverified-claims.jsonl", "path": "rules/douyin/unverified-claims.jsonl", "sha256": "c65acd9f66928fb90d3e74d0a1586ef59f1a3a6a45ff51f2b5394393ed4e9439", "platform": "douyin"}
-{"id": "rules/xiaohongshu/creative-hypotheses.md", "path": "rules/xiaohongshu/creative-hypotheses.md", "sha256": "eb9aa6df76a8b8afa6dbdd1c64ea12775c2f8e7b8d05347e4aa15ce1fd20f931", "platform": "xiaohongshu"}
-{"id": "rules/xiaohongshu/mechanisms.md", "path": "rules/xiaohongshu/mechanisms.md", "sha256": "9b402e4ec65d27e8953a07bb867c5aa893765a3ae468daa10230f5ccc3315482", "platform": "xiaohongshu"}
-{"id": "rules/xiaohongshu/official-rules.md", "path": "rules/xiaohongshu/official-rules.md", "sha256": "56aa12c90c4b17dc3d9015f7d280f486ab427682656bfaf86fff065d42a73041", "platform": "xiaohongshu"}
-{"id": "rules/xiaohongshu/unverified-claims.jsonl", "path": "rules/xiaohongshu/unverified-claims.jsonl", "sha256": "c65acd9f66928fb90d3e74d0a1586ef59f1a3a6a45ff51f2b5394393ed4e9439", "platform": "xiaohongshu"}
-{"id": "shared/formulas.jsonl", "path": "shared/formulas.jsonl", "sha256": "76dda14fca8b49cea19c953b291443f4e211d71afbfface89455a2577b374640", "platform": "shared"}
-{"id": "shared/hooks.jsonl", "path": "shared/hooks.jsonl", "sha256": "d9b49ba4d29dba07a360a153b4cbb353582bc3c197b62c7f2e8476354d4fc2fa", "platform": "shared"}
-{"id": "shared/matching.md", "path": "shared/matching.md", "sha256": "53cb4228275ce3857e7132dfb3f81d5645461f008898050100e4d5ab6b29b41f", "platform": "shared"}
-{"id": "shared/needs.jsonl", "path": "shared/needs.jsonl", "sha256": "187cd1ef18acfe8fb336010ffef8d46902b0f61c29fd445187399f07c6813dec", "platform": "shared"}
-{"id": "sources/import-mapping.jsonl", "path": "sources/import-mapping.jsonl", "sha256": "fe3f8269062c6c5ee7931e29f90bd3317cd3f6176acc8306988716915efe4e57", "platform": "shared"}
-{"id": "sources/imported-records.jsonl", "path": "sources/imported-records.jsonl", "sha256": "caeed4115c0810e80149e188fabb7e566ecc900acf84a600cf1114393eb2ad17", "platform": "shared"}
-{"id": "sources/platform-guide-pdf-extracted.txt", "path": "sources/platform-guide-pdf-extracted.txt", "sha256": "5fedc6cd81be4b1070bf2ad4a7bd2630167134701a9911c9c01f619bbaa1f631", "platform": "shared"}
-{"id": "sources/project-decisions.md", "path": "sources/project-decisions.md", "sha256": "a99a566ad2b41183ca7192a5dd6f07f2326e4d057b48f7e1627f3dd61b27d95e", "platform": "shared"}
-{"id": "sources/source-index.jsonl", "path": "sources/source-index.jsonl", "sha256": "29b32b108dc218bf6045b4697f55c419f80941fd41a0b19c33049408f18d8869", "platform": "shared"}
-{"id": "sources/人性类型_选题_爆款公式手册_v1.0.md", "path": "sources/人性类型_选题_爆款公式手册_v1.0.md", "sha256": "384172951a5e6f4ee8fdfba66de0d1dc9581d8af72bed5b478a1e26d3a5d3eb2", "platform": "shared"}
-{"id": "sources/小红书完整运营流程图.md", "path": "sources/小红书完整运营流程图.md", "sha256": "98722ecbabbb0119b61a7d6adcb807a98bec837ec3392e2292050cbe3c0368c0", "platform": "shared"}
-{"id": "sources/抖音完整运营流程图.md", "path": "sources/抖音完整运营流程图.md", "sha256": "4080abd6a4b46e7606437ac122685dc0cdce956c3528085e15fc237973b964fd", "platform": "shared"}
-{"id": "sources/视频号完整运营流程图.md", "path": "sources/视频号完整运营流程图.md", "sha256": "6ef16924aeaca2cfc7f4780c03150675e6fbab30d3c1bbf292af5fbeda11090c", "platform": "shared"}
+{"id":"evals/acceptance.md","path":"evals/acceptance.md","sha256":"e81237bc101de32de1bbdce8cd25c545dd92c2c3574f74c9ddd34186aaa0b8e1","platform":"shared"}
+{"id":"evals/cases-v1.4.json","path":"evals/cases-v1.4.json","sha256":"66909c1486a0757014ec7189e5e8320b4284a019fb3328fa29c8f713edc98aeb","platform":"shared"}
+{"id":"genes/candidates.jsonl","path":"genes/candidates.jsonl","sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","platform":"shared"}
+{"id":"memory/events.jsonl","path":"memory/events.jsonl","sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","platform":"shared"}
+{"id":"platforms/channels/adapter.md","path":"platforms/channels/adapter.md","sha256":"57af0a5fd693b0a6eaa20743e3040ee5d7cc8248bf5b8e52c65b3f093cfd2fa3","platform":"channels"}
+{"id":"platforms/channels/cases-index.jsonl","path":"platforms/channels/cases-index.jsonl","sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","platform":"channels"}
+{"id":"platforms/channels/entry-and-actions.jsonl","path":"platforms/channels/entry-and-actions.jsonl","sha256":"f17379e177417c05d1656ab3e2514b4e83c0dedf2d444ec07b49124231cc5f0a","platform":"channels"}
+{"id":"platforms/channels/formula-applications.jsonl","path":"platforms/channels/formula-applications.jsonl","sha256":"3ae981d1d24c6f640149c8721cbbe2a3343ef78162f106ee2dfd30398d78821b","platform":"channels"}
+{"id":"platforms/channels/hooks.jsonl","path":"platforms/channels/hooks.jsonl","sha256":"cec971e21e09c15825f3dda208d210c86a7eafbef84e669a55f048bb4ce86026","platform":"channels"}
+{"id":"platforms/channels/imported-candidates.jsonl","path":"platforms/channels/imported-candidates.jsonl","sha256":"372b6cdb53be607337d9d7c557b786fd5830414b83c4d1a3e6cb948a57ca6445","platform":"channels"}
+{"id":"platforms/channels/proofs.jsonl","path":"platforms/channels/proofs.jsonl","sha256":"3c59100e77f5fb62d2be01231134aad994fbe0ab7e7cbd6c08e733e7bbdb8290","platform":"channels"}
+{"id":"platforms/channels/scripts-index.jsonl","path":"platforms/channels/scripts-index.jsonl","sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","platform":"channels"}
+{"id":"platforms/channels/segments.jsonl","path":"platforms/channels/segments.jsonl","sha256":"2cf231d8a6246f3491f9c8244aca6b39581ecb9ab8573530aee2fbe940c328bd","platform":"channels"}
+{"id":"platforms/channels/seo-keywords.jsonl","path":"platforms/channels/seo-keywords.jsonl","sha256":"2373fcfb1e850134af76a8b7e01a4f9cff8bcac6b61f33d83427115e41163538","platform":"channels"}
+{"id":"platforms/channels/topics.jsonl","path":"platforms/channels/topics.jsonl","sha256":"4f64bacdc3e7000b90f2c276717188fa104e3ae88cbc253ba92d509ba42e39bf","platform":"channels"}
+{"id":"platforms/douyin/adapter.md","path":"platforms/douyin/adapter.md","sha256":"d05f0767dcbabaa18890c35036fcc3a0e5e1b03143ae323c5d13f9d623a78204","platform":"douyin"}
+{"id":"platforms/douyin/cases-index.jsonl","path":"platforms/douyin/cases-index.jsonl","sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","platform":"douyin"}
+{"id":"platforms/douyin/entry-and-actions.jsonl","path":"platforms/douyin/entry-and-actions.jsonl","sha256":"33dab118aaa2d8c87aec29964443b1034cab6bdfb803b21be7ae355e5ffd66b9","platform":"douyin"}
+{"id":"platforms/douyin/formula-applications.jsonl","path":"platforms/douyin/formula-applications.jsonl","sha256":"bc30df9567fce1a8e00d2a6a719e2024bc64a00803a4b9f411b1bb7c35f9d8dd","platform":"douyin"}
+{"id":"platforms/douyin/hooks.jsonl","path":"platforms/douyin/hooks.jsonl","sha256":"ac43b42aa9d698a9b6d061a96d653dc6a78f8fd9d68e941aaf9ecaddfe0ac908","platform":"douyin"}
+{"id":"platforms/douyin/legacy-hook-map.jsonl","path":"platforms/douyin/legacy-hook-map.jsonl","sha256":"091a83c36d0bccdbdd48b9c7592c4f340d2ef88140c48154e73dcf3e8415efa9","platform":"douyin"}
+{"id":"platforms/douyin/proofs.jsonl","path":"platforms/douyin/proofs.jsonl","sha256":"95d1da907a9b2f99c51c1125cc0a25c3e8da3b7b087da2b05025e1ad3a815e4d","platform":"douyin"}
+{"id":"platforms/douyin/scripts-index.jsonl","path":"platforms/douyin/scripts-index.jsonl","sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","platform":"douyin"}
+{"id":"platforms/douyin/segments.jsonl","path":"platforms/douyin/segments.jsonl","sha256":"52fc15a6cd63062e013518e07a03af9c4f890c51c79743bf216b2939781fc86f","platform":"douyin"}
+{"id":"platforms/douyin/seo-keywords.jsonl","path":"platforms/douyin/seo-keywords.jsonl","sha256":"0cb5fca82f4b44a5cf53aefc03e4414a11e3631d45abe59ab381056e60415e5d","platform":"douyin"}
+{"id":"platforms/douyin/topics.jsonl","path":"platforms/douyin/topics.jsonl","sha256":"2fe17efb2668af27e3393d659ad0a924138603203c01b7fd29e922d03548598e","platform":"douyin"}
+{"id":"platforms/xiaohongshu/adapter.md","path":"platforms/xiaohongshu/adapter.md","sha256":"8accb61d92929370a06552c8ad6f7ac0183ad6b10331dab81bce2ce328add126","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/cases-index.jsonl","path":"platforms/xiaohongshu/cases-index.jsonl","sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/entry-and-actions.jsonl","path":"platforms/xiaohongshu/entry-and-actions.jsonl","sha256":"9a8a472b50d11446685aa2852f5469a3e6b60471399e2149540ec637cfed47fc","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/formula-applications.jsonl","path":"platforms/xiaohongshu/formula-applications.jsonl","sha256":"4d2304d54b42f25ba57436a463f057836f22a2c33205f883f3506c99bca2b993","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/hooks.jsonl","path":"platforms/xiaohongshu/hooks.jsonl","sha256":"44ca1386058cf63de20e2fab25249d2055e2aa52e950f67cfd9a2a40c0bad0b3","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/imported-candidates.jsonl","path":"platforms/xiaohongshu/imported-candidates.jsonl","sha256":"c827d2026f146ffa4a638cc454304b5bd29bcf74e9da24ed3f38ddb798c50132","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/legacy-hook-map.jsonl","path":"platforms/xiaohongshu/legacy-hook-map.jsonl","sha256":"bf08eee2d5e647a545a0c1fb4ac9c267da4559d864fb5d00e662f0d8c9ed168f","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/proofs.jsonl","path":"platforms/xiaohongshu/proofs.jsonl","sha256":"10cd734500adc56cc8e0ab1c0538042b376ddaf12b18beaa9c99fb1711a06dfc","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/scripts-index.jsonl","path":"platforms/xiaohongshu/scripts-index.jsonl","sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/segments.jsonl","path":"platforms/xiaohongshu/segments.jsonl","sha256":"0d137983310b60fb817f40aa62ee6cc2484dfe481067dd1521e1c1bf9ae66e93","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/seo-keywords.jsonl","path":"platforms/xiaohongshu/seo-keywords.jsonl","sha256":"dab8899990ab8b99b002843830a3e88252da534fc9166c0241cfef7756b824c6","platform":"xiaohongshu"}
+{"id":"platforms/xiaohongshu/topics.jsonl","path":"platforms/xiaohongshu/topics.jsonl","sha256":"ed85e738fef265a53f556ea714c7c8307b6872f09032d0bcc9c3fc25a1f37bee","platform":"xiaohongshu"}
+{"id":"rubrics/quality.json","path":"rubrics/quality.json","sha256":"b365d39924b7193b7cea786cef32025d5b110fdde8060bf129519a4466f30c4a","platform":"shared"}
+{"id":"rules/channels/creative-hypotheses.md","path":"rules/channels/creative-hypotheses.md","sha256":"4f40523d305d645e22f28563356b1ec716eb6c6360453a8d5d7634100001a2eb","platform":"channels"}
+{"id":"rules/channels/mechanisms.md","path":"rules/channels/mechanisms.md","sha256":"257e7e5c2faa6bb712aa36eaf89a2756ca08107a64c23a9fe726a2e3c9c020b0","platform":"channels"}
+{"id":"rules/channels/official-rules.md","path":"rules/channels/official-rules.md","sha256":"7abe6f2896b2ee3585a0ca1f50891bd59d7b395119eb024004360cf640d6d9e4","platform":"channels"}
+{"id":"rules/channels/unverified-claims.jsonl","path":"rules/channels/unverified-claims.jsonl","sha256":"c65acd9f66928fb90d3e74d0a1586ef59f1a3a6a45ff51f2b5394393ed4e9439","platform":"channels"}
+{"id":"rules/douyin/creative-hypotheses.md","path":"rules/douyin/creative-hypotheses.md","sha256":"b2364fb7594c0a3477f6f096779f84b5ea60dad840d429a8aa0a0617550891fa","platform":"douyin"}
+{"id":"rules/douyin/mechanisms.md","path":"rules/douyin/mechanisms.md","sha256":"98f0d3b9fcf8542c1b7b682e0db37f02c3239001501e523bb7dcdf1e93552ddb","platform":"douyin"}
+{"id":"rules/douyin/official-rules.md","path":"rules/douyin/official-rules.md","sha256":"845f667f2113dfbc2ef4fb02453e4583430bedffe48978a342fcff7c01494c39","platform":"douyin"}
+{"id":"rules/douyin/unverified-claims.jsonl","path":"rules/douyin/unverified-claims.jsonl","sha256":"c65acd9f66928fb90d3e74d0a1586ef59f1a3a6a45ff51f2b5394393ed4e9439","platform":"douyin"}
+{"id":"rules/xiaohongshu/creative-hypotheses.md","path":"rules/xiaohongshu/creative-hypotheses.md","sha256":"eb9aa6df76a8b8afa6dbdd1c64ea12775c2f8e7b8d05347e4aa15ce1fd20f931","platform":"xiaohongshu"}
+{"id":"rules/xiaohongshu/mechanisms.md","path":"rules/xiaohongshu/mechanisms.md","sha256":"4846235e5ed60a31eecd182ce4cb03c84a90459ca66ae4fda77b03d82626726c","platform":"xiaohongshu"}
+{"id":"rules/xiaohongshu/official-rules.md","path":"rules/xiaohongshu/official-rules.md","sha256":"413a55da1cbf679e4c9fbbeb690bfe18c52167b32e45f6b3b3dd697ed89ef6dc","platform":"xiaohongshu"}
+{"id":"rules/xiaohongshu/unverified-claims.jsonl","path":"rules/xiaohongshu/unverified-claims.jsonl","sha256":"c65acd9f66928fb90d3e74d0a1586ef59f1a3a6a45ff51f2b5394393ed4e9439","platform":"xiaohongshu"}
+{"id":"shared/audience-value-translation.md","path":"shared/audience-value-translation.md","sha256":"c3cafecf5395c4cc2cd72d491c7ef4120ef2c86dbfcc221841635cfb51f993fa","platform":"shared"}
+{"id":"shared/cta-comment-seeds.jsonl","path":"shared/cta-comment-seeds.jsonl","sha256":"764c4c818c3757d70345110bdbba2ec2eb37b3276738639097d63b4d4372f8e8","platform":"shared"}
+{"id":"shared/formulas.jsonl","path":"shared/formulas.jsonl","sha256":"76dda14fca8b49cea19c953b291443f4e211d71afbfface89455a2577b374640","platform":"shared"}
+{"id":"shared/hooks.jsonl","path":"shared/hooks.jsonl","sha256":"d9b49ba4d29dba07a360a153b4cbb353582bc3c197b62c7f2e8476354d4fc2fa","platform":"shared"}
+{"id":"shared/matching.md","path":"shared/matching.md","sha256":"b76305b5bb20e9307a3187d9d1d97ec515671a7b0b96701289f69f456f721f27","platform":"shared"}
+{"id":"shared/needs.jsonl","path":"shared/needs.jsonl","sha256":"187cd1ef18acfe8fb336010ffef8d46902b0f61c29fd445187399f07c6813dec","platform":"shared"}
+{"id":"shared/opening-hooks.jsonl","path":"shared/opening-hooks.jsonl","sha256":"128a5495a6d3f7b2be82fbbcbb62ed187cbc55930727850945324a24a863c977","platform":"shared"}
+{"id":"sources/import-mapping.jsonl","path":"sources/import-mapping.jsonl","sha256":"fe3f8269062c6c5ee7931e29f90bd3317cd3f6176acc8306988716915efe4e57","platform":"shared"}
+{"id":"sources/imported-records.jsonl","path":"sources/imported-records.jsonl","sha256":"caeed4115c0810e80149e188fabb7e566ecc900acf84a600cf1114393eb2ad17","platform":"shared"}
+{"id":"sources/platform-guide-pdf-extracted.txt","path":"sources/platform-guide-pdf-extracted.txt","sha256":"5fedc6cd81be4b1070bf2ad4a7bd2630167134701a9911c9c01f619bbaa1f631","platform":"shared"}
+{"id":"sources/project-decisions.md","path":"sources/project-decisions.md","sha256":"a99a566ad2b41183ca7192a5dd6f07f2326e4d057b48f7e1627f3dd61b27d95e","platform":"shared"}
+{"id":"sources/source-index.jsonl","path":"sources/source-index.jsonl","sha256":"2bf34c355efea277a3d50367614d3a5e37a6440b4e1e4b96250604cc38c1e2e0","platform":"shared"}
+{"id":"sources/title-formula-to-hook-mapping.md","path":"sources/title-formula-to-hook-mapping.md","sha256":"b42d648a0f0a71ee050f28670329cee7e0a8e3eba6ce96e34b3f251965c5a706","platform":"shared"}
+{"id":"sources/xhs_ai_title_formula_knowledge_v2.txt","path":"sources/xhs_ai_title_formula_knowledge_v2.txt","sha256":"585c3cb3e9c59bb1b77022b3c1cb685019b9d5b778fd02e5a00ff8cc75bd58ee","platform":"shared"}
+{"id":"sources/人性类型_选题_爆款公式手册_v1.0.md","path":"sources/人性类型_选题_爆款公式手册_v1.0.md","sha256":"384172951a5e6f4ee8fdfba66de0d1dc9581d8af72bed5b478a1e26d3a5d3eb2","platform":"shared"}
+{"id":"sources/小红书完整运营流程图.md","path":"sources/小红书完整运营流程图.md","sha256":"98722ecbabbb0119b61a7d6adcb807a98bec837ec3392e2292050cbe3c0368c0","platform":"shared"}
+{"id":"sources/抖音完整运营流程图.md","path":"sources/抖音完整运营流程图.md","sha256":"4080abd6a4b46e7606437ac122685dc0cdce956c3528085e15fc237973b964fd","platform":"shared"}
+{"id":"sources/视频号完整运营流程图.md","path":"sources/视频号完整运营流程图.md","sha256":"6ef16924aeaca2cfc7f4780c03150675e6fbab30d3c1bbf292af5fbeda11090c","platform":"shared"}

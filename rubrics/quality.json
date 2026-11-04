@@ -1,23 +1,25 @@
 {
   "dimensions": [
     "audience_value",
+    "hook_precision",
     "logic",
     "promise_payoff",
     "evidence",
     "speakability",
     "platform_fit",
-    "stage_action",
+    "action_design",
     "shootability"
   ],
   "weights": [
-    15,
-    15,
-    15,
-    15,
+    14,
+    14,
+    12,
+    14,
+    12,
     10,
     10,
-    10,
-    10
+    8,
+    6
   ],
   "range": [
     0,
@@ -25,5 +27,24 @@
   ],
   "min_each": 3,
   "min_total": 80,
-  "status": "engineering_initial_not_human_calibrated"
+  "definitions": {
+    "audience_value": "能明确回答关用户什么事，并把专业能力翻译成用户收益",
+    "hook_precision": "开场与目标人群/场景/问题高度相关，有具体停留理由",
+    "logic": "正文围绕一个核心问题推进，解释清楚原因、方法和判断",
+    "promise_payoff": "开场承诺与标题/封面一致，并在正文及时兑现",
+    "evidence": "案例、数据、演示、客户原话和效果均有来源及适用边界",
+    "speakability": "自然口语、易听懂、句长和节奏适合实际口播",
+    "platform_fit": "平台版本有实质差异，符合平台内容语境及已核验规则",
+    "action_design": "Calling与漏斗阶段匹配，只有一个主要行动，评论问题有真实价值",
+    "shootability": "画面、动作、素材和演示可以真实准备与拍摄"
+  },
+  "hard_gates": [
+    "虚构客户/亲历/数据/效果/平台算法权重",
+    "开场承诺与正文不符或悬念无兑现",
+    "未执行演示写成真实实测",
+    "硬性诱导或欺骗性互动",
+    "用户明确事实、品牌或平台边界被违反"
+  ],
+  "status": "engineering_initial_not_human_calibrated",
+  "notes": "权重仅为工程初筛；未经真人校准，不代表专家判断或流量预测。硬门槛失败时即使总分达标也不通过。"
 }
