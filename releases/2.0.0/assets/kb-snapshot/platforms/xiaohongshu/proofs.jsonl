@@ -1,0 +1,5 @@
+{"asset_id": "XHS:PROOF:01", "type": "原理解释", "required": "可靠事实、因果链和边界", "platform": "xiaohongshu", "status": "design_method"}
+{"asset_id": "XHS:PROOF:02", "type": "流程验证", "required": "输入、动作、检查结果的方法；无执行不得称实测", "platform": "xiaohongshu", "status": "design_method"}
+{"asset_id": "XHS:PROOF:03", "type": "公平比较", "required": "相同条件和可比事实", "platform": "xiaohongshu", "status": "design_method"}
+{"asset_id": "XHS:PROOF:04", "type": "真实案例", "required": "可追溯情境、过程、结果、条件", "platform": "xiaohongshu", "status": "design_method"}
+{"asset_id": "XHS:PROOF:05", "type": "过程材料", "required": "可展示操作、记录或具体步骤", "platform": "xiaohongshu", "status": "design_method"}

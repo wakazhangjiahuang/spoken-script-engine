@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "meaning": "编辑判断，不是发布效果、真人盲评或3–5年经验认证",
+  "scale": {
+    "0": "缺失或违背资料",
+    "1": "泛泛提及，读者不能做决定",
+    "2": "具体但因果、证据或行动承接有缺口",
+    "3": "对象明确、判断具体、证据够用，可用于本次任务",
+    "4": "在3分基础上，有准确取舍、清晰边界和有记忆点的表达"
+  },
+  "minimum_each": 3,
+  "minimum_total": 80,
+  "dimensions": [
+    {
+      "id": "hook_strength",
+      "weight": 15,
+      "name": "黄金三秒",
+      "question": "首句、封面和首镜共同让目标观众认出任务。无关猎奇、自夸、空泛问句最多2。"
+    },
+    {
+      "id": "suspense",
+      "weight": 15,
+      "name": "3–8秒悬念",
+      "question": "第二段增加真实矛盾、关键变量或检验承诺，并在正文及时兑现；复述首句或拖答案最多2。"
+    },
+    {
+      "id": "professional_judgment",
+      "weight": 25,
+      "name": "正文专业度",
+      "question": "问题→约束→选择及放弃→依据→适用条件。只有工具/步骤/元素清单最多2。"
+    },
+    {
+      "id": "aesthetic_expression",
+      "weight": 15,
+      "name": "高级审美表达",
+      "question": "命名→拆解→指认→迁移。视觉领域讲主次与细节；技术领域讲输入输出、边界与异常；知识领域讲概念层级、解释顺序与语言节奏。只说高级/专业/赋能最多2。"
+    },
+    {
+      "id": "buyer_value",
+      "weight": 15,
+      "name": "利他价值",
+      "question": "台词兑现可迁移的判断或行动：观众能复述并应用。备注不能代替台词；只展示自己最多2。"
+    },
+    {
+      "id": "cta_persuasion",
+      "weight": 15,
+      "name": "Calling",
+      "question": "按目标选择一个主动作，解释行动理由、最少输入、下一步。咨询目标下只有泛投票/聊聊最多2；种草信任目标不强迫私信。"
+    }
+  ],
+  "hard_gates": [
+    "facts",
+    "promise_payoff",
+    "proof",
+    "platform",
+    "marketing",
+    "human_voice",
+    "direction"
+  ]
+}
