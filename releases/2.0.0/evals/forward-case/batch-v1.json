@@ -1,0 +1,351 @@
+{
+  "engine_version": "2.0.0",
+  "brief": {
+    "task_id": "forward-case-ai-kb-douyin-1",
+    "topic": "企业知识库助手遇到资料里没有答案的问题该怎么办",
+    "audience": "正在评估客服知识库助手、需要决定资料缺失时如何处理的企业负责人或客服负责人",
+    "goal": "inquiry",
+    "objective": "inquiry",
+    "platforms": [
+      "douyin"
+    ],
+    "count_per_platform": {
+      "douyin": 1
+    },
+    "topic_locked": true,
+    "duration_limit_seconds": 45,
+    "speech_chars_per_second": 4.5,
+    "funnel_stage": "行动",
+    "decision_stage": "咨询/转化",
+    "content_task": "diagnosis",
+    "domain": "企业客服知识库助手",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "团队为三人AI开发团队，已经制作演示。",
+        "source": "request.txt：团队人数与已制作演示由用户给定",
+        "status": "provided"
+      },
+      {
+        "id": "F2",
+        "text": "演示中，检索有依据时显示来源。",
+        "source": "request.txt：已确认事实",
+        "status": "provided"
+      },
+      {
+        "id": "F3",
+        "text": "演示中，资料缺失时标待确认并转人工。",
+        "source": "request.txt：已确认事实",
+        "status": "provided"
+      }
+    ],
+    "content_context": {
+      "scene": "三人AI开发团队用自有演示录屏解释客服知识库的缺答案处理选择",
+      "problem": "企业评估助手时，需要确定遇到资料未覆盖问题是否有明确状态和人工接手路径",
+      "memory_point": "拿资料外的问题试：有没有标待确认、转人工；有依据的回答看来源",
+      "content_type": "演示辅助的判断型口播"
+    },
+    "voice_profile": "创业团队成员讲自己的演示和实际选择，平实自然，不冒充专家讲师，不编造客户经历或测试成绩",
+    "production_resources": [
+      {
+        "id": "DEMO",
+        "description": "团队自有演示录屏：检索有依据显示来源；资料缺失标待确认并转人工。用户声明available，本轮未提供文件路径，未实际播放核验。",
+        "status": "available",
+        "evidence_role": "demonstration"
+      },
+      {
+        "id": "PHONE",
+        "description": "手机，用于固定机位拍摄成员口播，不属于证明材料",
+        "status": "available",
+        "evidence_role": "production_only"
+      },
+      {
+        "id": "TALK",
+        "description": "成员对镜口播，待用手机拍摄",
+        "status": "planned",
+        "evidence_role": "production_only"
+      }
+    ],
+    "input_resolution": [
+      "只生产抖音1篇，估算总时长不超过45秒；停止于draft，不开展独立复审、validate、export或发布。",
+      "只有演示功能事实，不推导省时、准确率、成交、客户评价、上线效果或完整产品能力。",
+      "演示录屏按用户提供状态保留available与demonstration，未取得原文件，不声称已审看或可证明实际业务收益。",
+      "账号私信权限和本次平台规则未核验；结尾采用不指定私信等渠道的咨询邀请，发布前入口与规则仍待核验。",
+      "买家判据是编辑建议；用于演示素材定位的提问必须从自有录屏中选择，不虚构现成界面或具体问题。",
+      "原始任务文字原样保存在request.txt，intake通过--request封存。"
+    ]
+  },
+  "scripts": [
+    {
+      "id": "DY-01",
+      "plan_id": "DY-PLAN-01",
+      "platform": "douyin",
+      "topic": "企业知识库助手遇到资料里没有答案的问题该怎么办",
+      "audience": "正在评估客服知识库助手、需要决定资料缺失时如何处理的企业负责人或客服负责人",
+      "funnel_stage": "行动",
+      "decision_stage": "咨询/转化",
+      "positioning": "三人AI开发团队用自有演示讲资料缺失时的实际选择，供企业评估客服知识库的人机边界。",
+      "angle": {
+        "problem": "资料里没有答案，助手的下一步如何明确交给人处理。",
+        "benefit": "企业可以用资料外的问题检查待确认状态和人工接手，不把演示功能误当经营效果。",
+        "proof_organization": "待确认结果先入画→交代演示与转人工选择→展示有依据和缺资料两种状态→迁移成评估动作。"
+      },
+      "formula_id": "SHARED:F16",
+      "hook_id": "SHARED:H306",
+      "title": "客服知识库没答案时，下一步交给谁？",
+      "cover": "资料没覆盖，怎么接手？",
+      "publish_description": "我们三人团队的知识库演示：有依据显示来源，资料缺失标待确认并转人工。评估时，可以拿一个资料外的问题检查接手路径。",
+      "keywords": [
+        "客服知识库",
+        "知识库助手",
+        "资料缺失",
+        "转人工"
+      ],
+      "segments": [
+        {
+          "id": "S1",
+          "role": "hook",
+          "duration_seconds": 2.5,
+          "purpose": "先让观众看见资料缺失后的明确状态",
+          "text": "这条回答，待确认。",
+          "visual": "截取自有演示的待确认状态，保留问题上下文，叠加小字“团队演示”，不添加新界面字段",
+          "subtitle": "客服知识库｜待确认",
+          "notes": "演示录屏按用户确认事实选帧，原文件未提供、本轮未审看；口播镜头待拍。若素材不可用，执行director_plan.fallback。",
+          "shot": {
+            "framing": "屏幕局部",
+            "camera": "直接使用自有录屏",
+            "action": "截取自有演示的待确认状态，保留问题上下文，叠加小字“团队演示”，不添加新界面字段",
+            "material_id": "DEMO",
+            "edit_cue": "状态出现即入画；本段不再切镜",
+            "sound": "自然人声；录屏原声静音，无需配乐",
+            "subtitle_focus": "客服知识库｜待确认",
+            "silent_hold_seconds": 0.5
+          }
+        },
+        {
+          "id": "S2",
+          "role": "suspense",
+          "duration_seconds": 3.5,
+          "purpose": "把状态推进为人工接手的实际决定",
+          "text": "资料没覆盖，接下来交给谁？",
+          "visual": "保留同一待确认画面，指向录屏中现有的转人工信息，不重做按钮",
+          "subtitle": "资料没覆盖，谁接手？",
+          "notes": "演示录屏按用户确认事实选帧，原文件未提供、本轮未审看；口播镜头待拍。若素材不可用，执行director_plan.fallback。",
+          "shot": {
+            "framing": "屏幕局部",
+            "camera": "直接使用自有录屏",
+            "action": "保留同一待确认画面，指向录屏中现有的转人工信息，不重做按钮",
+            "material_id": "DEMO",
+            "edit_cue": "问到“谁”时准备切成员镜头",
+            "sound": "自然人声；录屏原声静音，无需配乐",
+            "subtitle_focus": "资料没覆盖，谁接手？",
+            "silent_hold_seconds": 0
+          }
+        },
+        {
+          "id": "S3",
+          "role": "context",
+          "duration_seconds": 5.5,
+          "purpose": "确认讲者身份、演示范围并及时给出答案",
+          "text": "我们三个人做的知识库演示，选的是转人工。",
+          "visual": "一位团队成员用手机固定拍摄，自然说明这份演示的选择",
+          "subtitle": "团队演示：转人工",
+          "notes": "成员口播待拍；语气是解释自己的选择，不是专家授课。",
+          "shot": {
+            "framing": "成员中近景",
+            "camera": "手机固定机位",
+            "action": "一位团队成员用手机固定拍摄，自然说明这份演示的选择",
+            "material_id": "TALK",
+            "edit_cue": "说到“转人工”切回录屏对应片段",
+            "sound": "自然人声；录屏原声静音，无需配乐",
+            "subtitle_focus": "团队演示：转人工",
+            "silent_hold_seconds": 0
+          }
+        },
+        {
+          "id": "S4",
+          "role": "judgment",
+          "duration_seconds": 6.5,
+          "purpose": "指认两种分支及其依据，不说已上线效果",
+          "text": "有依据，显示来源；资料缺了，就标待确认，转人工。",
+          "visual": "先展示现有来源区域，再切到现有待确认与转人工片段；持续保留演示标识",
+          "subtitle": "有依据看来源；缺资料转人工",
+          "notes": "演示录屏按用户确认事实选帧，原文件未提供、本轮未审看；口播镜头待拍。若素材不可用，执行director_plan.fallback。",
+          "shot": {
+            "framing": "屏幕局部",
+            "camera": "直接使用自有录屏",
+            "action": "先展示现有来源区域，再切到现有待确认与转人工片段；持续保留演示标识",
+            "material_id": "DEMO",
+            "edit_cue": "以“资料缺了”为切点，展示两种输入覆盖状态，不做效果对比",
+            "sound": "自然人声；录屏原声静音，无需配乐",
+            "subtitle_focus": "有依据看来源；缺资料转人工",
+            "silent_hold_seconds": 0.8
+          }
+        },
+        {
+          "id": "S5",
+          "role": "judgment",
+          "duration_seconds": 5.5,
+          "purpose": "讲清取舍：遇到资料缺口应保留人工确认",
+          "text": "缺的是资料，就留给人确认，不能拿猜测当答复。",
+          "visual": "成员对镜解释判断，不模拟客户事故或加入未经确认的收益字幕",
+          "subtitle": "资料缺口需要确认",
+          "notes": "成员口播待拍；语气是解释自己的选择，不是专家授课。",
+          "shot": {
+            "framing": "成员中近景",
+            "camera": "手机固定机位",
+            "action": "成员对镜解释判断，不模拟客户事故或加入未经确认的收益字幕",
+            "material_id": "TALK",
+            "edit_cue": "本段保持一镜，留自然停顿",
+            "sound": "自然人声；录屏原声静音，无需配乐",
+            "subtitle_focus": "资料缺口需要确认",
+            "silent_hold_seconds": 0
+          }
+        },
+        {
+          "id": "S6",
+          "role": "value",
+          "duration_seconds": 8.5,
+          "purpose": "把演示选择转成企业能复用的检查动作",
+          "text": "你评估时，也拿一个资料外的问题试试：能不能标清待确认，转给人处理。",
+          "visual": "对镜给出检查动作，旁边只列一条字幕“用资料外的问题试”；不虚构新的演示结果",
+          "subtitle": "用资料外的问题试",
+          "notes": "成员口播待拍；语气是解释自己的选择，不是专家授课。",
+          "shot": {
+            "framing": "成员中近景",
+            "camera": "手机固定机位",
+            "action": "对镜给出检查动作，旁边只列一条字幕“用资料外的问题试”；不虚构新的演示结果",
+            "material_id": "TALK",
+            "edit_cue": "在“试试”后轻停，再说两个检查点",
+            "sound": "自然人声；录屏原声静音，无需配乐",
+            "subtitle_focus": "用资料外的问题试",
+            "silent_hold_seconds": 0.3
+          }
+        },
+        {
+          "id": "S7",
+          "role": "calling",
+          "duration_seconds": 10,
+          "purpose": "限定需求、最少输入与下一步，只留咨询一个动作",
+          "text": "在做客服知识库？带一个脱敏问题来咨询，我们一起看需要哪些资料、何时转人工。",
+          "visual": "自然说完咨询邀请；不放私信按钮、联系方式或未核验入口截图",
+          "subtitle": "带一个脱敏问题，讨论资料与转人工",
+          "notes": "成员口播待拍；语气是解释自己的选择，不是专家授课。",
+          "shot": {
+            "framing": "成员中近景",
+            "camera": "手机固定机位",
+            "action": "自然说完咨询邀请；不放私信按钮、联系方式或未核验入口截图",
+            "material_id": "TALK",
+            "edit_cue": "句末停住；不追加关注、点赞或领取口令",
+            "sound": "自然人声；录屏原声静音，无需配乐",
+            "subtitle_focus": "带一个脱敏问题，讨论资料与转人工",
+            "silent_hold_seconds": 0
+          }
+        }
+      ],
+      "claim_links": [
+        {
+          "segment_id": "S1",
+          "evidence_id": "F3",
+          "claim": "演示中资料缺失时标待确认。"
+        },
+        {
+          "segment_id": "S3",
+          "evidence_id": "F1",
+          "claim": "三人AI开发团队已经制作知识库演示。"
+        },
+        {
+          "segment_id": "S3",
+          "evidence_id": "F3",
+          "claim": "演示采用资料缺失时转人工。"
+        },
+        {
+          "segment_id": "S4",
+          "evidence_id": "F2",
+          "claim": "演示中检索有依据显示来源。"
+        },
+        {
+          "segment_id": "S4",
+          "evidence_id": "F3",
+          "claim": "演示中资料缺失标待确认并转人工。"
+        }
+      ],
+      "unverified_claims": [
+        "本轮未核验账号私信权限与当前平台规则；台词不指定私信入口。",
+        "演示录屏状态来自用户提供，未取得原文件，未实际播放审看。",
+        "真人朗读、实拍与用户效果测试未运行；时长为编辑估算。"
+      ],
+      "selected_reason": "两种演示行为来自已确认事实，适合以待确认首镜说明一个实际选择；无需虚构客户、准确率或省时数据。",
+      "value_translation": "功能是缺资料标待确认转人工；企业得到的判据是拿资料外问题试，检查不确定状态是否明确、人工接手是否出现。有依据时另看来源。",
+      "hook_plan": {
+        "alternate_hook_id": "SHARED:H312",
+        "alternate_text": "选知识库，先试资料外的问题。",
+        "stop_reason": "首镜以客服知识库演示的待确认状态建立对象与具体问题。",
+        "continue_reason": "第二句增加真实处理分工问题，观众需要知道资料缺失后谁接手。",
+        "promise": "解释演示中为何出现待确认，以及资料缺失后的处理选择。",
+        "payoff_segment_id": "S3",
+        "selection_reason": "现有演示支持结果先看，先见待确认再讲分支，比先给抽象选型建议更容易与画面对齐；备选即用方法可接同一正文。"
+      },
+      "calling": {
+        "kind": "service",
+        "line": "在做客服知识库？带一个脱敏问题来咨询，我们一起看需要哪些资料、何时转人工。",
+        "viewer_reason": "将资料缺失时的处理判据用于自己的客服知识库需求，讨论资料范围与人工接手条件。",
+        "intent": "inquiry",
+        "qualification": "正在做客服知识库，带一个脱敏问题。",
+        "next_step": "一起看这个问题需要哪些资料、何时转人工。",
+        "channel_basis": "账号私信权限与本次平台规则未核验，草稿采用渠道中性的咨询邀请；发布前必须另核验实际入口。"
+      },
+      "director_plan": {
+        "format": "录屏旁白与一位成员手机对镜口播交替，竖屏构图。",
+        "visual_premise": "首镜取自有演示中的待确认状态，保留客服知识库问题上下文与“团队演示”标识；首句同步指认。",
+        "performance_note": "按成员向潜在合作方解释选择的语气；“资料缺了”“转人工”自然重读，不喊口号。所有计时均为估算，真人试读NOT_RUN。",
+        "continuity": "S1、S2、S4使用同一演示项目的现有片段；来源分支与缺资料分支分别展示，不暗示相同问题产生前后改善；成员机位与衣着保持一致。",
+        "editing_rule": "按信息变化切镜；来源与缺资料两个分支切换时留读屏时间，演示画面均保留标识；不添加尚未证实的字段、回复或测试数字。",
+        "fallback": "若对应录屏无法使用，改为手机对镜解释已确认的演示选择，画面使用明确标为“处理逻辑说明”的字幕卡，不冒充产品截图。演示素材需拍摄前核对，无法支持台词则返修而非伪造。",
+        "shoot_order": [
+          "S3",
+          "S5",
+          "S6",
+          "S7",
+          "S1",
+          "S2",
+          "S4"
+        ]
+      },
+      "asset_applications": [
+        {
+          "role": "hook",
+          "asset_id": "SHARED:H306",
+          "segment_id": "S1",
+          "quote": "这条回答，待确认。",
+          "transformation": "把结果先看用于现有演示待确认状态，第一眼看见人工确认边界，不把产物称为上线成果。"
+        },
+        {
+          "role": "body",
+          "asset_id": "SHARED:F16",
+          "segment_id": "S4",
+          "quote": "有依据，显示来源；资料缺了，就标待确认，转人工。",
+          "transformation": "将约束→选择→过程证据→判断标准落实为资料覆盖的两个分支；S5说明选择依据，S6迁移到企业评估动作。"
+        },
+        {
+          "role": "calling",
+          "asset_id": "SHARED:CTA:09",
+          "segment_id": "S7",
+          "quote": "在做客服知识库？带一个脱敏问题来咨询，我们一起看需要哪些资料、何时转人工。",
+          "transformation": "以客服知识库任务限定受众，一个脱敏问题作为最少输入，下一步讨论所需资料和转人工条件；不以互动动作代替咨询目的。"
+        },
+        {
+          "role": "platform",
+          "asset_id": "DY:APP:F16",
+          "segment_id": "S3",
+          "quote": "我们三个人做的知识库演示，选的是转人工。",
+          "transformation": "抖音先显示状态，随后快速说明转人工选择；录屏紧接证明，最后从演示结论接咨询。"
+        }
+      ],
+      "read_test": {
+        "status": "NOT_RUN"
+      }
+    }
+  ],
+  "performance_status": "NOT_RUN"
+}

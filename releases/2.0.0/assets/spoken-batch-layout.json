@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "sheets": "overview + selected platforms + shooting cards",
+  "platform_columns": 16,
+  "shooting_columns": 8,
+  "source": "approved examples v4.0",
+  "renderer": "scripts/export_xlsx.py"
+}

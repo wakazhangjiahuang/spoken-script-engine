@@ -1,3 +1,11 @@
+# spoken-script-engine · v2.0.0
+
+当前正式引擎与知识资产位于 [releases/2.0.0](releases/2.0.0)。[升级复核](releases/2.0.0/references/upgrade-v2.md)说明原始依据、完整链路、逐环节选择/评分和验收；[验证记录](releases/2.0.0/evals/upgrade-v2.0.0.json)区分自动测试、独立作者前向任务、编辑复审与未运行的真实效果测试。原始手册与18篇样表保留精确来源，编辑样例不冒充客户事实。
+
+根目录旧知识资料为历史兼容副本；新任务必须读取根 REPO-REGISTRY.json 指定的固定版本，不混用旧量规。
+
+---
+
 # 口播稿引擎：三平台规则与资产库
 
 仓库名称：`spoken-script-engine`。所属账号：`wakazhangjiahuang`。可见性：**Private（私有）**。资料版本：**v1.4.1**；整理日期：**2026-11-04**。

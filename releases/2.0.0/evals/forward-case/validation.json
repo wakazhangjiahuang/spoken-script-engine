@@ -1,0 +1,22 @@
+{
+  "passed": false,
+  "errors": [
+    "DY-01 unresolved claims",
+    "DY-01 claim anchor absent",
+    "DY-01 claim anchor absent",
+    "DY-01 claim anchor absent",
+    "DY-01 claim anchor absent",
+    "DY-01 claim anchor absent"
+  ],
+  "warnings": [
+    "professional equivalence and actual performance require separate human/publishing evaluation"
+  ],
+  "scripts": 1,
+  "platforms": [
+    "douyin"
+  ],
+  "validation_scope": "artifact_contract_and_declared_editorial_review; not measured persuasion",
+  "editorial_status": "NEEDS_REVISION",
+  "publication_status": "NEEDS_READ_MATERIAL_OR_PLATFORM_CHECK",
+  "performance_status": "NOT_RUN"
+}
