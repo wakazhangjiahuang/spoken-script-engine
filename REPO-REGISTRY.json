@@ -1,24 +1,12 @@
 {
-  "schema_version": 1,
-  "resources": {
-    "storyboard": {
-      "repository": "wakazhangjiahuang/ai-video-storyboard",
-      "asset_ref": "df2d353be470d411fc1f3a523cb513a2f34ba09f",
-      "entrypoint": "knowledge/index.json",
-      "optional_indexes": {
-        "talking": "indexes/REF-BASE10/S06.json",
-        "tutorial": "indexes/REF-BASE10/S04.json",
-        "comparison": "indexes/REF-BASE10/S08.json",
-        "sound": "indexes/KB-CINEMA/S11.json"
-      }
-    },
-    "spoken": {
-      "repository": "wakazhangjiahuang/spoken-script-engine",
-      "manifest_ref": "6628541cc92326c052e9bba34d5598e523f89e07",
-      "entrypoint": "KB-MANIFEST.json",
-      "status": "connected",
-      "asset_ref": "2fbb4116a1d888f1663f9f54c0570733883b7c3f",
-      "version": "1.4.1"
-    }
-  }
+  "version": "2.0.0",
+  "repository": "wakazhangjiahuang/spoken-script-engine",
+  "visibility": "private",
+  "asset_ref": "917e31c8dae9caf70979ecca479c5d626014763a",
+  "manifest_ref": "917e31c8dae9caf70979ecca479c5d626014763a",
+  "base_path": "releases/2.0.0/assets/kb-snapshot/",
+  "manifest_path": "releases/2.0.0/assets/kb-snapshot/KB-MANIFEST.json",
+  "engine_path": "releases/2.0.0/",
+  "previous_root_assets": "historical_v1.4.1",
+  "checked_at": "2026-11-05"
 }
