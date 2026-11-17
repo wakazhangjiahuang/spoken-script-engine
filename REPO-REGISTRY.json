@@ -1,14 +1,15 @@
 {
+  "repository": "wakazhangjiahuang/spoken-script-engine",
+  "visibility_required": "private",
   "registry": "REPO-REGISTRY.json",
-  "manifest_ref": "4a35966655752c2c1b742ed6f69a9b428be256ee",
-  "asset_ref": "4a35966655752c2c1b742ed6f69a9b428be256ee",
-  "version": "2.1.0",
+  "manifest_ref": "35d5e30a9c43d4be704fc896d60503c88687b8e5",
+  "asset_ref": "35d5e30a9c43d4be704fc896d60503c88687b8e5",
+  "version": "2.2.0",
   "visibility": "private",
-  "base_path": "releases/2.1.0/assets/kb-snapshot/",
-  "manifest_path": "releases/2.1.0/assets/kb-snapshot/KB-MANIFEST.json",
-  "engine_path": "releases/2.1.0/",
+  "base_path": "releases/2.2.0/assets/kb-snapshot/",
+  "manifest_path": "releases/2.2.0/assets/kb-snapshot/KB-MANIFEST.json",
+  "engine_path": "releases/2.2.0/",
   "previous_root_assets": "historical_v1.4.1",
-  "checked_at": "2026-11-17",
-  "engine_ref_policy": "registry_commit",
-  "repository": "wakazhangjiahuang/spoken-script-engine"
+  "checked_at": "2026-11-18",
+  "engine_ref_policy": "registry_commit"
 }

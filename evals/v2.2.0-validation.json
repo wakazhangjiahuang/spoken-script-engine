@@ -1,0 +1,39 @@
+{
+  "version": "2.2.0",
+  "date": "2026-11-18",
+  "source_standard": "User illustration standard V0.2",
+  "program_regressions": {
+    "total": 120,
+    "status": "PASS",
+    "scope": "structural contracts and anti-regressions; not audience persuasion"
+  },
+  "editorial": {
+    "scope": "one failed overseas-handpainted-style topic reconstructed through official product sources, not the original unproved USD500 event",
+    "xiaohongshu": 85,
+    "douyin": 82.5,
+    "channels": 86.25,
+    "all_final_validation_passed": true,
+    "review_type": "independent model editing; repaired drafts reviewed in same independent context; producer scores removed"
+  },
+  "not_run": [
+    "human read-aloud",
+    "target audience blind read",
+    "actual filming",
+    "published outcomes"
+  ],
+  "publication_ready": false,
+  "source_classes": [
+    "user_reported_project_not_independently_verified",
+    "official_product",
+    "original_work",
+    "research",
+    "historical_example",
+    "hypothetical"
+  ],
+  "boundaries": [
+    "H301-H317 are opening mechanisms, distinct from full body formulas",
+    "formula-node existence is not semantic fidelity",
+    "TXT is host projection; native exporter remains XLSX",
+    "knowledge writeback and promotion are host operations"
+  ]
+}
