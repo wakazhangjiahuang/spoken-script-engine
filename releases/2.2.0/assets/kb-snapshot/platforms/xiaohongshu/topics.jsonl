@@ -1,0 +1,6 @@
+{"asset_id": "XHS:TOPIC:01", "type": "topic", "name": "新手第一步", "funnel_stage": "认知", "purpose": "先把现实问题和适用范围讲明白", "platform": "xiaohongshu", "status": "design_method", "performance_status": "unknown"}
+{"asset_id": "XHS:TOPIC:02", "type": "topic", "name": "流程排错", "funnel_stage": "考虑", "purpose": "给判断条件和对应行动", "platform": "xiaohongshu", "status": "design_method", "performance_status": "unknown"}
+{"asset_id": "XHS:TOPIC:03", "type": "topic", "name": "选择比较", "funnel_stage": "考虑", "purpose": "给公平条件、各自适用对象", "platform": "xiaohongshu", "status": "design_method", "performance_status": "unknown"}
+{"asset_id": "XHS:TOPIC:04", "type": "topic", "name": "证据演示", "funnel_stage": "考虑", "purpose": "有真实材料才展示观察结果", "platform": "xiaohongshu", "status": "design_method", "performance_status": "unknown"}
+{"asset_id": "XHS:TOPIC:05", "type": "topic", "name": "责任与顾虑", "funnel_stage": "行动", "purpose": "解释边界和合理下一步", "platform": "xiaohongshu", "status": "design_method", "performance_status": "unknown"}
+{"asset_id": "XHS:TOPIC:06", "type": "topic", "name": "首次使用维护", "funnel_stage": "使用", "purpose": "给步骤、检查及常见错误", "platform": "xiaohongshu", "status": "design_method", "performance_status": "unknown"}
