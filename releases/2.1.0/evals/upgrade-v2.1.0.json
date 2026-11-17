@@ -37,13 +37,14 @@
     "independent_model_editorial_review": "PASS",
     "formal_validation": "PASS",
     "cross_industry_script": 1,
-    "cross_industry_editorial_review": "PENDING"
+    "cross_industry_editorial_review": "PASS",
+    "cross_industry_formal_validation": "PASS"
   },
   "real_audience_test": "NOT_RUN",
   "published_performance": "NOT_RUN",
   "independent_negative_checks": {
     "four_original_probes_after_anchor_repair": "REJECTED_ON_CONTENT",
     "additional_chinese_amount_probe": "REJECTED_ON_CONTENT_AFTER_REPAIR",
-    "meaning_of_question_payoff": "REQUIRES_INDEPENDENT_SEMANTIC_REVIEW"
+    "meaning_of_question_payoff": "REJECTED_BY_INDEPENDENT_SEMANTIC_REVIEW"
   }
 }

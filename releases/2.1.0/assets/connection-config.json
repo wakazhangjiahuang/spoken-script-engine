@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "status": "verified_pinned_source",
   "storyboard": {
     "repository": "wakazhangjiahuang/ai-video-storyboard",
@@ -16,22 +16,22 @@
     "repository": "wakazhangjiahuang/spoken-script-engine",
     "visibility_required": "private",
     "registry": "REPO-REGISTRY.json",
-    "manifest_ref": "917e31c8dae9caf70979ecca479c5d626014763a",
-    "asset_ref": "917e31c8dae9caf70979ecca479c5d626014763a",
-    "registry_ref": "807b35e128233c19b055b5edf0fe9530f6ae4da6",
-    "version": "2.0.0",
+    "manifest_ref": "4a35966655752c2c1b742ed6f69a9b428be256ee",
+    "asset_ref": "4a35966655752c2c1b742ed6f69a9b428be256ee",
+    "version": "2.1.0",
     "visibility": "private",
-    "base_path": "releases/2.0.0/assets/kb-snapshot/",
-    "manifest_path": "releases/2.0.0/assets/kb-snapshot/KB-MANIFEST.json",
-    "engine_path": "releases/2.0.0/",
+    "base_path": "releases/2.1.0/assets/kb-snapshot/",
+    "manifest_path": "releases/2.1.0/assets/kb-snapshot/KB-MANIFEST.json",
+    "engine_path": "releases/2.1.0/",
     "previous_root_assets": "historical_v1.4.1",
-    "checked_at": "2026-11-05"
+    "checked_at": "2026-11-17",
+    "engine_ref_policy": "registry_commit"
   },
   "fallback": "kb-snapshot",
-  "checked_at": "2026-11-05",
+  "checked_at": "2026-11-17",
   "bundled_snapshot": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "path": "kb-snapshot",
-    "manifest_sha256": "1843215407221100849334b9ca80864b1545404964838e6dba6344d9c2269c06"
+    "manifest_sha256": "082440bd61e63048a8b689ba7e7f705cba5f0d26e11364925ed3252c9acaf7f9"
   }
 }
