@@ -1,4 +1,4 @@
-# v2.2 完整链路与逐环节验收
+# v2.3 完整链路与逐环节验收
 
 依据：sources/approved/manual-v2.html 与 examples-v4.xlsx；前者是通用方法，后者只作编辑样例。当前用户要求优先；原始业务资料高于历史稿件。机器只能检查合同与引用，语义质量仍由独立编辑判断。
 
@@ -12,7 +12,7 @@
 |正文|按任务选择公式；每段推进一个判断；条件和取舍具体|professional_judgment 25%；aesthetic_expression 15%；buyer_value 15%|context/judgment/value台词＋claim_links；备注不能补台词价值|
 |Calling|目标决定动作，渠道另核验|cta_persuasion 15%；单一主动作；inquiry须有任务输入和下一步|calling；泛投票不得冒充咨询|
 |导演|首镜先确定，关键结论对齐证明；无素材给真实替代|每段角色、台词、动作、字幕、素材、剪辑、静默留时齐全；unavailable阻断|director_plan＋segments；planned标待拍|
-|独立复审|原始请求/原件/封存方案/稿件/量规，不给生产评分|六项每项≥3且加权≥80；七项硬门禁均通过；样稿旧评分无效|review绑定稿件、方案、资产包；最多两次定向返修，新稿新审|
+|独立复审|先原请求/原件/八项成品；内容记录后才看封存方案/原式，不给生产评分|先审实际八项内容并逐项否决；六维低项用于诊断，无加权总分放行；样稿旧评分无效|review绑定稿件、方案、资产包；最多两次定向返修，新稿新审|
 |导出|总览＋所选平台各一表＋拍摄执行卡|动态篇数；跨表ID/台词/顺序/连续稿逐字回读；不输出内部JSON|XLSX；失败只报待修，不用模板空表替代成稿|
 |发布就绪|按当次账号、内容属性和官方原文检查|PARTIAL≠已核实；真人试读MEASURED且证据记录；待拍未完成则非READY|总览列出具体阻碍；不自动发布|
 |测试/回流|目标用户盲测、同行评审、新手试拍、后台单变量测试|样本/窗口/分母/基线齐全才解释结果；未经验证NOT_RUN|反馈按品牌隔离、去重；明确采纳和证据才晋级|
@@ -28,7 +28,9 @@ selected每项增加selection_scores：四项各为{score:0..4,reason:具体材�
 
 当前新增交接按source-to-speech.md执行。检索不得以同领域替代同受众/同问题匹配；方案封存source_recipe与audience_contract，稿件逐变量/正文节点引用原句，独立review附composition_checks。允许同公式服务不同实质问题；“N个判断入口”不能用同正文换开头充数。
 
-2.2前置交接：受众直接利益与来源类别先于公式；插画按最新V0.2文件检查位置分工。五阶段不变，intake/plan/draft/独立review分别附对应信息价值字段，最终validate同时核对。原生export仍为XLSX，本轮TXT为用户要求的宿主投影。
+当前前置交接：受众直接利益与来源类别先于公式；插画按本轮1118规范原文、delivery-standard与source-audit检查位置分工。五阶段不变，intake/plan/draft/独立review分别附对应信息价值字段，最终validate同时核对。原生export仍为XLSX，本轮TXT为用户要求的宿主投影。
 
 ## 1118交接优先级
 插画Plan之前：同案两种首屏候选→无生产解释的opening-panel→独立opening_review→明确选中opening_candidate_id；失败先改首屏。Draft包含cover_main/cover_sub/comment_hook和全部段落镜头。复审content先判八项，再以已记录内容判断开放fidelity；版本和SHA均绑定本稿，不让源式高分覆盖内容否决。
+
+已封存首屏的主副标题、前两句或首镜visual发生变化：必须新RUN，重新首屏审阅并封存新plan；旧RUN不能改decision。同RUN局部返修仅限不改已封存首屏的正文、行动或其他镜头等内容。
