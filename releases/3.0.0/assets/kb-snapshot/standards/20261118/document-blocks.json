@@ -1,0 +1,3151 @@
+[
+  {
+    "source": "SRC4",
+    "locator": "P001",
+    "raw": {
+      "id": "P001",
+      "text": "插画赛道口播核心知识笔记与案例方法库"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P002",
+    "raw": {
+      "id": "P002",
+      "text": "适用受众：商业插画师、初级画师、海外母婴/家纺品牌、B端工厂、外贸与产品开发团队。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P003",
+    "raw": {
+      "id": "P003",
+      "text": "本稿是一份可持续增补的业务知识底座。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T01",
+    "raw": {
+      "id": "T01",
+      "rows": [
+        [
+          "本轮完善点",
+          "已形成的具体成果"
+        ],
+        [
+          "原始资料深读",
+          "系统吸收新补充的4份TXT、指导DOCX和既有V0.2笔记，并与历史24稿核对。"
+        ],
+        [
+          "案例保存方式",
+          "同一澳洲项目的ABC原稿、三平台9篇改稿，以及公开商品和用户客户事件分开存档。"
+        ],
+        [
+          "选题判断",
+          "首要痛点＋实际利益决定选题；爽点、痒点是正文/结尾的辅助，不替代首句。"
+        ],
+        [
+          "外部信息",
+          "记录品牌官方SKU、趋势原始报告、创作者访谈和2027SS27素材来源。"
+        ],
+        [
+          "关联文件",
+          "配套XLSX的10页：认可样例9、主线24、选题36、组合24、TOP26、案例73、全文17、知识卡32等。"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P004",
+    "raw": {
+      "id": "P004",
+      "text": "01｜内容定位：不是卖笔刷，而是给观众值得关注的真实信息"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P005",
+    "raw": {
+      "id": "P005",
+      "text": "内容主线应围绕“海外客户需要哪种风格、哪些原创图案真正进入商品、怎样被品牌找到、哪些行业画风值得研究、怎样把自己已有作品变成可用于产品开发的方案”展开。自定义笔刷只是支持这些故事的一个工具，不是所有视频的主语。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P006",
+    "raw": {
+      "id": "P006",
+      "text": "从这轮反复失败的稿件可确认：研发了多少支笔刷、线条怎样调、作品好不好看，不构成面向商业插画师和B端买家的第一观看理由；除非该受众此刻确实在选择或学习这项工具。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P007",
+    "raw": {
+      "id": "P007",
+      "text": "一条内容的最低承诺"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T02",
+    "raw": {
+      "id": "T02",
+      "rows": [
+        [
+          "要素",
+          "开头必须形成的明确结果"
+        ],
+        [
+          "主要观众",
+          "只选一个主要受众身份，避免同行、商家、工厂抢同一个开场。"
+        ],
+        [
+          "核心问题",
+          "他当前缺哪条市场信息、什么客户入口、哪类产品/画风判断？"
+        ],
+        [
+          "直接利益",
+          "看完获得一个具体案例、可查品牌、项目要求、真实SKU或可执行决策。"
+        ],
+        [
+          "素材证据",
+          "能展示原始订单/作品/品牌商品/研究报告中的至少一项。"
+        ],
+        [
+          "下一步",
+          "Calling承接本篇已经证明的价值，不突然切成卖工具。"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P008",
+    "raw": {
+      "id": "P008",
+      "text": "02｜受众需求：四类角色，四套“为什么要看”"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T03",
+    "raw": {
+      "id": "T03",
+      "rows": [
+        [
+          "受众",
+          "真正想知道的核心内容",
+          "实际可交付的价值"
+        ],
+        [
+          "同行商业插画师",
+          "国外客户喜欢哪些角色和画风？什么产品会买？在哪里询盘？合作怎么发生？",
+          "具名客户需求/产品，真实接单路径，作品集应该展示的品类与视觉线索。"
+        ],
+        [
+          "初级画师/爱好者",
+          "哪种风格值得练习？怎样从临摹和个人兴趣走到原创、可展示的作品？",
+          "一个有商品用途的原创主题、关键画风判断、可以完成的作品集任务；工具只在适用时介绍。"
+        ],
+        [
+          "母婴家纺品牌/工厂",
+          "目标国家出现了什么真实产品？原创题材/配色/系列图案怎样应用到新品？",
+          "真实商品与视觉样本、原创设计的应用方式和可用于合作讨论的判断。"
+        ],
+        [
+          "外贸/贸易商",
+          "目标地区在售何种图案品类、风格和套装组合？什么原创供给适合研究？",
+          "国家+品牌+SKU的具体案例，以及与供应商/画师沟通的产品与设计信息。"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P009",
+    "raw": {
+      "id": "P009",
+      "text": "同一品牌案例可以各取不同问题：面向画师讲“它在采用什么风格、怎么接近相近客户”；面向工厂讲“它把图案用于什么品类和商品组合”。但同一篇以一个目标问题为主，不要同时展开两套销售行动。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P010",
+    "raw": {
+      "id": "P010",
+      "text": "03｜痛点、价值点、爽点、痒点：写作先后不能颠倒"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T04",
+    "raw": {
+      "id": "T04",
+      "rows": [
+        [
+          "维度",
+          "工作定义",
+          "内容位置",
+          "错误示例／正确方向"
+        ],
+        [
+          "核心痛点",
+          "已有明确代价或缺口，例如没有海外客户风格情报、找不到适配商品的原创设计。",
+          "封面、0–3秒优先",
+          "错：画复古兔子的线要断；对：美国母婴正在买哪类复古水彩图案。"
+        ],
+        [
+          "核心利益",
+          "观众马上能得到可核对的新信息或行动依据。",
+          "封面、0–3秒优先，3–8秒给新增事实",
+          "错：做了36支刷；对：能看到一款图案进入什么真实SKU/客户需求。"
+        ],
+        [
+          "爽点",
+          "一个可见的商业结果、画面对照或真实转折。",
+          "正文中段，伴随证据出现",
+          "成交、小费、实物、上市、风格转换，可凭空制造。"
+        ],
+        [
+          "痒点",
+          "观众想进一步获得的能力、机会或生活方式。",
+          "正文后段或结尾",
+          "能否拥有海外客户、原创风格、持续系列订单等，留给下一步。"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P011",
+    "raw": {
+      "id": "P011",
+      "text": "重要提醒：不要把“被理解的情绪价值”当作这个赛道的内容定位或黄金三秒主驱动。真实客户沟通中的理解差异可以是故事冲突，但必须对应实在的产品开发问题、合作决策或商业收益。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P012",
+    "raw": {
+      "id": "P012",
+      "text": "04｜从原始指导记录中真正应该保留的内容"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P013",
+    "raw": {
+      "id": "P013",
+      "text": "4.1 目的、对象、利益的先后"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P014",
+    "raw": {
+      "id": "P014",
+      "text": "先说清对谁说、用户为什么看、他得到什么利益。指导者以美元订单、小费、品牌合作为案例，是因为观众希望从中理解可参与的商机；“笔刷怎么调”不应取代故事，不是目标受众真痛点和需求。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P015",
+    "raw": {
+      "id": "P015",
+      "text": "4.2 封面与钩子分工"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P016",
+    "raw": {
+      "id": "P016",
+      "text": "提出的核心自测是“关我什么事”；封面承担点击理由，第一句承担停留，第二句加入新的真实信息。商业价值与具体出处比情绪词更重要。标题写TOP必须交代机构、地区、样本和排名口径。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P017",
+    "raw": {
+      "id": "P017",
+      "text": "4.3 关于短视频与种草的具体操作"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P018",
+    "raw": {
+      "id": "P018",
+      "text": "强调一次讲透一个客户案例；先找真实核心画面，再确定口播词，不能把文字当作绘画操作说明书。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P019",
+    "raw": {
+      "id": "P019",
+      "text": "要求案例落到具体产品，例如秋冬婴童床品，而非泛称“欧美风格商单”；用一张原稿证明专业判断。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P020",
+    "raw": {
+      "id": "P020",
+      "text": "指导记录中的9.9元、3.99元、免费分享与渠道分销属于商业策略建议；若尚未实际执行，也要自动写成已上架、已盈利或已兑现的活动。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P021",
+    "raw": {
+      "id": "P021",
+      "text": "1100美元、500美元、10美元小费是指导材料中的示范经历，允许未经用户确认就替换为本人订单事实。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P022",
+    "raw": {
+      "id": "P022",
+      "text": "“我摊牌了”“热门TOP”等属于可选表达机制；遵循“没有调查就没有发言权”和可查数据时才能用的结论。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P023",
+    "raw": {
+      "id": "P023",
+      "text": "05｜最关键的真实故事：美国母婴品牌300美元设计单"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T05",
+    "raw": {
+      "id": "T05",
+      "rows": [
+        [
+          "事实节点",
+          "用户提供的信息",
+          "该信息对同行的意义"
+        ],
+        [
+          "客户/国家",
+          "美国母婴品牌",
+          "证明这个具体客户的产品需求，而非整个国家的统一偏好。"
+        ],
+        [
+          "发现渠道",
+          "Instagram",
+          "设计师可以研究作品怎么展示和被发现。"
+        ],
+        [
+          "产品任务",
+          "秋冬婴儿浴巾系列印花",
+          "看到客户实际采购的是哪类设计，而不是抽象“喜欢水彩”。"
+        ],
+        [
+          "沟通过程",
+          "三天沟通，围绕指定画风要求",
+          "作品需求如何变成可执行的风格与产品语言。"
+        ],
+        [
+          "制作方式",
+          "根据需求定制画风与笔刷、完成系列设计",
+          "工具以解决实际设计问题的身份出现。"
+        ],
+        [
+          "结果",
+          "用户提供300美元稿费＋5美元小费",
+          "作为故事结尾验证，具体金额和内容后续由用户复核。"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P024",
+    "raw": {
+      "id": "P024",
+      "text": "这笔订单应该如何讲给同行"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P025",
+    "raw": {
+      "id": "P025",
+      "text": "0–3秒：上周DIY水彩笔刷，既然接到300刀商单！3–8秒：美国母婴品牌客户从Instagram找到我，要为秋冬婴儿浴巾开发系列印花。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P026",
+    "raw": {
+      "id": "P026",
+      "text": "正文不是反复解释笔刷多好，而是逐一说明：客户为什么选择这类复古画风、产品用途、客户提出的风格要求、三天怎样确认方向、自己如何完成图案，以及实际交付。5美刀小费与满意反馈若属实，放在结果出现的段落，给观众一种“原来这种订单真的可以这样完成”的回报。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P027",
+    "raw": {
+      "id": "P027",
+      "text": "同一案例给品牌商家应怎样换入口"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P028",
+    "raw": {
+      "id": "P028",
+      "text": "一个美国母婴客户为秋冬婴儿浴巾定制了复古水彩系列：这类产品最需要图案做到什么程度？"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P029",
+    "raw": {
+      "id": "P029",
+      "text": "面向商家可讲系列角色、色彩关系与产品图案用途；但不能在同一篇同时做同行接单教程和工厂销售提案。Calling只承接目标产品和风格方向的实际咨询。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P030",
+    "raw": {
+      "id": "P030",
+      "text": "06｜真正有用的海外品牌案例：不必先与你成交"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P031",
+    "raw": {
+      "id": "P031",
+      "text": "公开品牌案例本身就能给受众真实的市场信息。应清楚表达“某品牌公开展示了什么实际商品/题材/艺术家合作模式”；对照本人原创作品是下一步内容，不必声称品牌购买过本人的作品。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T06",
+    "raw": {
+      "id": "T06",
+      "rows": [
+        [
+          "公开案例",
+          "观众能直接获得的信息",
+          "适合的内容对象"
+        ],
+        [
+          "Mamas & Papas｜Duckling",
+          "英国品牌用小鸭角色延展婴儿房、服饰、软玩具等品类",
+          "动物IP画师、母婴品牌"
+        ],
+        [
+          "MILKBARN｜Duck",
+          "美国婴童服饰、安抚毯采用鸭子水彩图案",
+          "小鸭水彩画师、家纺开发"
+        ],
+        [
+          "MILKBARN｜Artichoke",
+          "洋蓟等蔬果题材也是实际使用的儿童图案",
+          "蔬果插画师、童装开发"
+        ],
+        [
+          "Little Unicorn｜Watercolor Roses",
+          "水彩玫瑰出现在包巾/围兜等系列商品",
+          "花卉画师、产品开发"
+        ],
+        [
+          "Little Unicorn｜Snow Day / Party Animals",
+          "冬季动物与派对主题实际进入婴儿纺织产品",
+          "复古画师、动物IP"
+        ],
+        [
+          "Snuggle Hunny｜手绘图案与艺术家合作",
+          "研究真实艺术家合作表达和具体婴儿包巾图案",
+          "想寻找海外合作机会的画师"
+        ],
+        [
+          "Kapten Batik × Offspring",
+          "马来西亚跨文化视觉与婴童用品合作案例",
+          "外贸、文化图案设计师"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P032",
+    "raw": {
+      "id": "P032",
+      "text": "这些案例在Excel的『全量案例归档』中有单独事件ID与公开URL。审稿时务必区分“商品确实存在”和“正在公开采购”这两种完全不同的事实：前者可以直接讲，后者需要新的证据。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P033",
+    "raw": {
+      "id": "P033",
+      "text": "07｜TOP长期栏目：行业情报＋审美/美学＋原创设计"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T07",
+    "raw": {
+      "id": "T07",
+      "rows": [
+        [
+          "TOP栏目子线",
+          "可交付给同行/商家的具体内容",
+          "必备来源形式"
+        ],
+        [
+          "欧洲2027SS/ AW趋势",
+          "具名季节、印花方向、材料语言，以及适配什么产品",
+          "展会官方解读/研究机构；明确是观察还是统计"
+        ],
+        [
+          "海外实际在售图案",
+          "国家、品牌、SKU、花卉/动物/水果/经典绘本图案",
+          "品牌官方商品页"
+        ],
+        [
+          "日韩软萌Q版",
+          "调查范围内的人物热度、公开授权产品与设计语言",
+          "明确样本/时间的调查或品牌页"
+        ],
+        [
+          "国内优秀插画师",
+          "作品风格、公开创作经历、自制笔刷与职业路径",
+          "官方采访、可查作品集"
+        ],
+        [
+          "颜色与视觉美学",
+          "主次关系、色值分区、地域审美、产品适配",
+          "原作＋可核趋势/商品对照"
+        ],
+        [
+          "原创IP与角色产品线",
+          "角色、题材、场景、套装SKU与权利范围",
+          "品牌产品/官方授权信息"
+        ],
+        [
+          "笔刷研发与工具",
+          "只有与实际画风/产品/客户要求有关时，才独立做工具研究",
+          "真实原稿+笔刷过程及测试记录"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P034",
+    "raw": {
+      "id": "P034",
+      "text": "这一栏目不能只有“TOP笔刷”。色调研究、原创角色、成熟IP的视觉语言、真实产品的组合方式、画师创作方法都可纳入；但“TOP/第一/最火”需要机构、年份、地域、样本与指标。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P035",
+    "raw": {
+      "id": "P035",
+      "text": "两个能够直接从公开来源写成内容的样例"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P036",
+    "raw": {
+      "id": "P036",
+      "text": "样例1：要接2027春夏图案单？先看欧洲展会怎样描述装饰与花卉！证据：Première Vision SS27 Designs/Decoration、Patternbank SS27。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P037",
+    "raw": {
+      "id": "P037",
+      "text": "样例2：国内插画师怎样把自己的画风做成工具体系？Procreate官方专访的战斗田田仔就是可追查的案例。证据：Procreate官方2023人物采访。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P038",
+    "raw": {
+      "id": "P038",
+      "text": "上述两个例子可直接作为公开资料研究。不能把“趋势报告”写成实际销售排行，也不能把官方人物采访写成国内全网流量TOP。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P039",
+    "raw": {
+      "id": "P039",
+      "text": "08｜黄金3秒：先解决价值，再选公式"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T08",
+    "raw": {
+      "id": "T08",
+      "rows": [
+        [
+          "内容入口",
+          "0–3秒可用形式",
+          "3–8秒必须给的新信息"
+        ],
+        [
+          "真实海外订单",
+          "哪类风格拿到了哪国哪笔真实订单",
+          "品牌、产品、获客平台、具体Brief其中至少一个"
+        ],
+        [
+          "产品上市回访",
+          "原创角色真的进入了哪个国家什么产品",
+          "产品品类、上架结果、展示商品"
+        ],
+        [
+          "公开品牌情报",
+          "哪家品牌已经采用哪些视觉题材",
+          "品牌名称、具体SKU与产品用途"
+        ],
+        [
+          "2027趋势资料",
+          "哪份公开趋势资料值得同行先看",
+          "机构与季节、明确的图案主题"
+        ],
+        [
+          "优秀画师研究",
+          "哪个可查创作者做到了什么具体实践",
+          "官方采访、作品与方法出处"
+        ],
+        [
+          "B端新品开发",
+          "同一产品线怎样确定原创设计方向",
+          "具体品类、可见原稿/商品及风格应用条件"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P040",
+    "raw": {
+      "id": "P040",
+      "text": "开头筛查的七个拒绝条件"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P041",
+    "raw": {
+      "id": "P041",
+      "text": "首句只有我研发了多少支笔刷。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P042",
+    "raw": {
+      "id": "P042",
+      "text": "没有具体产品/国家/品牌，却使用“全球最火”“2027爆款”。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P043",
+    "raw": {
+      "id": "P043",
+      "text": "三秒只喊金额，随后仍说不出客户要购买什么。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P044",
+    "raw": {
+      "id": "P044",
+      "text": "第二句重复首句，没有新事实。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P045",
+    "raw": {
+      "id": "P045",
+      "text": "画法、情绪、痒点挤占首句的核心利益。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P046",
+    "raw": {
+      "id": "P046",
+      "text": "将一个公开品牌商品误写成品牌向本人采购。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P047",
+    "raw": {
+      "id": "P047",
+      "text": "正文不能拿到任何画面证据兑现开场承诺。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P048",
+    "raw": {
+      "id": "P048",
+      "text": "09｜正文：四种故事结构，保持真实、可迁移"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T09",
+    "raw": {
+      "id": "T09",
+      "rows": [
+        [
+          "结构",
+          "适用情境",
+          "正文实际应该发生什么"
+        ],
+        [
+          "STAR＋结果先行",
+          "海外稿费、真实上市、客户反馈",
+          "结果→客户要求→关键行动→交付与观众可用经验。"
+        ],
+        [
+          "SCQA＋判断",
+          "客户brief、参考风格差异、新品方向",
+          "真实背景→具体产品冲突→为什么不能两者兼得→如何取舍与证明。"
+        ],
+        [
+          "案例对照＋商品证据",
+          "品牌官方商品与本人原创作品",
+          "品牌名称/SKU→风格及应用→区别与可借鉴条件→原创方向。"
+        ],
+        [
+          "趋势证据＋原创实验",
+          "2027SS、日韩/欧美风格、TOP研究",
+          "资料发布时间与范围→确定风格线索→创作测试→对适配产品的限定判断。"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P049",
+    "raw": {
+      "id": "P049",
+      "text": "正文不能全部讲“我是怎么画”的步骤。一个有效选择至少解释客户想获得什么、两个要求如何兼顾、为何放弃某做法、作品哪个位置能证明选择，以及这给观众的下一笔项目带来什么判断。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P050",
+    "raw": {
+      "id": "P050",
+      "text": "自然口语与信息密度"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P051",
+    "raw": {
+      "id": "P051",
+      "text": "每条只追踪一个商业事件和一个主要问题。口播里少用“方案赋能、商业价值闭环、建立信任”等系统词，直接说客户和产品；技术指标、事实校正、授权和内部审稿理由留在表格。小红书、抖音、视频号可以在事实相同的前提下调整信息顺序，不应复制同一段稿再替换平台名称。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P052",
+    "raw": {
+      "id": "P052",
+      "text": "10｜Calling：让观众有一个值得行动的理由"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T10",
+    "raw": {
+      "id": "T10",
+      "rows": [
+        [
+          "内容类型",
+          "单一动作示例",
+          "观众期待获得的下一步"
+        ],
+        [
+          "海外订单案例",
+          "“宝们在研究哪个国家的母婴品牌？说一下产品，一起分享交流。”",
+          "获得更聚焦的海外客户方向。"
+        ],
+        [
+          "品牌/工厂选款",
+          "“正在开发浴巾或床品，留下产品类型与想要的图案风格，我们聊哪个更适合。”",
+          "围绕具体新品展开真实合作讨论。"
+        ],
+        [
+          "2027趋势/TOP",
+          "“下一期想研究哪一种图案主题？告诉我品类。”",
+          "后续具名来源与风格研究。"
+        ],
+        [
+          "原创IP与笔刷研发",
+          "“想把哪一种原创角色做成产品？说说宝们的想法。”",
+          "选择适合自己作品的创作/商品方向。"
+        ],
+        [
+          "三平台商业复盘",
+          "“宝们是否也有同样的case 或 更多好的接单渠道，欢迎一起交付分享。”",
+          "获得和共享的经历解读，而非泛泛互动。"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P053",
+    "raw": {
+      "id": "P053",
+      "text": "不要求评论、收藏、关注、私信四连；不扣核心答案换互动。只将已具备的资源、实际服务、已允许的站内联系路径写进Calling。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P054",
+    "raw": {
+      "id": "P054",
+      "text": "11｜平台适配：三平台不是三种不同的真相"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T11",
+    "raw": {
+      "id": "T11",
+      "rows": [
+        [
+          "要素",
+          "小红书视频",
+          "抖音视频",
+          "微信视频号"
+        ],
+        [
+          "进入方式",
+          "具名国家、品牌、品类与真实问题，适合搜索和复看",
+          "真实结果/产品首镜直接出场，一口气讲清利益",
+          "完整业务项目与判断，更利于B端讨论与转述"
+        ],
+        [
+          "证据节奏",
+          "先结论再证据、作品与可借鉴方法",
+          "前8秒给可见事实，中段用画面兑现",
+          "产品需求→专业方案→可确认结果"
+        ],
+        [
+          "主动作",
+          "征集一个具体国家/品类/画风",
+          "围绕已展示事实提出一个具体下一步",
+          "邀请带产品目标进行适配性交流"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P055",
+    "raw": {
+      "id": "P055",
+      "text": "以上是内容创作的路径选择，不代表平台排序权重已被验证，也不主张固定三秒官方阈值。实际发布时由账号真实留存与咨询数据校正。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P056",
+    "raw": {
+      "id": "P056",
+      "text": "12｜画面证据：第一帧到结尾到底展示什么"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P057",
+    "raw": {
+      "id": "P057",
+      "text": "真实客户故事：可脱敏的消息、实际订单或收款、原始Brief、最后图案、应用产品和客户允许展示的反馈。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P058",
+    "raw": {
+      "id": "P058",
+      "text": "公开品牌案例：商品页、品牌名称、具体SKU、商品图案局部及打开时日期；图片使用范围按可用权利决定。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P059",
+    "raw": {
+      "id": "P059",
+      "text": "自制笔刷故事：真实Procreate原稿、笔触测试、同一任务中调整前后的画面差别，不凭文件结构校验宣称实机绘画能力。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P060",
+    "raw": {
+      "id": "P060",
+      "text": "趋势：报告原始标题/日期/研究主题，加自己的原创设计对照，而不是拿一张Pinterest图说2027销量TOP。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P061",
+    "raw": {
+      "id": "P061",
+      "text": "不一定每条必须全套画面；不需要能证明本篇承诺的关键事实。素材缺失时可以撰写或标注的原创示意，而非伪造聊天、产品已售照片或客户采购行为。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P062",
+    "raw": {
+      "id": "P062",
+      "text": "15｜未来独立 Skill 的最小生产链"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T12",
+    "raw": {
+      "id": "T12",
+      "rows": [
+        [
+          "节点",
+          "输入",
+          "输出与通过标准"
+        ],
+        [
+          "01 受众与真正利益",
+          "主要受众＋市场/产品＋他真正想知道的信息",
+          "清楚说明为什么愿意看、看完得到什么。"
+        ],
+        [
+          "02 案例与资料",
+          "客户事件/官网商品/真实原稿/趋势文档",
+          "一个事件ID，对应可查原始资料。"
+        ],
+        [
+          "03 选题选择",
+          "具体事实＋用户价值＋视觉画面",
+          "价值独立成立，而非只靠“我有笔刷”。"
+        ],
+        [
+          "04 黄金三秒与开头",
+          "核心痛点或利益＋新增事实",
+          "首句可独立吸引主要受众，3–8秒不重复。"
+        ],
+        [
+          "05 正文与证据",
+          "STAR/SCQA/商品对照/趋势实验等",
+          "真实故事、关键选择、观众能够带走的方法与信息。"
+        ],
+        [
+          "06 平台与单一Calling",
+          "视频平台＋咨询/种草/研究意图",
+          "首镜匹配，结尾仅一个可执行主动作。"
+        ],
+        [
+          "07 成品复核与回流",
+          "脚本、事实资料、作品、真人试读、发布数据",
+          "内容可用/待校订/需重写；不以模型分数自称爆款。"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P063",
+    "raw": {
+      "id": "P063",
+      "text": "后续如需创建Skill，以本Word作为方法底稿、配套XLSX作为案例和选题数据底座，不把两者都堆进单个提示词。实际调用时按受众、任务、事件ID、来源类型筛选，避免全仓扫描。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P064",
+    "raw": {
+      "id": "P064",
+      "text": "16｜一手资料清单与使用范围"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P065",
+    "raw": {
+      "id": "P065",
+      "text": "外部核对的基础入口"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "T13",
+    "raw": {
+      "id": "T13",
+      "rows": [
+        [
+          "原始资料与对应论点",
+          "官方/原始链接"
+        ],
+        [
+          "Première Vision｜SS27 Designs｜2027SS设计趋势及发布时间；用于季节趋势选题。",
+          "https://www.premierevision.com/articles/30755b99-0401-f111-8330-000d3a46e06d/spring-summer-27-decodings-designs"
+        ],
+        [
+          "Première Vision｜SS27 Decoration｜装饰与表面工艺；用于材质/美学研究。",
+          "https://www.premierevision.com/articles/fd62f60f-4c07-f111-8333-000d3a2973d4/spring-summer-27-decodings-decoration"
+        ],
+        [
+          "Patternbank｜SS27｜编辑团队的印花主题观察；不得当成销量总榜。",
+          "https://patternbank.com/trends/premiere-vision-SS-27-print-trends"
+        ],
+        [
+          "Mamas & Papas｜Duckling｜英国品牌小鸭系列设计师访谈及品类证据。",
+          "https://www.mamasandpapas.ie/blogs/advice-guidance/meet-the-designer-behind-our-brand-new-collection-duckling"
+        ],
+        [
+          "MILKBARN｜Duck｜美国品牌真实鸭子水彩图案商品。",
+          "https://milkbarnkids.com/collections/duck-print"
+        ],
+        [
+          "MILKBARN｜Artichoke｜美国婴童蔬果水彩图案商品。",
+          "https://milkbarnkids.com/collections/artichoke-print"
+        ],
+        [
+          "Little Unicorn｜Watercolor Roses｜水彩玫瑰跨包巾、围兜等SKU。",
+          "https://littleunicorn.com/collections/watercolor-roses-collection"
+        ],
+        [
+          "Procreate｜战斗田田仔｜官方插画师访谈与DIY笔刷经历。",
+          "https://procreate.com/cn/insight/2023/tianzai"
+        ],
+        [
+          "Peter Rabbit｜FAQ｜经典IP官方权利相关说明。",
+          "https://peterrabbit.com/faqs/"
+        ]
+      ]
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC4",
+    "locator": "P066",
+    "raw": {
+      "id": "P066",
+      "text": "备注：链接用于回到原始报告、商品或访谈，不等于对销售额、榜单或与本人合作关系的证明；最新库存、排名、授权信息应以实际发布时原始页面为准。"
+    },
+    "disposition": "illustration_domain_only_with_conflicts"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P001",
+    "raw": {
+      "id": "P001",
+      "text": "插画赛道"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P002",
+    "raw": {
+      "id": "P002",
+      "text": "三平台封面标题深度优化"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P003",
+    "raw": {
+      "id": "P003",
+      "text": "V3｜小红书 × 抖音 × 微信视频号｜18组主副标题"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P004",
+    "raw": {
+      "id": "P004",
+      "text": "一、标题生产逻辑"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P005",
+    "raw": {
+      "id": "P005",
+      "text": "不是把“客户是谁→他想要什么”写成机械填空，而是先找出一个真实事件对某一类观众最有价值的那一面，再决定标题从哪个心理入口切入。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T01",
+    "raw": {
+      "id": "T01",
+      "rows": [
+        [
+          "步骤",
+          "具体操作"
+        ],
+        [
+          "1｜锁定一类用户",
+          "一篇只选一个主要受众：商业插画师、初级画师、婴童家纺设计师、原创角色设计师、外贸设计师等。不能让同行、品牌、工厂同时抢一个标题。"
+        ],
+        [
+          "2｜找出他此刻想得到的结果",
+          "海外商单入口、角色被选中、系列化能力、下一季花型方向、目标市场情报、可复用的笔刷方法、产品开发判断。"
+        ],
+        [
+          "3｜找出他真正缺的东西",
+          "缺真实客户样本？缺商品应用案例？缺下一季趋势判断？不知道角色如何从单张稿发展成系列？不知道产品用途怎样影响图案？"
+        ],
+        [
+          "4｜确定本篇唯一可交付价值",
+          "必须是看完能获得的具体信息、判断、方法或可验证案例；不能用“提升审美、打开思路、了解趋势”这种无法验收的空话。"
+        ],
+        [
+          "5｜选择一个最强钩子",
+          "惊喜结果、反常识、冲突提醒、市场信息差、调查悬念、可模仿动作、角色产品化、跨品类反差。只选一个主钩子，不堆多个。"
+        ],
+        [
+          "6｜主标题先负责让他停下来",
+          "用利益、结果、冲突、问题或动作表达点击理由；不是先写品牌、作者经历或视频主题。"
+        ],
+        [
+          "7｜副标题再负责让他相信值得看",
+          "补一个新的事实锚点：国家、品牌、产品、金额、季节、来源、调查结果、开发步骤。不得重复主标题。"
+        ],
+        [
+          "8｜检查封面到口播的兑现链",
+          "封面承诺→0–3秒延续同一钩子→3–8秒新增事实→正文证据和方法。标题与口播不能各讲各的。"
+        ],
+        [
+          "9｜通过事实门禁和盲测",
+          "查证强结论；让目标用户只看封面3秒说出“给谁看、能得到什么、为什么点开”。答不出就退回修改。"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P006",
+    "raw": {
+      "id": "P006",
+      "text": "V4方法校注：先选一个共同任务，不必机械限定一个岗位。标题入口可以是结果、选择、图鉴、调查、人物、风格或工艺变化；不强制所有内容使用冲突。主副标题合起来能让目标人群识别内容与价值即可。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P007",
+    "raw": {
+      "id": "P007",
+      "text": "三、主标题与副标题必须这样分工"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P008",
+    "raw": {
+      "id": "P008",
+      "text": "主标题不是主题名称；副标题不是主标题的解释性复述。两行合起来是一句完整的点击承诺。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P009",
+    "raw": {
+      "id": "P009",
+      "text": "V4分工校注：具体的风格名称和“图鉴”等交付形式可以直接形成观看理由。副标题也可补情绪、方法、开发路径或适用场景，不只承担证据功能；是否有效须结合两行与主画面判断。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P010",
+    "raw": {
+      "id": "P010",
+      "text": "主标题：负责“为什么要停下来”。优先放目标利益、反常识结果、冲突、悬念或可执行动作。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P011",
+    "raw": {
+      "id": "P011",
+      "text": "副标题：负责“为什么相信值得看”。优先放国家/品牌/产品/金额/季节/官方来源/调查结果/开发步骤中的一个或两个。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P012",
+    "raw": {
+      "id": "P012",
+      "text": "两行关系：补充而非重复；主标题讲结果，副标题给证据；主标题提问题，副标题给对象/来源；主标题讲冲突，副标题给具体产品或解决路径。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P013",
+    "raw": {
+      "id": "P013",
+      "text": "不强制疑问句。可用惊喜式、反常识式、结果式、提醒式、动作式、调查式、利益式；语气词和感叹号不能代替真正的点击理由。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P014",
+    "raw": {
+      "id": "P014",
+      "text": "四、8类内容分别怎么找钩子"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P015",
+    "raw": {
+      "id": "P015",
+      "text": "真实海外订单：观众利益：我也想知道哪类作品能进入海外项目、客户买什么、订单从哪里来。主标题写工具/能力与订单结果；副标题补国家、产品、金额或获客渠道。禁止只写金额，必须说明买的是什么。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P016",
+    "raw": {
+      "id": "P016",
+      "text": "客户选中／角色系列：观众利益：我的原创动物角色怎样被客户选中、怎样从单张形象发展成系列。主标题写客户选中或角色成长；副标题补国家、角色、系列化方法。未证实上市不能写上市。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P017",
+    "raw": {
+      "id": "P017",
+      "text": "产品对比／设计判断：观众利益：相似产品为什么不能套同一图案，设计时要避免什么错误。主标题写明确冲突或禁忌；副标题给产品、季节和判断维度。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P018",
+    "raw": {
+      "id": "P018",
+      "text": "趋势情报：观众利益：下一季值得研究什么、趋势怎样变成自己可用的产品花型。主标题写目标品类和行动利益；副标题写季节、地区、趋势主题。趋势不等于销量。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P019",
+    "raw": {
+      "id": "P019",
+      "text": "市场调查／角色榜单：观众利益：目标人群关注什么角色，能从中研究哪些识别元素。主标题写市场/人群问题；副标题给调查结果或具名角色。必须标明调查口径。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P020",
+    "raw": {
+      "id": "P020",
+      "text": "创作者／工具方法：观众利益：新手如何开始、真实材质如何转成笔刷、怎样建立可复用工具。主标题写可模仿动作或反常识；副标题给官方访谈/具体材料。数量不能冒充成绩。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P021",
+    "raw": {
+      "id": "P021",
+      "text": "品牌角色产品化：观众利益：一个角色如何进入多个产品，角色、图案、面料和品类如何组织。主标题写角色进入几类商品；副标题列真实品类或系列名。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P022",
+    "raw": {
+      "id": "P022",
+      "text": "跨文化联名：观众利益：地域文化纹样怎样进入陌生品类，双方如何分工。主标题写跨界反差或产品化问题；副标题给联名名和实际产品。不得推断用户获得合作机会。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P023",
+    "raw": {
+      "id": "P023",
+      "text": "五、三个平台的区别：不是换语气，是换入口"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T02",
+    "raw": {
+      "id": "T02",
+      "rows": [
+        [
+          "平台",
+          "核心入口",
+          "标题实际写法"
+        ],
+        [
+          "小红书",
+          "封面缩略图中的主题识别",
+          "大字让人看出风格、工具、产品或市场主题；小字补季节、案例、路径或情绪。用真实角色、花型或原创样张配合文字，检查列表缩略图中两级文字是否仍可辨认。"
+        ],
+        [
+          "抖音",
+          "封面大字焦点与两级阅读",
+          "大字突出结果、选择、图鉴、工艺或风格中的一个主要入口；小字补点击理由。分别检查完整封面和实际列表展示，不把自动播放量等同封面点击效果。"
+        ],
+        [
+          "微信视频号",
+          "封面列表与分享预览理解",
+          "大字可以是身份悬念、互动提问或专业情报；小字补业务关系及具体对象。检查分享裁切是否截断文字或主体，让陌生接收者也能理解为何值得点开。"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P024",
+    "raw": {
+      "id": "P024",
+      "text": "V4平台校注：本次只处理封面图片的两级文案，上表不作为发布文字标题的写法要求。抖音定稿含选择、图鉴和风格邀请，视频号含人物反转与猜测互动；检查大字、小字、主体及缩略图裁切是否共同建立点击理由。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P025",
+    "raw": {
+      "id": "P025",
+      "text": "六、三平台18组标题终稿"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P026",
+    "raw": {
+      "id": "P026",
+      "text": "小红书｜搜索词与点击利益同时成立"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P027",
+    "raw": {
+      "id": "P027",
+      "text": "XHS-AC01｜美国母婴品牌300美元设计订单"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T03",
+    "raw": {
+      "id": "T03",
+      "rows": [
+        [
+          "主标题",
+          "DIY复古笔刷上外单啦！    （12/12字符）"
+        ],
+        [
+          "副标题",
+          "美国浴巾单｜入账305刀    （12/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P028",
+    "raw": {
+      "id": "P028",
+      "text": "目标受众：主要面向希望接海外项目的商业插画师；先吸引对复古绘制工具感兴趣、又想知道作品能否商业化的人。品牌方也可能关注，但不是这组措辞的首要沟通对象。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P029",
+    "raw": {
+      "id": "P029",
+      "text": "观众点击理由：我也在用或自制笔刷，想知道这类画法能用在什么海外商品上，以及实际项目值多少钱。动机是同行代入，不是围观作者收入。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P030",
+    "raw": {
+      "id": "P030",
+      "text": "主副标题逻辑：“DIY复古笔刷”给熟悉的工具与风格入口，“上外单”把日常创作连到期待的商业结果，“啦！”表达结果发生后的惊喜。副标题用美国、浴巾和305刀把结果具体化。两行形成工具能力到真实项目的关联，但不能据此认定笔刷导致成交。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P031",
+    "raw": {
+      "id": "P031",
+      "text": "好在哪里及成立条件：好的地方是把受众已有行为与期望结果接在一起；删去“DIY复古笔刷”就只剩收入展示，删去“外单”就只剩工具介绍。金额在副标题承担具体性，不独占主标题。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P032",
+    "raw": {
+      "id": "P032",
+      "text": "封面文字与主画面配合：大字突出DIY复古笔刷与外单的关系，小字补美国浴巾项目和金额；主画面展示对应原创印花或商品应用，让观众看到买的是什么。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P033",
+    "raw": {
+      "id": "P033",
+      "text": "正文与画面兑现：先展示对应原创印花或产品应用，再用可脱敏记录说明300美元稿费与5美元小费的组成；正文讲清客户购买的交付物、画风要求与笔刷的实际用途。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P034",
+    "raw": {
+      "id": "P034",
+      "text": "事实与措辞核验：当前Word记载了订单与金额，未附付款原件。本轮不将其视为已独立核实的交易；发布前核对委托、交付和收款。不能延伸成购买同款笔刷即可接外单。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P035",
+    "raw": {
+      "id": "P035",
+      "text": "字数核对：实测主12字符，副12字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P036",
+    "raw": {
+      "id": "P036",
+      "text": "XHS-AC02｜马来西亚客户选中的软萌小鸭系列"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T04",
+    "raw": {
+      "id": "T04",
+      "rows": [
+        [
+          "主标题",
+          "马来西亚商单｜原创小鸭    （11/12字符）"
+        ],
+        [
+          "副标题",
+          "客户选中｜角色到印花系列    （12/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P037",
+    "raw": {
+      "id": "P037",
+      "text": "目标受众：主要面向希望将原创动物角色用于商业印花的插画师；可兼顾寻找系列开发参考的设计人员，因为双方共享角色如何落地为印花这一兴趣。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P038",
+    "raw": {
+      "id": "P038",
+      "text": "观众点击理由：我画的小动物能不能被海外客户选中？单个角色怎样继续做成一组可用花型？这比单纯看一只小鸭多了商业应用与开发过程。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P039",
+    "raw": {
+      "id": "P039",
+      "text": "主副标题逻辑：主标题采用国家加商业事件加具体对象，直接建立海外原创角色案例的识别。副标题中的“客户选中”补选择结果，“角色到印花系列”补交付发展路径；这里“印花”比抽象的系列图案更明确地指向应用。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P040",
+    "raw": {
+      "id": "P040",
+      "text": "好在哪里及成立条件：并非所有标题都要写成利益口号或疑问句。具名市场、真实商单与具体角色组合，已经能让同行推导出我也想知道的内容。关键是副标题把故事从被选中推进到系列交付。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P041",
+    "raw": {
+      "id": "P041",
+      "text": "封面文字与主画面配合：大字让国家、商单和小鸭形成一个阅读整体，小字说明客户选择及系列路径；主画面用真实角色与系列成稿建立对应，不只放孤立小鸭。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P042",
+    "raw": {
+      "id": "P042",
+      "text": "正文与画面兑现：展示初始角色、被选方案和最终印花系列之间的对应关系；说明哪些识别特征保留、哪些动作或排列扩展。只有确认的客户要求才作为事实讲述。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P043",
+    "raw": {
+      "id": "P043",
+      "text": "事实与措辞核验：核对委托及选款记录；“客户选中”不自动证明量产或上市。标题锁定，不执行旧备注中另拟标题的建议；证据不足只在发布核验中登记。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P044",
+    "raw": {
+      "id": "P044",
+      "text": "字数核对：实测主11字符，副12字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P045",
+    "raw": {
+      "id": "P045",
+      "text": "XHS-AC04｜2027欧洲春夏印花趋势"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T05",
+    "raw": {
+      "id": "T05",
+      "rows": [
+        [
+          "主标题",
+          "婴童|家纺-新商机    （9/12字符）"
+        ],
+        [
+          "副标题",
+          "2027SS欧洲花卉趋势    （12/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P046",
+    "raw": {
+      "id": "P046",
+      "text": "目标受众：主要面向正在规划下一季花型的婴童与家纺设计人员、产品负责人；二者共享新品方向的判断任务，无须因岗位不同机械拆成两条内容。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P047",
+    "raw": {
+      "id": "P047",
+      "text": "观众点击理由：下一季有哪些值得投入研究和试稿的方向？“新商机”把趋势资料变成与工作选择有关的机会线索。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P048",
+    "raw": {
+      "id": "P048",
+      "text": "主副标题逻辑：“婴童|家纺”先让目标行业认领，“新商机”表达业务相关性；副标题用2027SS、欧洲、花卉补足时间、市场与具体对象。主标题宽一点，副标题把机会限定到可研究的花型方向。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P049",
+    "raw": {
+      "id": "P049",
+      "text": "好在哪里及成立条件：这里有效的是行业加机会加限定，而非“商机”一词本身。若没有季节、地区和花卉内容，主标题就会滑向空泛招商文案。也不能将这条改读成已证实的采购需求。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P050",
+    "raw": {
+      "id": "P050",
+      "text": "封面文字与主画面配合：大字优先让婴童、家纺人群认领机会，小字补季节与花卉方向；主画面须有花型特征，不能只靠商机二字吸引。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P051",
+    "raw": {
+      "id": "P051",
+      "text": "正文与画面兑现：给出资料出处及日期，展示具体花卉线索，再说明它与婴童、家纺产品开发的适配理由，并展示原创试稿或可执行的筛选维度。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P052",
+    "raw": {
+      "id": "P052",
+      "text": "事实与措辞核验：趋势是研究与试稿线索，不直接等于销量、订单或利润。原文列出的展会资料和编辑观察须分别核对；没有采购资料时，不把“新商机”扩大成确定收益。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P053",
+    "raw": {
+      "id": "P053",
+      "text": "字数核对：实测主9字符，副12字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P054",
+    "raw": {
+      "id": "P054",
+      "text": "XHS-AC05｜日本2026上半年软萌Q版角色调查"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T06",
+    "raw": {
+      "id": "T06",
+      "rows": [
+        [
+          "主标题",
+          "日本Z世代爱🐶|🐱|🐰？    （12/12字符）"
+        ],
+        [
+          "副标题",
+          "Esther Bunny调查居首    （16/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P055",
+    "raw": {
+      "id": "P055",
+      "text": "目标受众：主要面向研究日韩软萌角色与目标市场偏好的原创角色设计师；不是向真实宠物消费者提供选宠建议。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P056",
+    "raw": {
+      "id": "P056",
+      "text": "观众点击理由：目标市场年轻消费者更偏好哪些角色？我对狗、猫、兔的直觉是否与调查一致？三个动物符号降低了理解问题的成本。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P057",
+    "raw": {
+      "id": "P057",
+      "text": "主副标题逻辑：日本和Z世代限定市场人群，动物选项让问题可以立即参与。副标题直接透露Esther Bunny居首，悬念并未完全消失：观众仍想知道调查如何得出、角色有哪些识别特点以及设计能借鉴什么。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P058",
+    "raw": {
+      "id": "P058",
+      "text": "好在哪里及成立条件：优点是把专业调查改写成容易参与的视觉选择；副标题给答案可以筛掉纯猜谜观众，留下关心原因与设计启发的人。不能误认答案一出现标题就失效。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P059",
+    "raw": {
+      "id": "P059",
+      "text": "封面文字与主画面配合：动物符号服务于直观选项，不额外堆满装饰；小字与真实角色画面共同说明是角色调查，避免被看成真实宠物话题。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P060",
+    "raw": {
+      "id": "P060",
+      "text": "正文与画面兑现：展示调查原页、时间、对象及统计范围，说明这是角色偏好信息；再选取可观察的造型、配色或情绪特征作设计分析，区分调查结果与自己的解释。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P061",
+    "raw": {
+      "id": "P061",
+      "text": "事实与措辞核验：文档提及Trepo女性Z世代读者及相关Instagram关注者，须按原始调查复核。标题的广泛人群用语需由正文及时限定；不能推成日本全体Z世代偏好或销量排名。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P062",
+    "raw": {
+      "id": "P062",
+      "text": "字数核对：实测主12字符，副16字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P063",
+    "raw": {
+      "id": "P063",
+      "text": "XHS-AC07｜英国Mamas & Papas Duckling系列"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T07",
+    "raw": {
+      "id": "T07",
+      "rows": [
+        [
+          "主标题",
+          "原创角色如何蜕变IP    （10/12字符）"
+        ],
+        [
+          "副标题",
+          "英国品牌｜丑小鸭也能变王子    （13/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P064",
+    "raw": {
+      "id": "P064",
+      "text": "目标受众：主要面向已有原创角色、但缺少系列与商品开发思路的设计师；重点是角色资产如何延展，而非单张图怎样画得更可爱。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P065",
+    "raw": {
+      "id": "P065",
+      "text": "观众点击理由：我的普通角色怎样发展成能持续应用的主题或IP？副标题让观众产生普通起点也可能继续成长的情绪代入。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P066",
+    "raw": {
+      "id": "P066",
+      "text": "主副标题逻辑：“原创角色”定位对象，“如何”开启方法期待，“蜕变IP”表达成长目标。副标题的英国品牌提供案例背景，“丑小鸭也能变王子”承担情绪与记忆，不只是补事实。两行是能力愿望加品牌案例加成长比喻。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P067",
+    "raw": {
+      "id": "P067",
+      "text": "好在哪里及成立条件：这组证明副标题不应被强制限定为证据栏。它可以加情绪，只要品牌案例与成长路径能兑现主标题。IP在此应解释为有识别与延展能力的角色体系，不能把跨品类商品直接等同成熟商业IP。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P068",
+    "raw": {
+      "id": "P068",
+      "text": "封面文字与主画面配合：大字强调角色成长，小字补英国案例与情绪；画面用同一主题的角色及产品应用表现延展，不虚构品牌向本人约稿。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P069",
+    "raw": {
+      "id": "P069",
+      "text": "正文与画面兑现：沿品牌资料展示从主题、形象、图案到不同商品的开发步骤，说明哪些特征贯穿各产品，哪些随载体改变。用开发过程回答“如何”，不能只罗列商品照片。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P070",
+    "raw": {
+      "id": "P070",
+      "text": "事实与措辞核验：“丑小鸭变王子”是本稿比喻，不是品牌原设定。核对品牌官方开发资料；未有合作记录时，不说品牌向本人约稿，也不将其描述为开放招募机会。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P071",
+    "raw": {
+      "id": "P071",
+      "text": "字数核对：实测主10字符，副13字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P072",
+    "raw": {
+      "id": "P072",
+      "text": "XHS-AC09｜英式田园绘本原创笔刷研发"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T08",
+    "raw": {
+      "id": "T08",
+      "rows": [
+        [
+          "主标题",
+          "彼得兔｜经典英式视觉美学    （12/12字符）"
+        ],
+        [
+          "副标题",
+          "DIY笔刷｜维多利亚风    （12/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P073",
+    "raw": {
+      "id": "P073",
+      "text": "目标受众：主要面向喜欢经典英式绘本气质、想研究绘制语言的插画师与Procreate创作者；审美学习本身就是其点击利益。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P074",
+    "raw": {
+      "id": "P074",
+      "text": "观众点击理由：我熟悉彼得兔的感觉，但想知道这种英式视觉语言由哪些线条、色彩和笔触构成，以及工具怎样服务这种表达。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P075",
+    "raw": {
+      "id": "P075",
+      "text": "主副标题逻辑：“彼得兔”提供熟悉且具名的入口，“经典英式视觉美学”说明研究层次；副标题用DIY笔刷连接制作方法，用维多利亚风标出本稿的风格标签。它走审美与学习入口，没有必要硬改成警告或版权冲突。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P076",
+    "raw": {
+      "id": "P076",
+      "text": "好在哪里及成立条件：专业关键词可以直接形成点击价值；核心在于风格对象足够具体、画面能呈现差异。若删去具名风格只剩“提升审美”，才会失去辨识度。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P077",
+    "raw": {
+      "id": "P077",
+      "text": "封面文字与主画面配合：大字承担熟悉风格入口，小字补笔刷与风格标签；用原创绘制画面的线条、配色与上色质感支撑审美吸引。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P078",
+    "raw": {
+      "id": "P078",
+      "text": "正文与画面兑现：选取有出处的研究材料说明线条、淡水彩、植物组织与配色，再用自有原创角色及笔刷样张演示相应绘制选择。说明维多利亚风在本稿中指哪些可见特征。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P079",
+    "raw": {
+      "id": "P079",
+      "text": "事实与措辞核验：风格标签不代替年代考证；不把某一时代标签解释为该作品唯一准确归类。不声称使用原作者同款笔刷或获得角色授权；素材使用与商业应用另行核验。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P080",
+    "raw": {
+      "id": "P080",
+      "text": "字数核对：实测主12字符，副11字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P081",
+    "raw": {
+      "id": "P081",
+      "text": "抖音｜事件冲突与可见结果前置"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P082",
+    "raw": {
+      "id": "P082",
+      "text": "DY-AC01｜美国母婴品牌300美元设计订单"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T09",
+    "raw": {
+      "id": "T09",
+      "rows": [
+        [
+          "主标题",
+          "DIY笔刷挣美刀    （12/12字符）"
+        ],
+        [
+          "副标题",
+          "300刀浴巾印花＋5刀小费    （13/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P083",
+    "raw": {
+      "id": "P083",
+      "text": "目标受众：主要面向关心工具投入能否产生商业用途的插画师；“挣美刀”采用同行熟悉的结果语言，而不是面向普通观众炫耀收入。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P084",
+    "raw": {
+      "id": "P084",
+      "text": "观众点击理由：自己做的绘画工具，究竟有没有进入真实海外项目？具体卖的是哪种作品，金额又是多少？"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P085",
+    "raw": {
+      "id": "P085",
+      "text": "主副标题逻辑：“DIY笔刷”与“挣美刀”把工具和商业结果压在短句里；副标题补浴巾印花这一交付物，并将300刀稿费与5刀小费拆开。先看到结果，再知道项目是什么，比只给收入数字更可理解。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P086",
+    "raw": {
+      "id": "P086",
+      "text": "好在哪里及成立条件：优点是短、口语、结果明确；不是增加感叹号来制造热闹。需要留意“笔刷挣钱”是表达压缩，实际交易对象仍应由正文讲清，不能暗示笔刷被卖了300刀。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P087",
+    "raw": {
+      "id": "P087",
+      "text": "封面文字与主画面配合：大字保持短句结果的集中焦点，小字补交付物与两笔金额；画面展示印花及应用，避免金额变成唯一视觉中心。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P088",
+    "raw": {
+      "id": "P088",
+      "text": "正文与画面兑现：首段展示原创印花与脱敏项目记录，说明客户委托及收入构成；再演示笔刷在本次绘制中的具体作用。若信息流自动播放，首镜应直接接住同一结果。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P089",
+    "raw": {
+      "id": "P089",
+      "text": "事实与措辞核验：以委托、交付和收款资料核对金额；不能把一次项目的相关性解释成工具获客因果，也不能承诺其他使用者取得相同收入。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P090",
+    "raw": {
+      "id": "P090",
+      "text": "字数核对：实测主8字符，副13字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P091",
+    "raw": {
+      "id": "P091",
+      "text": "DY-AC03｜西班牙客户2027春夏婴童产品项目"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T10",
+    "raw": {
+      "id": "T10",
+      "rows": [
+        [
+          "主标题",
+          "春夏凉席|图案风格怎么选？    （10/12字符）"
+        ],
+        [
+          "副标题",
+          "2027SS母婴家纺｜TOP 5 Style    （17/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P092",
+    "raw": {
+      "id": "P092",
+      "text": "目标受众：主要面向正在选择春夏凉席花型方向的母婴家纺设计人员与产品开发者；具体季节、产品和选择任务构成精准入口。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P093",
+    "raw": {
+      "id": "P093",
+      "text": "观众点击理由：春夏凉席可选什么图案风格？能否快速看到一组整理好的方向，减少从海量图片里找参考的成本？"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P094",
+    "raw": {
+      "id": "P094",
+      "text": "主副标题逻辑：主标题不再制造浴巾与凉席的冲突，而是提出用户正在处理的选择问题。副标题用2027SS母婴家纺限定场景，以TOP 5 Style承诺五类风格的整理结果。点击理由是选型效率加有边界的资料供给。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P095",
+    "raw": {
+      "id": "P095",
+      "text": "好在哪里及成立条件：比“图案怎么选”更具体，因为产品与时节已经给出；TOP 5的价值在于五类内容可对照，而不在于英文显得高级。标题成立要求正文确有五类，且分类互有区别。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P096",
+    "raw": {
+      "id": "P096",
+      "text": "封面文字与主画面配合：大字让凉席与选择问题先被看到，小字作为五类资料的范围说明；锁定文字较长，先检查词组换行和缩略图，小字不能挤成难读的一段。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P097",
+    "raw": {
+      "id": "P097",
+      "text": "正文与画面兑现：逐类给风格名称、视觉识别点、凉席载体上的适配判断及示例，最后提供选择依据。若五类尚未形成，先补足内容，不能用不足五类的原稿承接标题。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P098",
+    "raw": {
+      "id": "P098",
+      "text": "事实与措辞核验：核对2027SS资料时间及五类来源；没有外部排名依据时，正文须明确是本期编辑筛选，不包装成销量或采购TOP5。标题未提西班牙预约，不沿用旧备注的冲突论证，也不自动视为已核实预约。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P099",
+    "raw": {
+      "id": "P099",
+      "text": "字数核对：实测主13字符，副22字符；不含旧括注与括注前的排版空格。主标题超过原12字符默认值；副标题超过原18字符默认值；标题保持原文，后续仅在实际封面检查换行与缩略图可读性。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P100",
+    "raw": {
+      "id": "P100",
+      "text": "DY-AC04｜2027欧洲春夏印花趋势"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T11",
+    "raw": {
+      "id": "T11",
+      "rows": [
+        [
+          "主标题",
+          "英式田园风-花卉图鉴   （7/12字符）"
+        ],
+        [
+          "副标题",
+          "2027SS欧洲花卉｜新趋势    （15/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P101",
+    "raw": {
+      "id": "P101",
+      "text": "目标受众：主要面向正在搜集英式田园花卉参考的印花与家纺设计师；筛选资料、形成设计参考就是其当前工作任务。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P102",
+    "raw": {
+      "id": "P102",
+      "text": "观众点击理由：想快速看到风格明确、组织过的花卉素材解读，并判断哪些线索值得用于下一季原创试稿。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P103",
+    "raw": {
+      "id": "P103",
+      "text": "主副标题逻辑：“英式田园风”锁定审美，“花卉”锁定对象，“图鉴”承诺整理后的视觉参考。副标题增加2027SS与欧洲新趋势，让经典风格有当季研究理由。这里依靠具体资源价值，而不是“别只收藏”的行为批评。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P104",
+    "raw": {
+      "id": "P104",
+      "text": "好在哪里及成立条件：图鉴并非无效主题名；当它说明将获得可对照、可查阅的组织化资料时，就是明确交付形式。若视频只是零散美图，图鉴承诺便无法兑现。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P105",
+    "raw": {
+      "id": "P105",
+      "text": "封面文字与主画面配合：大字保留风格与图鉴这一整体，小字补当季背景；主画面应能看见具体花卉与风格，资料整理的价值由正文承接。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P106",
+    "raw": {
+      "id": "P106",
+      "text": "正文与画面兑现：把花卉按形态、组织、线条或色彩等有用维度整理，说明分类逻辑及来源，并展示从观察到原创转化的一步。让用户能指出与普通图片浏览相比新增了什么。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P107",
+    "raw": {
+      "id": "P107",
+      "text": "事实与措辞核验：“2027SS欧洲花卉新趋势”和“英式田园风”之间需要材料或明确的编辑分析桥梁，不能把全部欧洲花卉趋势直接等同英式田园；不把趋势当已发生销量。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P108",
+    "raw": {
+      "id": "P108",
+      "text": "字数核对：实测主10字符，副14字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P109",
+    "raw": {
+      "id": "P109",
+      "text": "DY-AC08｜Offspring × Kapten Batik联名案例"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T12",
+    "raw": {
+      "id": "T12",
+      "rows": [
+        [
+          "主标题",
+          "蜡染工艺重塑纺织印花    （10/12字符）"
+        ],
+        [
+          "副标题",
+          "Lineage联名｜母婴服饰   （15/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P110",
+    "raw": {
+      "id": "P110",
+      "text": "目标受众：主要面向寻找纺织印花创新表达的图案设计师及母婴产品开发者；关注的是既有工艺如何参与当代设计。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P111",
+    "raw": {
+      "id": "P111",
+      "text": "观众点击理由：蜡染除了传统纹样，还能为现代母婴服饰带来哪些可观察的图案组织、色彩或材质表达？"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P112",
+    "raw": {
+      "id": "P112",
+      "text": "主副标题逻辑：“蜡染工艺”给专业起点，“重塑”表达从工艺到设计的变化，“纺织印花”说明作用领域；副标题用Lineage联名和母婴服饰提供可见案例。它从工艺及行业变化切入，不再靠“竟然进尿布”的跨界猎奇。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P113",
+    "raw": {
+      "id": "P113",
+      "text": "好在哪里及成立条件：好的地方是让专业人群知道变化发生在哪一层；“重塑”本身仍然抽象，必须由实物与前后设计关系支撑，不能只靠宏大动词。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P114",
+    "raw": {
+      "id": "P114",
+      "text": "封面文字与主画面配合：大字突出工艺与图案变化的关系，小字点出联名和品类；主画面给真实商品与可辨认纹样，让重塑有可见对象。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P115",
+    "raw": {
+      "id": "P115",
+      "text": "正文与画面兑现：展示具名联名商品及来源，分析至少一个能在画面上定位的变化，并区分工艺制作、纹样借用、数字化再设计与印花应用各自发生了什么。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P116",
+    "raw": {
+      "id": "P116",
+      "text": "事实与措辞核验：先核对Lineage项目全名、合作双方及服饰范围。母婴联名不自动证明每件商品都采用真实蜡染工艺；没有工艺资料时，不将蜡染视觉语言说成全部商品的制造工艺。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P117",
+    "raw": {
+      "id": "P117",
+      "text": "字数核对：实测主10字符，副14字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P118",
+    "raw": {
+      "id": "P118",
+      "text": "DY-AC09｜英式田园绘本原创笔刷研发"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T13",
+    "raw": {
+      "id": "T13",
+      "rows": [
+        [
+          "主标题",
+          "走进Peter Rabbit style   （10/12字符）"
+        ],
+        [
+          "副标题",
+          "DIY笔刷｜英式田园线条＋淡水彩    （16/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P119",
+    "raw": {
+      "id": "P119",
+      "text": "目标受众：主要面向对Peter Rabbit视觉气质有兴趣、愿意看风格拆解与绘制演示的插画师；对英文名称不熟悉者可能需要封面画面帮助识别。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P120",
+    "raw": {
+      "id": "P120",
+      "text": "观众点击理由：想进入一种熟悉又难以准确画出的风格，弄清线条与淡水彩如何形成这种气质，而非先听版权提醒。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P121",
+    "raw": {
+      "id": "P121",
+      "text": "主副标题逻辑：“走进”采用邀请与探索的语气，具名style提供风格入口；副标题用DIY笔刷、英式田园线条、淡水彩说明研究内容与制作手段。两行是审美吸引加具体绘制语言，没有认知冲突也可以成立。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P122",
+    "raw": {
+      "id": "P122",
+      "text": "好在哪里及成立条件：价值来自观众对风格的已有兴趣，加上副标题将学习对象说具体。英文并非天然提高质量：若目标读者读不懂或排版过密，入口效果会减弱，需要在画面与盲测中验证。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P123",
+    "raw": {
+      "id": "P123",
+      "text": "封面文字与主画面配合：主标题英文名称较长，按完整词组组织视觉阅读，不从词中拆开；小字补具体绘制语言，主画面呈现原创线条与淡水彩特征。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P124",
+    "raw": {
+      "id": "P124",
+      "text": "正文与画面兑现：首镜呈现原创风格测试与线条、水彩局部，再展示同一原创主体的绘制过程；说明笔刷可实现的具体痕迹，而不是只展示笔刷列表。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P125",
+    "raw": {
+      "id": "P125",
+      "text": "事实与措辞核验：不暗示笔刷来自原作者、品牌认可或角色授权；参考素材与具体角色应用分别核验。旧备注关于“别照搬角色”的主点击动机已不匹配当前标题，版权核验只保留在备注中。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P126",
+    "raw": {
+      "id": "P126",
+      "text": "字数核对：实测主20字符，副16字符；不含旧括注与括注前的排版空格。主标题超过原12字符默认值；标题保持原文，后续仅在实际封面检查换行与缩略图可读性。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P127",
+    "raw": {
+      "id": "P127",
+      "text": "微信视频号｜可转述的专业判断与真实案例"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P128",
+    "raw": {
+      "id": "P128",
+      "text": "WX-AC02｜马来西亚客户选中的软萌小鸭系列"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T14",
+    "raw": {
+      "id": "T14",
+      "rows": [
+        [
+          "主标题",
+          "原来“她”是大Boss    （11/12字符）"
+        ],
+        [
+          "副标题",
+          "马来西亚客户｜角色试单到系列图案合作    （14/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P129",
+    "raw": {
+      "id": "P129",
+      "text": "目标受众：主要面向与客户沟通、希望把小额试单发展为系列合作的插画师或工作室负责人；人物故事服务于商业合作经验。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P130",
+    "raw": {
+      "id": "P130",
+      "text": "观众点击理由：看似普通的联系人为什么值得重视？一次角色试单怎样发展成系列合作？前者引起好奇，后者提供同行值得继续看的工作价值。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P131",
+    "raw": {
+      "id": "P131",
+      "text": "主副标题逻辑：“原来”预示认知变化，“她”留下身份空位，“大Boss”提供意外身份。副标题补马来西亚客户以及试单到系列合作的过程，让人物悬念与实际业务相关。主标题单独很泛，必须连副标题及人物情境一起判断。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P132",
+    "raw": {
+      "id": "P132",
+      "text": "好在哪里及成立条件：悬念不是越隐瞒越好。这组有吸引力的前提是客户身份确有反转，且身份与合作发展有关；若只是普通客户，被包装成大Boss就是额外制造事实。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P133",
+    "raw": {
+      "id": "P133",
+      "text": "封面文字与主画面配合：大字保留人物身份悬念，小字必须可读，以补足马来西亚客户及合作发展；配真实项目画面，不用虚构人物肖像或办公室制造身份背书。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P134",
+    "raw": {
+      "id": "P134",
+      "text": "正文与画面兑现：开场及时揭示“她”指谁及真实职务或决策角色，再用脱敏记录讲清试单、反馈、扩大合作的关键节点。不能一直拖延身份答案，更不能从故事直接推出一套未经证实的成交方法。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P135",
+    "raw": {
+      "id": "P135",
+      "text": "事实与措辞核验：上传Word未附身份和合作过程原件。需分别核对客户决策身份、试单记录、系列委托及时间顺序；没有可核对依据时登记未满足条件，保持标题原文，不宣称已可发布。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P136",
+    "raw": {
+      "id": "P136",
+      "text": "字数核对：实测主11字符，副18字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P137",
+    "raw": {
+      "id": "P137",
+      "text": "WX-AC05｜日本2026上半年软萌Q版角色调查"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T15",
+    "raw": {
+      "id": "T15",
+      "rows": [
+        [
+          "主标题",
+          "猜猜日本Z世代最爱萌宠是啥    （10/12字符）"
+        ],
+        [
+          "副标题",
+          "Esther Bunny调查居首    （16/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P138",
+    "raw": {
+      "id": "P138",
+      "text": "目标受众：主要面向对日本年轻人角色偏好感兴趣的原创角色设计师；亲切提问降低进入门槛，内容仍应落在具名角色调查。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P139",
+    "raw": {
+      "id": "P139",
+      "text": "观众点击理由：先与自己的猜测对照，再了解意外结果及角色设计特点；愿意转述的点是目标市场趣味，而不是一条抽象调查报告。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P140",
+    "raw": {
+      "id": "P140",
+      "text": "主副标题逻辑：“猜猜”邀请参与，“日本Z世代”限定人群，“最爱萌宠”把调查问题说得口语化；副标题点名调查居首者。与小红书的动物选项相比，这一版靠对话邀请形成参与感，但不因此认定视频号只能用这种写法。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P141",
+    "raw": {
+      "id": "P141",
+      "text": "好在哪里及成立条件：好的地方是读者能立即形成猜测。需看住“萌宠”可能让人误以为真实宠物、“最爱”可能让人误以为全市场结论这两处理解偏差。副标题的角色名有帮助，仍需原页与正文及时解释。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P142",
+    "raw": {
+      "id": "P142",
+      "text": "封面文字与主画面配合：大字的邀请语气配合清晰的角色视觉，小字说明具名调查结果；在实际分享裁切中检查人群与角色是否仍可识别。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P143",
+    "raw": {
+      "id": "P143",
+      "text": "正文与画面兑现：首段说明讨论的是角色调查而非养宠偏好，给时间、调查对象与范围，再展示相关角色并分析识别点；不能只公布第一名便结束。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P144",
+    "raw": {
+      "id": "P144",
+      "text": "事实与措辞核验：核对调查口径及排名字段；不将有限调查推成日本全体年轻人偏好。若盲读者理解成宠物饲养调查，登记为语义歧义，后续由内容和画面澄清，不擅改锁定标题。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P145",
+    "raw": {
+      "id": "P145",
+      "text": "字数核对：实测主13字符，副16字符；不含旧括注与括注前的排版空格。主标题超过原12字符默认值；标题保持原文，后续仅在实际封面检查换行与缩略图可读性。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P146",
+    "raw": {
+      "id": "P146",
+      "text": "WX-AC07｜英国Mamas & Papas Duckling系列"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T16",
+    "raw": {
+      "id": "T16",
+      "rows": [
+        [
+          "主标题",
+          "英国品牌联盟开发|婴儿家纺    （11/12字符）"
+        ],
+        [
+          "副标题",
+          "Duckling｜婴儿房/服饰  （18/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P147",
+    "raw": {
+      "id": "P147",
+      "text": "目标受众：主要面向婴儿家纺与婴童产品开发人员、角色系列设计师；用海外品牌与具体产品线提供业务研究入口。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P148",
+    "raw": {
+      "id": "P148",
+      "text": "观众点击理由：英国品牌如何组织主题与产品开发？Duckling主题在婴儿房和服饰中怎样保持一致、又分别适配载体？"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P149",
+    "raw": {
+      "id": "P149",
+      "text": "主副标题逻辑：主标题将英国品牌、开发方式和婴儿家纺放在一行，形成行业情报入口；副标题用Duckling具名主题及婴儿房、服饰提供研究对象。“联盟开发”另外产生了多方共同开发的事实期待，不能仅因标题来自定稿就当作已证实。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P150",
+    "raw": {
+      "id": "P150",
+      "text": "好在哪里及成立条件：优点是专业人群能快速看出研究对象与品类；是否足够好，取决于开发方式是否有事实支撑，以及正文是否展示可用方法。它不能被旧版“一个角色进几类产品”的模板完整解释。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P151",
+    "raw": {
+      "id": "P151",
+      "text": "封面文字与主画面配合：大字让英国品牌开发与婴儿家纺形成完整主题，小字点出Duckling及产品范围；真实系列商品画面应与所写品类相符。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P152",
+    "raw": {
+      "id": "P152",
+      "text": "正文与画面兑现：先交代品牌、主题、真实开发主体，再对照婴儿房和服饰的图案、面料、尺度与细节。若讲联合开发，须说明有哪些组织、谁负责什么，以及来源在哪里。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P153",
+    "raw": {
+      "id": "P153",
+      "text": "事实与措辞核验：当前Word只转述品牌Duckling开发案例，未附能核对“联盟”的材料。品牌内部跨团队协作、品牌与供应商合作、多个品牌联盟是不同关系，不能混称；该词保持原文，备注标记需原始资料确认。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P154",
+    "raw": {
+      "id": "P154",
+      "text": "字数核对：实测主13字符，副15字符；不含旧括注与括注前的排版空格。主标题超过原12字符默认值；标题保持原文，后续仅在实际封面检查换行与缩略图可读性。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P155",
+    "raw": {
+      "id": "P155",
+      "text": "WX-AC08｜Offspring × Kapten Batik联名案例"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T17",
+    "raw": {
+      "id": "T17",
+      "rows": [
+        [
+          "主标题",
+          "蜡染工艺|印花图案新机会    （10/12字符）"
+        ],
+        [
+          "副标题",
+          "Lineage联名｜母婴家居服    （15/18字符）"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P156",
+    "raw": {
+      "id": "P156",
+      "text": "目标受众：主要面向寻找印花图案开发方向的设计师和母婴家居服产品团队；共同关注工艺语言怎样转成具体产品灵感。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P157",
+    "raw": {
+      "id": "P157",
+      "text": "观众点击理由：传统工艺能否给印花图案带来新的研究方向？这条路径在母婴家居服上已经出现了什么可观察案例？"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P158",
+    "raw": {
+      "id": "P158",
+      "text": "主副标题逻辑：“蜡染工艺”建立专业识别，“印花图案新机会”说明业务相关性；副标题用Lineage联名和母婴家居服把机会落到案例与载体。与抖音版的行业变化相比，本版强调可研究的开发方向。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P159",
+    "raw": {
+      "id": "P159",
+      "text": "好在哪里及成立条件：“新机会”能成立是因为前面有具体工艺、后面有具名联名与品类；它承诺的是值得研究的方向，不能顺势解释成品牌正开放合作、采购或保证销量。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P160",
+    "raw": {
+      "id": "P160",
+      "text": "封面文字与主画面配合：大字强调工艺与开发机会，小字把机会限定到具名联名及家居服；画面用真实纹样和产品支撑，不额外加未经证实的合作招募暗示。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P161",
+    "raw": {
+      "id": "P161",
+      "text": "正文与画面兑现：展示并核实联名家居服产品，解释哪些纹样、色彩或组织方式由工艺语言转译而来，再给出一个可供原创试稿的判断，避免只赞美联名好看。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P162",
+    "raw": {
+      "id": "P162",
+      "text": "事实与措辞核验：核对联名名、双方、产品范围与发布日期，区分成衣实际工艺和设计灵感。不能把其他品牌的公开案例说成本人合作或现成接单渠道。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P163",
+    "raw": {
+      "id": "P163",
+      "text": "字数核对：实测主12字符，副15字符；不含旧括注与括注前的排版空格。标题保持原文，旧表格括注原样保留，实测值以本备注为准。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P164",
+    "raw": {
+      "id": "P164",
+      "text": "七、必须同步处理的口播与事实风险"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T18",
+    "raw": {
+      "id": "T18",
+      "rows": [
+        [
+          "稿件",
+          "发布前必须核对"
+        ],
+        [
+          "AC01｜DIY笔刷与美国订单",
+          "当前两平台均以DIY笔刷关联海外项目结果。核对委托、交付、300美元稿费及5美元小费记录；区分原创印花销售与工具参与，不能将相关性当作成交原因。"
+        ],
+        [
+          "AC02｜马来西亚小鸭",
+          "小红书强调角色到印花系列，视频号增加客户身份反转与试单到系列合作。分别核对商业委托、选稿、客户决策身份及合作阶段；未证实量产或上市时，不在正文增加上市断言。"
+        ],
+        [
+          "AC03｜西班牙浴巾与凉席",
+          "当前抖音标题已改为春夏凉席风格选择，不再是浴巾与凉席冲突。正文须给五类风格及筛选、适配理由；无外部排名时交代为本期精选。预约或定稿另核原件，不沿用旧版开场断言。"
+        ],
+        [
+          "AC05｜日本Z世代调查",
+          "核对调查时间、对象、类别与排序。正文解释讨论角色而非真实宠物；“最爱”不扩大为全日本人群结论，未确认的样本量不补写。"
+        ],
+        [
+          "AC07｜Mamas & Papas Duckling",
+          "小红书强调原创角色成长，视频号写“联盟开发”。当前文档未附证实联盟关系的原件，须核对参与者、真实关系与分工；品牌自有开发、内部跨团队合作和多品牌联盟不可混称。"
+        ],
+        [
+          "AC08｜Lineage in Love",
+          "核对Lineage项目名、合作双方及母婴服饰或家居服范围，区分工艺启发与实际生产工艺。“新机会”指研究方向，不暗示本人合作或品牌开放采购。"
+        ],
+        [
+          "AC09｜Peter Rabbit",
+          "当前标题走审美与风格探索入口，不再以版权冲突作主钩子。正文给具体绘制语言与原创演示；风格标签、素材使用、角色应用及授权分别核验。"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P165",
+    "raw": {
+      "id": "P165",
+      "text": "八、100分标题审校标准"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "T19",
+    "raw": {
+      "id": "T19",
+      "rows": [
+        [
+          "维度",
+          "分值",
+          "审校问题"
+        ],
+        [
+          "目标受众清晰",
+          "15",
+          "目标人群能否一眼认出“这是给我看的”？"
+        ],
+        [
+          "用户利益明确",
+          "20",
+          "是否说出他能得到的机会、信息、方法或决策，而非作者做了什么？"
+        ],
+        [
+          "点击钩子强度",
+          "15",
+          "是否有结果、反差、冲突、悬念、动作或具体问题？"
+        ],
+        [
+          "具体信息密度",
+          "10",
+          "是否出现国家、产品、品牌、季节、数字、来源等有效锚点？"
+        ],
+        [
+          "主副标题分工",
+          "15",
+          "两行是否互补，是否避免重复？"
+        ],
+        [
+          "证据与内容兑现",
+          "10",
+          "标题事实是否有来源，正文和画面是否能兑现？"
+        ],
+        [
+          "平台入口适配",
+          "10",
+          "是否按搜索/信息流/转发场景组织，而不是只换语气？"
+        ],
+        [
+          "缩略图可读性",
+          "5",
+          "12/18字符限制内是否易读、重点是否突出？"
+        ]
+      ]
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P166",
+    "raw": {
+      "id": "P166",
+      "text": "分数解释：85–100为强候选；75–84为可发布候选；70–74必须二次打磨；低于70退回重写。分数是编辑质量评估，不是点击率、流量或爆款概率。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P167",
+    "raw": {
+      "id": "P167",
+      "text": "一票否决：虚构客户/订单/上市/销量/排名；受众不清；主标题没有观众利益；副标题重复主标题；封面承诺无法由正文或画面兑现。触发任一项，即使总分达到70也不得发布。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P168",
+    "raw": {
+      "id": "P168",
+      "text": "V4审稿校注：不再用自评分证明达到70分，也不因主标题未直接写利益而否决风格或图鉴。先查事实、语义、兑现和可读性，再判定受众与入口是否匹配，最后由独立盲读及实际表现验证。上表为V3历史审校记录，不代表当前15组已通过。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P169",
+    "raw": {
+      "id": "P169",
+      "text": "九、独立验证：不能由写标题的人自己给自己打分"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P170",
+    "raw": {
+      "id": "P170",
+      "text": "3秒盲测：每篇找3–5名对应目标受众，只展示封面3秒。让他们复述：给谁看、能得到什么、为什么点开。至少多数人能准确复述，才进入发布测试。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P171",
+    "raw": {
+      "id": "P171",
+      "text": "证据复核：由未参与标题创作的人检查订单/收款/Brief、客户选款记录、SKU/上架页、官方趋势页、调查对象、品牌访谈和版权FAQ。强事实词逐项过证据。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P172",
+    "raw": {
+      "id": "P172",
+      "text": "封面—开场一致性：不看正文，只比较封面、0–3秒、3–8秒：三者是否围绕同一个利益；第二段是否提供新事实而非重复第一段。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P173",
+    "raw": {
+      "id": "P173",
+      "text": "发布后指标：小红书按后台可见来源区分搜索与推荐；抖音看流量来源、有效播放、前段留存、平均播放时长；视频号看观看时长、分享、关注和咨询。只使用实际后台字段。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  },
+  {
+    "source": "SRC5",
+    "locator": "P174",
+    "raw": {
+      "id": "P174",
+      "text": "单变量对照：同一主题一次只换主标题钩子或副标题证据，不同时换视频、首帧和发布时间。自然流量前后对比只能称观察，不直接宣称因果。"
+    },
+    "disposition": "current_method_with_later_annotations_priority"
+  }
+]

@@ -1,0 +1,22 @@
+# 当前字段合同 v3.0（保留文件路径）
+以schemas为完整类型来源。内部字段由宿主整理，不要求用户填写。
+
+brief：task_id/topic/audience/goal/platforms/facts/content_context/voice_profile/production_resources/objective/input_resolution/content_task。audience表示共同任务人群；domain仅明确行业时填。facts的provided/verified/hypothetical不得混；来源样例不自动成为facts。production_resources含id/description/status，可标proof/demonstration及supports_fact_ids。
+
+copy_locks可选数组，每项plan_id/source及需锁定的cover_main/cover_sub/hook/suspense原文；allow_overlength只对该锁定字段的原文生效，不能让新稿绕过字符默认。cover_limits可显式调整当前制作约束。
+
+decision：selected/rejected。selected含id/platform/objective/buyer_decision/tension/stakes/intervention/proof/payoff/cta_reason/qualification/next_step；这些字段按本篇实际任务理解，不能强造商业买家或冲突。asset_refs含hook/body/calling/platform的asset_id/record_sha256/why。audience_contract含question/payoff/motivation/route/primary_action/action_reason。source_recipe含hook_template/body_structure/calling_template、gene{asset_id,record_sha256,transfer,non_transfer}、example{asset_id,record_sha256,source_quote,match_level,transfer,non_transfer,mismatch}、title匹配或明确no_fit/no_match。proof_basis用当前资源与fact_ids，不能拿历史例子作证明。selection_scores可选、仅诊断；每平台至少一个弃选及具体reason。
+
+每个selected有opening_candidate_id；decision顶层有opening_candidates及opening_review。先生成prepare_openings投影，审同任务不同机制的真实首屏，再plan封存。无当前事实主张的教程/风格入口可空proof_fact_ids，但实际需要的演示资源仍标状态；不能为填格编事实。封存后改主副、前两句、首镜visual或任务/事实/机制须新RUN，不改decision旧件。
+
+batch：engine_version=3.0.0；performance_status=NOT_RUN。script对应plan_id；封面主副与publish title分开。segments最少4个功能段，正文按信息拆多段，非固定六镜头；每段有id/role/duration_seconds/purpose/text/visual/subtitle/shot。shot含framing/camera/action/material_id/edit_cue/sound/subtitle_focus/silent_hold_seconds。首段3秒/累计8秒为编辑目标，时长估计不能当真人计时。director_plan含format/visual_premise/performance_note/continuity/editing_rule/fallback/shoot_order。
+
+calling含intent与brief objective一致，line真实位于结尾。comment_hook独立含line/viewer_reason/input/next_step/intent/placement；placement可ending/pinned_comment/alternative/disabled，与Calling同目的；备选或禁用不进入连续口播。asset_applications逐角色绑定实际台词和迁移。composition含audience_question/primary_action/hook_slots/body_beats/payoff/takeaway/calling的实际引文。claim_links仅写实际台词子串与当前事实ID；未解主张不能靠备注放行。
+
+review：先content_decisions与delivery_checks，绑定delivery_packet SHA；随后fidelity阶段核来源、composition_checks、information_checks（插画域）、七项gate_checks、commercial_checks（按本篇观看/行动任务，不强制交易）和asset_checks。items.scores可选诊断，不能以分数放行或否决实际语义。最终review绑定batch/decision/asset-pack三个SHA。最多两轮局部返修；新稿新审。
+
+validate与export使用RUN/knowledge。当前快照的release-policy、Manifest/index及实际文件集必须一致，不接受旧版--kb回退。逐字请求、附件、当前资源状态和输出版本都可回查；声明/收据不证明私下思考顺序或身份。
+
+封面承诺TOP N时，script.content_items必须有N个不同label，每项含segment_id及正文quote；程序核项数与实际原句，类别是否真正不同仍需编辑。
+
+用户明确锁定首句及次句且允许保留超编辑预算时，copy_locks.allow_timing_overrun=true，估读秒数如实给足，script.timing_exception_note说明待确认；不凭锁定标签声称3/8秒已达成，超预算不判发布就绪。原文只作参考时不自动继承此例外。

@@ -1,1 +1,0 @@
-{"asset_id": "xiaohongshu:LEGACY:MAP", "source_file": "xiaohongshu_hooks.csv", "canonical_hooks": ["SHARED:H01", "SHARED:H02", "SHARED:H03", "SHARED:H04", "SHARED:H05", "SHARED:H06", "SHARED:H07", "SHARED:H08", "SHARED:H09", "SHARED:H10", "SHARED:H11", "SHARED:H12"], "reason": "原100条含未经证实数字/威胁/稀缺，保留来源，采用12类经约束的机制而非照抄"}

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "SRC1",
+    "filename": "插画赛道口播稿笔记2(1).txt",
+    "sha256": "a1a54741c30ca56bc5fd19692438110c4e251a0bd0b92fab668816ad17f926a5",
+    "bytes": 21988,
+    "chars": 8994,
+    "stored_path": "standards/20261118/originals/插画赛道口播稿笔记2(1).txt"
+  },
+  {
+    "id": "SRC2",
+    "filename": "自媒体封面标题+副标题(2).txt",
+    "sha256": "78e9000998cdbf3a015420ed31218cfed3952666bbc117d1701b2e04fc6d2612",
+    "bytes": 3971,
+    "chars": 1594,
+    "stored_path": "standards/20261118/originals/自媒体封面标题+副标题(2).txt"
+  },
+  {
+    "id": "SRC3",
+    "filename": "爆款封面标题与副标题创作指导B版.txt",
+    "sha256": "f883b9d461c320014c61e8b347b7c3fd735961dc67a927a09756a1f3f23c0140",
+    "bytes": 35834,
+    "chars": 13215,
+    "stored_path": "standards/20261118/originals/爆款封面标题与副标题创作指导B版.txt"
+  },
+  {
+    "id": "SRC4",
+    "filename": "1118插画赛道口播_规范和方法库(3).docx",
+    "sha256": "17a216f02d70706c891f69788f6fcf4bde1515d40e15a4893b4f2de99e1699ef",
+    "bytes": 71621,
+    "paragraphs": 66,
+    "tables": 13,
+    "extra_parts": [
+      "word/endnotes.xml",
+      "word/footer1.xml",
+      "word/footnotes.xml"
+    ],
+    "embedded_media": [],
+    "stored_path": "standards/20261118/originals/1118插画赛道口播_规范和方法库(3).docx"
+  },
+  {
+    "id": "SRC5",
+    "filename": "三平台封面标题_新版(1).docx",
+    "sha256": "feb1ac8990ecf4b3e76d434da8911622d0c8854547b0468185969927c2eb0bde",
+    "bytes": 71986,
+    "paragraphs": 174,
+    "tables": 19,
+    "extra_parts": [
+      "word/endnotes.xml",
+      "word/footer1.xml",
+      "word/footnotes.xml",
+      "word/header1.xml"
+    ],
+    "embedded_media": [],
+    "stored_path": "standards/20261118/originals/三平台封面标题_新版(1).docx"
+  },
+  {
+    "id": "SRC6",
+    "filename": "illustration_spoken_18插画口播稿（完整）(1).xlsx",
+    "sha256": "993938d04de9f0b63df8c9642a003d4005d060996065778bda48c8e8d304c629",
+    "bytes": 46924,
+    "sheets": [
+      {
+        "name": "01_小红书6稿",
+        "dimensions": "A1:Q7",
+        "state": "visible",
+        "merged": [],
+        "hidden_rows": [],
+        "hidden_cols": [],
+        "freeze": "A2",
+        "filter": "A1:Q7",
+        "image_count": 0,
+        "nonempty_cells": 119,
+        "chars": 7298
+      },
+      {
+        "name": "02_抖音6稿",
+        "dimensions": "A1:Q7",
+        "state": "visible",
+        "merged": [],
+        "hidden_rows": [],
+        "hidden_cols": [],
+        "freeze": "A2",
+        "filter": "A1:Q7",
+        "image_count": 0,
+        "nonempty_cells": 119,
+        "chars": 6624
+      },
+      {
+        "name": "03_视频号6稿",
+        "dimensions": "A1:Q7",
+        "state": "visible",
+        "merged": [],
+        "hidden_rows": [],
+        "hidden_cols": [],
+        "freeze": "A2",
+        "filter": "A1:Q7",
+        "image_count": 0,
+        "nonempty_cells": 119,
+        "chars": 7143
+      },
+      {
+        "name": "04_拍摄执行卡",
+        "dimensions": "A1:H109",
+        "state": "visible",
+        "merged": [],
+        "hidden_rows": [],
+        "hidden_cols": [],
+        "freeze": "A2",
+        "filter": "A1:H109",
+        "image_count": 0,
+        "nonempty_cells": 872,
+        "chars": 24549
+      }
+    ],
+    "stored_path": "standards/20261118/originals/illustration_spoken_18插画口播稿（完整）(1).xlsx"
+  }
+]

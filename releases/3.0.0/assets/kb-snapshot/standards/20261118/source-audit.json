@@ -1,0 +1,140 @@
+{
+  "source_release": "20261118-evening",
+  "scope": "all 6 uploaded artifacts",
+  "cells": 1229,
+  "script_rows": 18,
+  "shot_rows": 108,
+  "cover_rows": 15,
+  "cover_platform_counts": [
+    6,
+    5,
+    4
+  ],
+  "word_blocks": 272,
+  "comments": 0,
+  "hidden_sheets": 0,
+  "conflicts": [
+    {
+      "source": "SRC4:T04/R4,C4;P020;P021;P061",
+      "resolution": "不制造结果；未执行不称兑现；不移植导师收入；关键承诺须事实/画面。原文不修改。"
+    },
+    {
+      "source": "SRC4:T01/R6",
+      "resolution": "本轮XLSX是4表18稿108执行行，不是旧10页73案例17全文。"
+    },
+    {
+      "source": "SRC5:P003,P025",
+      "resolution": "封面选集实数15组（6/5/4）；18是工作簿口播数。未列3组不补回封面选集。"
+    },
+    {
+      "source": "SRC3:一/八/十;SRC5:P006,P009,P024,P168",
+      "resolution": "后置V4校注覆盖V3机械规则：共同任务、联合封面价值、可选情绪与审美、非固定平台句式、无自评分放行。"
+    },
+    {
+      "source": "SRC5:T14;SRC6:03_视频号6稿!F2:Q2",
+      "resolution": "大Boss/试单到系列合作必须单独核事实，不因原小鸭稿存在就当身份反转已证。"
+    },
+    {
+      "source": "SRC6:04_拍摄执行卡!F63,H63,F105,H105",
+      "resolution": "联名新闻日期F列2026-05-08与H列2026-05-25冲突，原件核实前不填确切日。"
+    }
+  ],
+  "sample_issues": [
+    {
+      "sample_id": "XHS-AC01",
+      "source": "01_小红书6稿!A2:Q2",
+      "issue": "SPLIT_VS_FULLTEXT_MISMATCH"
+    },
+    {
+      "sample_id": "XHS-AC01",
+      "source": "01_小红书6稿!A2:Q2",
+      "issue": "CALLING_VS_FULLTEXT_MISMATCH"
+    },
+    {
+      "sample_id": "XHS-AC02",
+      "source": "01_小红书6稿!A3:Q3",
+      "issue": "SPLIT_VS_FULLTEXT_MISMATCH"
+    },
+    {
+      "sample_id": "XHS-AC02",
+      "source": "01_小红书6稿!A3:Q3",
+      "issue": "CALLING_VS_FULLTEXT_MISMATCH"
+    },
+    {
+      "sample_id": "XHS-AC02",
+      "source": "01_小红书6稿!A3:Q3",
+      "issue": "LAUNCH_CLAIM_REQUIRES_PRODUCT_EVIDENCE"
+    },
+    {
+      "sample_id": "XHS-AC04",
+      "source": "01_小红书6稿!A4:Q4",
+      "issue": "SPLIT_VS_FULLTEXT_MISMATCH"
+    },
+    {
+      "sample_id": "XHS-AC04",
+      "source": "01_小红书6稿!A4:Q4",
+      "issue": "CALLING_VS_FULLTEXT_MISMATCH"
+    },
+    {
+      "sample_id": "XHS-AC05",
+      "source": "01_小红书6稿!A5:Q5",
+      "issue": "SPLIT_VS_FULLTEXT_MISMATCH"
+    },
+    {
+      "sample_id": "XHS-AC05",
+      "source": "01_小红书6稿!A5:Q5",
+      "issue": "CALLING_VS_FULLTEXT_MISMATCH"
+    },
+    {
+      "sample_id": "XHS-AC07",
+      "source": "01_小红书6稿!A6:Q6",
+      "issue": "COMMISSION_VS_INTERNAL_DEVELOPMENT_CONFLICT"
+    },
+    {
+      "sample_id": "XHS-AC09",
+      "source": "01_小红书6稿!A7:Q7",
+      "issue": "STYLE_LEARNING_MUST_NOT_BECOME_RIGHTS_LECTURE"
+    },
+    {
+      "sample_id": "DY-AC03",
+      "source": "02_抖音6稿!A3:Q3",
+      "issue": "BOOKING_CLAIM_REQUIRES_CURRENT_USER_FACTS"
+    },
+    {
+      "sample_id": "DY-AC03",
+      "source": "02_抖音6稿!A3:Q3",
+      "issue": "LATEST_COVER_REQUIRES_FIVE_STYLES_NOT_TWO_PRODUCT_COMPARISON"
+    },
+    {
+      "sample_id": "DY-AC09",
+      "source": "02_抖音6稿!A7:Q7",
+      "issue": "STYLE_LEARNING_MUST_NOT_BECOME_RIGHTS_LECTURE"
+    },
+    {
+      "sample_id": "WX-AC02",
+      "source": "03_视频号6稿!A2:Q2",
+      "issue": "LAUNCH_CLAIM_REQUIRES_PRODUCT_EVIDENCE"
+    },
+    {
+      "sample_id": "WX-AC02",
+      "source": "03_视频号6稿!A2:Q2",
+      "issue": "LATEST_COVER_IDENTITY_REVERSAL_NOT_PROVED_BY_OLD_BODY"
+    },
+    {
+      "sample_id": "WX-AC03",
+      "source": "03_视频号6稿!A3:Q3",
+      "issue": "BOOKING_CLAIM_REQUIRES_CURRENT_USER_FACTS"
+    },
+    {
+      "sample_id": "WX-AC07",
+      "source": "03_视频号6稿!A6:Q6",
+      "issue": "COMMISSION_VS_INTERNAL_DEVELOPMENT_CONFLICT"
+    },
+    {
+      "sample_id": "WX-AC07",
+      "source": "03_视频号6稿!A6:Q6",
+      "issue": "ALLIANCE_RELATION_UNRESOLVED"
+    }
+  ],
+  "no_original_changed": true
+}

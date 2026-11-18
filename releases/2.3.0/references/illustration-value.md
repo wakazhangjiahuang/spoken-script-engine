@@ -1,7 +1,0 @@
-# 插画分支｜当前1118标准
-
-先读检索返回的domains/illustration/delivery-standard.md、standard-20261118-raw.md和source-audit-20261118.json。Word逐段来源和冲突处理在审计文件；XLSX有73条归档记录、39个目录事件族、50条来源与17份全文，均不等于已核订单或已发布成功样例。按明确case_ids或event_family取对应记录，全文只从H列保存的fulltext-references读取；归档L列可能截断。未知来源ID保留未知，不猜补。
-
-沿用audience_information、information_contract和information_delivery。先产两种同案开头候选，用prepare_openings.py给独立上下文只看实际首屏，得到opening_review后才plan。判据与字段详见surface_contract.py；它只核绑定，不能自动识别吸引力。
-
-用户口述项目可以第一人称完整组织已给信息，不为“保守”改成检索教程；缺失关键选择/画稿只列内部待校正项，不编事实，不在台词重复念审稿提醒。官方商品无需证明买过本人作品；但正在采购、销量、排名需另外来源。新标准与历史示范开头冲突时按当前受众利益重写。
