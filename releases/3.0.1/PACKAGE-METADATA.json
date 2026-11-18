@@ -1,0 +1,9 @@
+{
+  "package_name": "spoken-script-engine",
+  "skill_package_version": "3.0.1",
+  "engine_contract_version": "3.0.0",
+  "knowledge_snapshot": "20261118-evening",
+  "source_registry": "../../REPO-REGISTRY.json",
+  "package_scope": "standalone Skill bundle; excludes plugin manifests",
+  "compatibility": "Patch release; keeps the 3.0.0 batch/schema contract"
+}
