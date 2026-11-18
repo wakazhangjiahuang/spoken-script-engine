@@ -1,0 +1,93 @@
+{
+  "selected": [
+    {
+      "id": "DY-PLAN-01",
+      "platform": "douyin",
+      "objective": "inquiry",
+      "buyer_decision": "评估客服知识库助手时，是否把资料缺失的标记与人工接手路径纳入演示检查，而不是要求所有问题立即有答案。",
+      "tension": "企业需要客服得到回答，但现有资料不一定覆盖问题；不能把没有依据的内容包装成已确认答复。",
+      "stakes": "不说明资料缺失与人工接手，买家无法区分有出处的回答和仍需确认的问题；不推断实际损失或事故。",
+      "intervention": "以用户确认的演示选择为依据：有依据显示来源，资料缺失标待确认并转人工；给观众资料外提问的检查动作。",
+      "proof": "自有演示录屏DEMO（available、demonstration），只说明演示行为；原文件本轮未提供，按用户确认事实编写，拍摄前核对对应画面。",
+      "payoff": "正文交付可复用检查：选资料外的问题，看是否明确标待确认并转人工，有依据的回答看来源。",
+      "cta_reason": "有客服知识库需求者可带一个脱敏问题咨询，把这条边界用于自己的资料范围与接手安排。",
+      "qualification": "正在做客服知识库，带一个脱敏问题作为最少输入。",
+      "next_step": "共同讨论该问题所需资料和何时应转人工，不承诺免费诊断、效果或必定回复。",
+      "asset_refs": {
+        "hook": {
+          "asset_id": "SHARED:H306",
+          "record_sha256": "f422d2a69a454a4f511ebc2f6745b4230c83e8d697fc9b467f33424e32bceb58",
+          "why": "首镜显示演示中的待确认状态，先给可见产物，再解释为什么保留人工处理。"
+        },
+        "body": {
+          "asset_id": "SHARED:F16",
+          "record_sha256": "861ac164a86046be6c155a36a85e6cdc99118d1b192e93659ddedf74b3a9ad7c",
+          "why": "资料缺失的约束→标待确认并转人工的选择→演示中指认→买家资料外提问的判断标准；不借用异业故事。"
+        },
+        "calling": {
+          "asset_id": "SHARED:CTA:09",
+          "record_sha256": "41da8281c49f5d497577a49855efa576c264371eb29e645daded74766add4de7",
+          "why": "咨询接正文的人机边界：限定客服知识库任务，只需一个脱敏问题，下一步讨论资料和转人工条件；不指定未核验私信入口。"
+        },
+        "platform": {
+          "asset_id": "DY:APP:F16",
+          "record_sha256": "eebe22706ddf22324779339abd53ef6e23158d20e88a868c674697e3ac1839a0",
+          "why": "抖音用待确认录屏开场，快速出现人工处理选择，随后展示有来源分支；围绕演示给单一咨询动作。"
+        }
+      },
+      "selection_scores": {
+        "audience_relevance": {
+          "score": 4,
+          "reason": "直接回应企业评估客服知识库时的资料缺失处理决定，问题与判据都来自锁定主题。"
+        },
+        "evidence_fit": {
+          "score": 4,
+          "reason": "全部功能主张限于已确认演示两种状态，不需要收益数字或客户案例。"
+        },
+        "platform_fit": {
+          "score": 3,
+          "reason": "待确认状态首镜可见，适于短口播和快速录屏解释；现有录屏未审看，平台当前规则仍未核验。"
+        },
+        "action_fit": {
+          "score": 3,
+          "reason": "最少输入和下一步明确，可写渠道中性的咨询邀请；账号可用入口仍待核验。"
+        }
+      },
+      "first_shot": "从自有演示中取待确认状态画面，保留问题区和演示标识，字幕说明客服知识库；不添加未确认字段。",
+      "fallback": "如果对应录屏画面无法使用，改为成员对镜说明已确认演示选择，用明确标示的说明字幕，不伪装真实产品界面；现版本拍摄前先核对素材。"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "DY-REJECT-01",
+      "platform": "douyin",
+      "reason": "弃选省下多少人工时间的结果开场：没有计时、基线、客户或准确率数据，无法兑现收益承诺。",
+      "selection_scores": {
+        "audience_relevance": {
+          "score": 3,
+          "reason": "节省人工可能与采购有关，但本次锁定的主要决定是资料缺失处理。"
+        },
+        "evidence_fit": {
+          "score": 0,
+          "reason": "用户明确未提供省时、准确率、成交或评价数据，演示功能不能推导业务收益。"
+        },
+        "platform_fit": {
+          "score": 2,
+          "reason": "数字虽容易放在首镜，但没有可展示且可靠的数据证明。"
+        },
+        "action_fit": {
+          "score": 2,
+          "reason": "收益引来的咨询与已有证据不一致，难以把下一步限于已证明的演示范围。"
+        }
+      }
+    }
+  ],
+  "retrieval_notes": {
+    "approved_editorial_examples_selected": 0,
+    "real_cases": 0,
+    "published_scripts": 0,
+    "example_match_status": "NO_DOMAIN_EXAMPLE_MATCH",
+    "rules_status": "本轮平台规则未核验；知识包历史规则文字不得冒充本轮核验。",
+    "candidate_comparison_count": 2
+  }
+}

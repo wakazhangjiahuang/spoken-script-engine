@@ -1,0 +1,73 @@
+{
+  "id": "illustration-20261118",
+  "version": "2026-11-18",
+  "source": "1118插画赛道口播_规范和方法库(1).docx",
+  "source_sha256": "4796123344e0275d07150c4093d21d7f934a42ea04cd66f9766d4543f471d439",
+  "source_sections": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "06",
+    "07",
+    "10",
+    "11",
+    "12"
+  ],
+  "opening_priority": "实际首句直接表达与主要受众有关的具体机会/收益/业务阻碍；清楚、品牌名、SKU和方法清单本身不能替代观看理由。",
+  "body_contract": "客户需求→关键选择→证据→观众如何用；DIY笔刷作为实现需求的工具证据",
+  "primary_roles": [
+    "designer",
+    "beginner",
+    "brand_factory",
+    "trader"
+  ],
+  "information_types": [
+    "user_project",
+    "official_product",
+    "market_research",
+    "original_development",
+    "explicit_technical_tutorial",
+    "behind_scenes"
+  ],
+  "source_classes": [
+    "user_project",
+    "official_product",
+    "research",
+    "original_work",
+    "historical_example",
+    "hypothetical"
+  ],
+  "checks": [
+    "opening_value",
+    "new_fact",
+    "story_decision",
+    "viewer_use",
+    "calling_input"
+  ],
+  "audiences": {
+    "designer": "具名或可界定的地区/品牌/品类、采购方向、询盘渠道及作品展示要点",
+    "beginner": "有商品参照的题材、作品任务和工具用途",
+    "brand_factory": "真实商品、目标品类、原创应用方向与交付边界",
+    "trader": "目标市场/品类样本、时间口径和原创设计输入条件"
+  },
+  "not_automatic": [
+    "文档样例不是全部已核实商业事实",
+    "官方品牌/趋势的原始网页必须另查",
+    "用户本人项目可以按陈述写，不冒称已验证收款",
+    "不将一次订单泛化为一国偏好或保证他人接单"
+  ],
+  "active_standard": "domains/illustration/delivery-standard.md",
+  "raw_standard": "domains/illustration/standard-20261118-raw.md",
+  "source_audit": "domains/illustration/source-audit-20261118.json",
+  "catalogue": "domains/illustration/case-catalogue.jsonl",
+  "fulltexts": "domains/illustration/fulltext-references.jsonl",
+  "sources": "domains/illustration/source-catalogue.jsonl",
+  "opening_approval": "independent raw first8 judgement before drafting; user acceptance/performance remain unverified",
+  "catalogue_counts": {
+    "case_records": 73,
+    "event_families": 39,
+    "source_records": 50,
+    "fulltext_records": 17
+  }
+}
