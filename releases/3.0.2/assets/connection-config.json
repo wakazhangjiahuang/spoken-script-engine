@@ -1,0 +1,42 @@
+{
+  "version": "3.0.2",
+  "status": "verified_pinned_source",
+  "storyboard": {
+    "repository": "wakazhangjiahuang/ai-video-storyboard",
+    "asset_ref": "df2d353be470d411fc1f3a523cb513a2f34ba09f",
+    "entrypoint": "knowledge/index.json",
+    "optional_indexes": {
+      "talking": "indexes/REF-BASE10/S06.json",
+      "tutorial": "indexes/REF-BASE10/S04.json",
+      "comparison": "indexes/REF-BASE10/S08.json",
+      "sound": "indexes/KB-CINEMA/S11.json"
+    }
+  },
+  "spoken": {
+    "repository": "wakazhangjiahuang/spoken-script-engine",
+    "visibility_required": "private",
+    "registry": "REPO-REGISTRY.json",
+    "manifest_ref": "cb46c56cf6dd2beb6e4bfd236a10ab5a2a807560",
+    "asset_ref": "cb46c56cf6dd2beb6e4bfd236a10ab5a2a807560",
+    "version": "3.0.0",
+    "visibility": "private",
+    "base_path": "releases/3.0.1/assets/kb-snapshot/",
+    "manifest_path": "releases/3.0.1/assets/kb-snapshot/KB-MANIFEST.json",
+    "engine_path": "releases/3.0.2/",
+    "previous_root_assets": "removed_from_current_branch_history_retained",
+    "checked_at": "2026-11-19",
+    "engine_ref_policy": "registry_commit"
+  },
+  "fallback": "kb-snapshot",
+  "checked_at": "2026-11-19",
+  "bundled_snapshot": {
+    "version": "3.0.0",
+    "path": "kb-snapshot",
+    "manifest_sha256": "4730d19c0b6559eb6c836014ae407606c7744e79be79327ac8bc0fd0b638fc7e"
+  },
+  "release": {
+    "skill_package_version": "3.0.2",
+    "engine_contract_version": "3.0.0",
+    "knowledge_snapshot": "20261118-evening"
+  }
+}

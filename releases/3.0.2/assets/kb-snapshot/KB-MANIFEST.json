@@ -1,0 +1,609 @@
+{
+  "version": "3.0.0",
+  "source": {
+    "approved_guidance": "standards/current-method.md",
+    "overlay_version": "3.0.0",
+    "primary_uploads": [
+      {
+        "id": "SRC1",
+        "filename": "插画赛道口播稿笔记2(1).txt",
+        "sha256": "a1a54741c30ca56bc5fd19692438110c4e251a0bd0b92fab668816ad17f926a5",
+        "bytes": 21988,
+        "chars": 8994,
+        "stored_path": "standards/20261118/originals/插画赛道口播稿笔记2(1).txt"
+      },
+      {
+        "id": "SRC2",
+        "filename": "自媒体封面标题+副标题(2).txt",
+        "sha256": "78e9000998cdbf3a015420ed31218cfed3952666bbc117d1701b2e04fc6d2612",
+        "bytes": 3971,
+        "chars": 1594,
+        "stored_path": "standards/20261118/originals/自媒体封面标题+副标题(2).txt"
+      },
+      {
+        "id": "SRC3",
+        "filename": "爆款封面标题与副标题创作指导B版.txt",
+        "sha256": "f883b9d461c320014c61e8b347b7c3fd735961dc67a927a09756a1f3f23c0140",
+        "bytes": 35834,
+        "chars": 13215,
+        "stored_path": "standards/20261118/originals/爆款封面标题与副标题创作指导B版.txt"
+      },
+      {
+        "id": "SRC4",
+        "filename": "1118插画赛道口播_规范和方法库(3).docx",
+        "sha256": "17a216f02d70706c891f69788f6fcf4bde1515d40e15a4893b4f2de99e1699ef",
+        "bytes": 71621,
+        "paragraphs": 66,
+        "tables": 13,
+        "extra_parts": [
+          "word/endnotes.xml",
+          "word/footer1.xml",
+          "word/footnotes.xml"
+        ],
+        "embedded_media": [],
+        "stored_path": "standards/20261118/originals/1118插画赛道口播_规范和方法库(3).docx"
+      },
+      {
+        "id": "SRC5",
+        "filename": "三平台封面标题_新版(1).docx",
+        "sha256": "feb1ac8990ecf4b3e76d434da8911622d0c8854547b0468185969927c2eb0bde",
+        "bytes": 71986,
+        "paragraphs": 174,
+        "tables": 19,
+        "extra_parts": [
+          "word/endnotes.xml",
+          "word/footer1.xml",
+          "word/footnotes.xml",
+          "word/header1.xml"
+        ],
+        "embedded_media": [],
+        "stored_path": "standards/20261118/originals/三平台封面标题_新版(1).docx"
+      },
+      {
+        "id": "SRC6",
+        "filename": "illustration_spoken_18插画口播稿（完整）(1).xlsx",
+        "sha256": "993938d04de9f0b63df8c9642a003d4005d060996065778bda48c8e8d304c629",
+        "bytes": 46924,
+        "sheets": [
+          {
+            "name": "01_小红书6稿",
+            "dimensions": "A1:Q7",
+            "state": "visible",
+            "merged": [],
+            "hidden_rows": [],
+            "hidden_cols": [],
+            "freeze": "A2",
+            "filter": "A1:Q7",
+            "image_count": 0,
+            "nonempty_cells": 119,
+            "chars": 7298
+          },
+          {
+            "name": "02_抖音6稿",
+            "dimensions": "A1:Q7",
+            "state": "visible",
+            "merged": [],
+            "hidden_rows": [],
+            "hidden_cols": [],
+            "freeze": "A2",
+            "filter": "A1:Q7",
+            "image_count": 0,
+            "nonempty_cells": 119,
+            "chars": 6624
+          },
+          {
+            "name": "03_视频号6稿",
+            "dimensions": "A1:Q7",
+            "state": "visible",
+            "merged": [],
+            "hidden_rows": [],
+            "hidden_cols": [],
+            "freeze": "A2",
+            "filter": "A1:Q7",
+            "image_count": 0,
+            "nonempty_cells": 119,
+            "chars": 7143
+          },
+          {
+            "name": "04_拍摄执行卡",
+            "dimensions": "A1:H109",
+            "state": "visible",
+            "merged": [],
+            "hidden_rows": [],
+            "hidden_cols": [],
+            "freeze": "A2",
+            "filter": "A1:H109",
+            "image_count": 0,
+            "nonempty_cells": 872,
+            "chars": 24549
+          }
+        ],
+        "stored_path": "standards/20261118/originals/illustration_spoken_18插画口播稿（完整）(1).xlsx"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "domains/illustration/opening-references.jsonl",
+      "path": "domains/illustration/opening-references.jsonl",
+      "sha256": "85267ea57ed564cbab010e0c6fc7f25a8ab0e03c7bef2c539c0a2c3955d7749c",
+      "platform": "shared"
+    },
+    {
+      "id": "domains/illustration/profile.json",
+      "path": "domains/illustration/profile.json",
+      "sha256": "68e1b171ac76b3c16dd804c328bdf0859f32d64ba31535b1de7ed20c2397cd3a",
+      "platform": "shared"
+    },
+    {
+      "id": "memory/events.jsonl",
+      "path": "memory/events.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "platform": "shared"
+    },
+    {
+      "id": "platforms/channels/adapter.md",
+      "path": "platforms/channels/adapter.md",
+      "sha256": "a6e59716a39d76f9364a54670f5a80c9438807a52d974f67c406af22a5d42bd7",
+      "platform": "channels"
+    },
+    {
+      "id": "platforms/channels/cases-index.jsonl",
+      "path": "platforms/channels/cases-index.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "platform": "channels"
+    },
+    {
+      "id": "platforms/channels/current-examples.jsonl",
+      "path": "platforms/channels/current-examples.jsonl",
+      "sha256": "d4c074d8022de7e42eac0a70055a3b082d9b25f86c8f0ebd39c5604490578127",
+      "platform": "channels"
+    },
+    {
+      "id": "platforms/channels/entry-and-actions.jsonl",
+      "path": "platforms/channels/entry-and-actions.jsonl",
+      "sha256": "1e037b05d8dfc934b97fb6afb9baf80d2158965bbb1bbd91971b4d1f478dcfcf",
+      "platform": "channels"
+    },
+    {
+      "id": "platforms/channels/formula-applications.jsonl",
+      "path": "platforms/channels/formula-applications.jsonl",
+      "sha256": "1322398b4d196afb7effd75ee3326851e1b8fb4280deb808277a9e4f00c35712",
+      "platform": "channels"
+    },
+    {
+      "id": "platforms/channels/hooks.jsonl",
+      "path": "platforms/channels/hooks.jsonl",
+      "sha256": "56a455b53ef8ab4827660d55c5aa972695ea35e59e837e79f8e639a46411b9e9",
+      "platform": "channels"
+    },
+    {
+      "id": "platforms/channels/proofs.jsonl",
+      "path": "platforms/channels/proofs.jsonl",
+      "sha256": "be85fc9398cb4646913d0f55eccd6d5f72d4287eb5174af52ce000f9563e4248",
+      "platform": "channels"
+    },
+    {
+      "id": "platforms/channels/routing.jsonl",
+      "path": "platforms/channels/routing.jsonl",
+      "sha256": "5fdf80696cbad7ced2ffb41a37e1626a6f948976eccadf333272ee52413347aa",
+      "platform": "channels"
+    },
+    {
+      "id": "platforms/channels/scripts-index.jsonl",
+      "path": "platforms/channels/scripts-index.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "platform": "channels"
+    },
+    {
+      "id": "platforms/channels/seo-keywords.jsonl",
+      "path": "platforms/channels/seo-keywords.jsonl",
+      "sha256": "3a5e55873efb4d5cadbc75d48f95f043de3821f24166062b7480c9e75f84f29f",
+      "platform": "channels"
+    },
+    {
+      "id": "platforms/douyin/adapter.md",
+      "path": "platforms/douyin/adapter.md",
+      "sha256": "a6e59716a39d76f9364a54670f5a80c9438807a52d974f67c406af22a5d42bd7",
+      "platform": "douyin"
+    },
+    {
+      "id": "platforms/douyin/cases-index.jsonl",
+      "path": "platforms/douyin/cases-index.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "platform": "douyin"
+    },
+    {
+      "id": "platforms/douyin/current-examples.jsonl",
+      "path": "platforms/douyin/current-examples.jsonl",
+      "sha256": "2d9fa65ddf95ce410ed3af6481e40b344efe908ecce7bf4e97350b8d15a582ac",
+      "platform": "douyin"
+    },
+    {
+      "id": "platforms/douyin/entry-and-actions.jsonl",
+      "path": "platforms/douyin/entry-and-actions.jsonl",
+      "sha256": "113ad775ef0ee25cd0f01e93ceb7c7d307454940f27bef242974e4cc8823ce2f",
+      "platform": "douyin"
+    },
+    {
+      "id": "platforms/douyin/formula-applications.jsonl",
+      "path": "platforms/douyin/formula-applications.jsonl",
+      "sha256": "aa774c34d98423a546ac34cd30f76f2bf742d29944a142d3a44cb148f35567bc",
+      "platform": "douyin"
+    },
+    {
+      "id": "platforms/douyin/hooks.jsonl",
+      "path": "platforms/douyin/hooks.jsonl",
+      "sha256": "f3a2b6c9f3ba5139a944debf86853f2769ddf75201d20c41ae6f99ae2e886d6d",
+      "platform": "douyin"
+    },
+    {
+      "id": "platforms/douyin/proofs.jsonl",
+      "path": "platforms/douyin/proofs.jsonl",
+      "sha256": "a0547e9f3cc2df2b05110ca56e426c24e3cb7a784de65de31446dee67ab7b482",
+      "platform": "douyin"
+    },
+    {
+      "id": "platforms/douyin/routing.jsonl",
+      "path": "platforms/douyin/routing.jsonl",
+      "sha256": "24c6ed3a9299eba09cd9923915eb612c0a33e72bea1f882fc8fb07945248814f",
+      "platform": "douyin"
+    },
+    {
+      "id": "platforms/douyin/scripts-index.jsonl",
+      "path": "platforms/douyin/scripts-index.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "platform": "douyin"
+    },
+    {
+      "id": "platforms/douyin/seo-keywords.jsonl",
+      "path": "platforms/douyin/seo-keywords.jsonl",
+      "sha256": "602ac912f17bdcba6e6af317aa2fc1eedfbc627e8d7bb054375fd7c147947303",
+      "platform": "douyin"
+    },
+    {
+      "id": "platforms/xiaohongshu/adapter.md",
+      "path": "platforms/xiaohongshu/adapter.md",
+      "sha256": "a6e59716a39d76f9364a54670f5a80c9438807a52d974f67c406af22a5d42bd7",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "platforms/xiaohongshu/cases-index.jsonl",
+      "path": "platforms/xiaohongshu/cases-index.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "platforms/xiaohongshu/current-examples.jsonl",
+      "path": "platforms/xiaohongshu/current-examples.jsonl",
+      "sha256": "5bed19011307558809a0ea3feac8fc89338b6b87c394b4de6722737acaefc7a7",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "platforms/xiaohongshu/entry-and-actions.jsonl",
+      "path": "platforms/xiaohongshu/entry-and-actions.jsonl",
+      "sha256": "b09f51aa89d197edcf14a1e4629986ade7ac2984aeec732e3f0e89763d962d57",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "platforms/xiaohongshu/formula-applications.jsonl",
+      "path": "platforms/xiaohongshu/formula-applications.jsonl",
+      "sha256": "4e0483b746499e34e97ea82b8b193c12a95eeadea6cd108e7787b0f84b634845",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "platforms/xiaohongshu/hooks.jsonl",
+      "path": "platforms/xiaohongshu/hooks.jsonl",
+      "sha256": "31656fa46f5141b3ef636d5ce09cfaa50394e2602bf0c5c7fc7369e1f86574f0",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "platforms/xiaohongshu/proofs.jsonl",
+      "path": "platforms/xiaohongshu/proofs.jsonl",
+      "sha256": "0eae088e425212bc70a5ee69c00c35b9d765cd2632b28df5230d61d7057d206f",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "platforms/xiaohongshu/routing.jsonl",
+      "path": "platforms/xiaohongshu/routing.jsonl",
+      "sha256": "47d81ac67d6b4d529249ec786a7509ce5d563eed70b61a062bd82b9086a66a2a",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "platforms/xiaohongshu/scripts-index.jsonl",
+      "path": "platforms/xiaohongshu/scripts-index.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "platforms/xiaohongshu/seo-keywords.jsonl",
+      "path": "platforms/xiaohongshu/seo-keywords.jsonl",
+      "sha256": "d325c1730c6a30d1103e49d54a909fabdc221d8d93414c7bf3e372b7c305d3be",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "release-policy.json",
+      "path": "release-policy.json",
+      "sha256": "51371758d18b19eba31b0c648e727033bdc5d3543204b9b005d748c48ba806e6",
+      "platform": "shared"
+    },
+    {
+      "id": "rubrics/quality.json",
+      "path": "rubrics/quality.json",
+      "sha256": "f095a49c266610aa0e3133aff6332696b11728b2e7040d586f83ae6d68583b3c",
+      "platform": "shared"
+    },
+    {
+      "id": "rubrics/selection.json",
+      "path": "rubrics/selection.json",
+      "sha256": "b90aadc78102ca5b6b0d27c147ed7ea0389de6cdcb5ad31331e0632a591e5f6e",
+      "platform": "shared"
+    },
+    {
+      "id": "rules/channels/creative-hypotheses.md",
+      "path": "rules/channels/creative-hypotheses.md",
+      "sha256": "79023aac9e92a31d3dead7320b7cf1a5213f6e091f9b35a0014f3caf20748beb",
+      "platform": "channels"
+    },
+    {
+      "id": "rules/channels/mechanisms.md",
+      "path": "rules/channels/mechanisms.md",
+      "sha256": "79023aac9e92a31d3dead7320b7cf1a5213f6e091f9b35a0014f3caf20748beb",
+      "platform": "channels"
+    },
+    {
+      "id": "rules/channels/official-rules.md",
+      "path": "rules/channels/official-rules.md",
+      "sha256": "79023aac9e92a31d3dead7320b7cf1a5213f6e091f9b35a0014f3caf20748beb",
+      "platform": "channels"
+    },
+    {
+      "id": "rules/current-verification.jsonl",
+      "path": "rules/current-verification.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "platform": "shared"
+    },
+    {
+      "id": "rules/douyin/creative-hypotheses.md",
+      "path": "rules/douyin/creative-hypotheses.md",
+      "sha256": "79023aac9e92a31d3dead7320b7cf1a5213f6e091f9b35a0014f3caf20748beb",
+      "platform": "douyin"
+    },
+    {
+      "id": "rules/douyin/mechanisms.md",
+      "path": "rules/douyin/mechanisms.md",
+      "sha256": "79023aac9e92a31d3dead7320b7cf1a5213f6e091f9b35a0014f3caf20748beb",
+      "platform": "douyin"
+    },
+    {
+      "id": "rules/douyin/official-rules.md",
+      "path": "rules/douyin/official-rules.md",
+      "sha256": "79023aac9e92a31d3dead7320b7cf1a5213f6e091f9b35a0014f3caf20748beb",
+      "platform": "douyin"
+    },
+    {
+      "id": "rules/xiaohongshu/creative-hypotheses.md",
+      "path": "rules/xiaohongshu/creative-hypotheses.md",
+      "sha256": "79023aac9e92a31d3dead7320b7cf1a5213f6e091f9b35a0014f3caf20748beb",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "rules/xiaohongshu/mechanisms.md",
+      "path": "rules/xiaohongshu/mechanisms.md",
+      "sha256": "79023aac9e92a31d3dead7320b7cf1a5213f6e091f9b35a0014f3caf20748beb",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "rules/xiaohongshu/official-rules.md",
+      "path": "rules/xiaohongshu/official-rules.md",
+      "sha256": "79023aac9e92a31d3dead7320b7cf1a5213f6e091f9b35a0014f3caf20748beb",
+      "platform": "xiaohongshu"
+    },
+    {
+      "id": "samples/illustration/current-covers.jsonl",
+      "path": "samples/illustration/current-covers.jsonl",
+      "sha256": "da0ef3d92f2ac83b5386744ab438c00b1c296ea1ed727c1d76ddf0268b630dd2",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/attention-genes.jsonl",
+      "path": "shared/attention-genes.jsonl",
+      "sha256": "e789298309e9ad1db4798c92376765ccb922b09b993a9074420be584711a5c05",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/audience-value-translation.md",
+      "path": "shared/audience-value-translation.md",
+      "sha256": "082a35e48c0111bd41986cb52dd8ae757835c3101b59737e81001922407de2e0",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/creator-voice-profile.md",
+      "path": "shared/creator-voice-profile.md",
+      "sha256": "9d45ec92faf1e855d613f1d26557878b42b94975aeb54d02b0754f79ff427df3",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/cta-comment-seeds.jsonl",
+      "path": "shared/cta-comment-seeds.jsonl",
+      "sha256": "c14b38e9e4f072186d16dd41521d724cba674496838f1186dfab74133c1ca988",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/formulas.jsonl",
+      "path": "shared/formulas.jsonl",
+      "sha256": "02218652b18bce597d025902bc0a20a128a63191862a868ee3f12c589aba4239",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/human-voice-patterns.jsonl",
+      "path": "shared/human-voice-patterns.jsonl",
+      "sha256": "e722217d595334c73363b4f66c6ed683973e4cb7b1b743e2115b69a44ecf97c6",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/human-voice.md",
+      "path": "shared/human-voice.md",
+      "sha256": "b63fe80908e7f00185fab7ca69a62a2005711465e60ed7402115e07e50d39233",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/matching.md",
+      "path": "shared/matching.md",
+      "sha256": "4c995008388a74317dac44637c4ef25600664f8356bc812436163c33a66c2e8b",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/needs.jsonl",
+      "path": "shared/needs.jsonl",
+      "sha256": "0361dd323723fa9be4227b1546638b2c9f7ab2e17111807243ea96bfb5b6a35d",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/production-principles.jsonl",
+      "path": "shared/production-principles.jsonl",
+      "sha256": "baeda5a640fbc45a155aa6f262e64c02ede8eafa9f3fb5b1af2df0e931b2547a",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/source-excerpts.jsonl",
+      "path": "shared/source-excerpts.jsonl",
+      "sha256": "24e3ef647577cbeb8d31a798059d2dfc2988825895b8c6be9ab07eaf33686a35",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/spoken-hooks.jsonl",
+      "path": "shared/spoken-hooks.jsonl",
+      "sha256": "da93c355e13b04a54af0d4e014da26fe59cf226407782de41fb15454b4bd57de",
+      "platform": "shared"
+    },
+    {
+      "id": "shared/structure-references.jsonl",
+      "path": "shared/structure-references.jsonl",
+      "sha256": "20323e63b07aa3a5fbd21b49af1034da6eac8a0699b5b0d54d4cdeac60064496",
+      "platform": "shared"
+    },
+    {
+      "id": "sources/current-cover-lines.txt",
+      "path": "sources/current-cover-lines.txt",
+      "sha256": "869d9d1b9c25871e12a05fc1046a7bb80126e60313401ebe6a47dac41176268a",
+      "platform": "shared"
+    },
+    {
+      "id": "sources/current-title-map.jsonl",
+      "path": "sources/current-title-map.jsonl",
+      "sha256": "df207d883804c58ae5ada6b0a7f9b153a0f1d270f27bf2cf6ee92169dfe2dd4d",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/cell-treatment.json",
+      "path": "standards/20261118/cell-treatment.json",
+      "sha256": "c80dd958c33a400f67f00f10203e907ca93848eb494c399e33791e57cc6d0a2f",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/document-blocks.json",
+      "path": "standards/20261118/document-blocks.json",
+      "sha256": "f5a8d170a9ea933cdba4f9af9e20e03433c746d384cb5427a314c16cba644248",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/originals/1118插画赛道口播_规范和方法库(3).docx",
+      "path": "standards/20261118/originals/1118插画赛道口播_规范和方法库(3).docx",
+      "sha256": "17a216f02d70706c891f69788f6fcf4bde1515d40e15a4893b4f2de99e1699ef",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/originals/illustration_spoken_18插画口播稿（完整）(1).xlsx",
+      "path": "standards/20261118/originals/illustration_spoken_18插画口播稿（完整）(1).xlsx",
+      "sha256": "993938d04de9f0b63df8c9642a003d4005d060996065778bda48c8e8d304c629",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/originals/三平台封面标题_新版(1).docx",
+      "path": "standards/20261118/originals/三平台封面标题_新版(1).docx",
+      "sha256": "feb1ac8990ecf4b3e76d434da8911622d0c8854547b0468185969927c2eb0bde",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/originals/插画赛道口播稿笔记2(1).txt",
+      "path": "standards/20261118/originals/插画赛道口播稿笔记2(1).txt",
+      "sha256": "a1a54741c30ca56bc5fd19692438110c4e251a0bd0b92fab668816ad17f926a5",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/originals/爆款封面标题与副标题创作指导B版.txt",
+      "path": "standards/20261118/originals/爆款封面标题与副标题创作指导B版.txt",
+      "sha256": "f883b9d461c320014c61e8b347b7c3fd735961dc67a927a09756a1f3f23c0140",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/originals/自媒体封面标题+副标题(2).txt",
+      "path": "standards/20261118/originals/自媒体封面标题+副标题(2).txt",
+      "sha256": "78e9000998cdbf3a015420ed31218cfed3952666bbc117d1701b2e04fc6d2612",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/source-audit.json",
+      "path": "standards/20261118/source-audit.json",
+      "sha256": "c1345446898b491ff9f524118679a43f5319bbd61b9b29073e8ceeb830b15d3f",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/source-manifest.json",
+      "path": "standards/20261118/source-manifest.json",
+      "sha256": "262ed58430cfc64de22e3adbe8f56361200a565caa302e2fd549eefc13ec0297",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/text/SRC1.txt",
+      "path": "standards/20261118/text/SRC1.txt",
+      "sha256": "1899874e41a84b99233e73dbc7738b3617e8e9c2e26787a51d8b41e8d4159015",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/text/SRC2.txt",
+      "path": "standards/20261118/text/SRC2.txt",
+      "sha256": "a098cad5b59f070c64eed13f4991a2dbb0d9a44d1ee2a3f14ac6731f15481d90",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/text/SRC3.txt",
+      "path": "standards/20261118/text/SRC3.txt",
+      "sha256": "d4d7432f754d1eb17a3a55f24b6eaaa3328032d441de5fcd09ec8139c8954a2b",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/text/SRC4.txt",
+      "path": "standards/20261118/text/SRC4.txt",
+      "sha256": "72ab1f60e93313093680d255e507aab76c25faea3a9388b92f121fd6de1a1e5e",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/text/SRC5.txt",
+      "path": "standards/20261118/text/SRC5.txt",
+      "sha256": "b1fe7d5c30a0e85548ca474af27c20984004e556873f1b95506681492499ad26",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/20261118/workbook-all-cells.json",
+      "path": "standards/20261118/workbook-all-cells.json",
+      "sha256": "c2ab7dec98deb116ffcf46b8796e74dc07e4d1875cd64cb65d294895854a510a",
+      "platform": "shared"
+    },
+    {
+      "id": "standards/current-method.md",
+      "path": "standards/current-method.md",
+      "sha256": "7d8692ef69052f78ac4d08dcd53e3f4cfcdcdabfa62e60679a573e0a75a47329",
+      "platform": "shared"
+    },
+    {
+      "id": "asset-index.jsonl",
+      "path": "asset-index.jsonl",
+      "sha256": "5fcf14ba01c96fdb4702bbd4eba13fa6f56fcce8779b3dcb0f6961970975ed20",
+      "platform": "shared"
+    }
+  ],
+  "release_status": "versioned_release_candidate",
+  "checked_at": "2026-11-18"
+}

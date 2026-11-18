@@ -1,0 +1,8 @@
+{
+  "version": "3.0.0",
+  "source_release": "20261118-evening",
+  "method": "standards/current-method.md",
+  "samples": 18,
+  "covers": 15,
+  "source_facts": "not_current_task_facts"
+}

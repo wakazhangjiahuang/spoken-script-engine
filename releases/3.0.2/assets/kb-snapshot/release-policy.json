@@ -1,0 +1,17 @@
+{
+  "version": "3.0.0",
+  "active_source_release": "20261118-evening",
+  "allowed_source_ids": [
+    "SRC1",
+    "SRC2",
+    "SRC3",
+    "SRC4",
+    "SRC5",
+    "SRC6"
+  ],
+  "legacy_fallback": false,
+  "universal_opening_review": true,
+  "old_examples_allowed": false,
+  "sample_scope": "illustration_only",
+  "generic_genes": "shared/attention-genes.jsonl"
+}
