@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "status": "candidate_unpublished",
+  "status": "verified_pinned_source",
   "storyboard": {
     "repository": "wakazhangjiahuang/ai-video-storyboard",
     "asset_ref": "df2d353be470d411fc1f3a523cb513a2f34ba09f",
@@ -16,8 +16,8 @@
     "repository": "wakazhangjiahuang/spoken-script-engine",
     "visibility_required": "private",
     "registry": "REPO-REGISTRY.json",
-    "manifest_ref": null,
-    "asset_ref": null,
+    "manifest_ref": "c57d771ab85eff0ca0bb7afa0248c5d9ce53cd4e",
+    "asset_ref": "c57d771ab85eff0ca0bb7afa0248c5d9ce53cd4e",
     "version": "3.0.0",
     "visibility": "private",
     "base_path": "releases/3.0.0/assets/kb-snapshot/",
