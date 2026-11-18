@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "releases/3.0.2/**"
+      - "REPO-REGISTRY.json"
+      - "README.md"
       - ".github/workflows/package-skill.yml"
 
 permissions:
