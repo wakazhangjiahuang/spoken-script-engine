@@ -3,7 +3,9 @@ name: spoken-script-engine
 description: 按当前原件创作、改写与诊断跨行业三平台口播；围绕共同任务提炼观看动机，联动封面主副标题、前八秒、正文、Calling、评论和逐段分镜；独立成品审阅后核原式，交付逐字一致的XLSX或完整TXT。
 ---
 
-# 口播稿引擎 v3.0.0
+# 口播稿引擎 v3.0.1
+
+**发布包版本：3.0.1｜引擎/数据合同版本：3.0.0｜知识快照：20261118-evening。** `engine_version=3.0.0` 是批次数据合同标识，不代表 Skill 发布包仍停留在 3.0.0。
 
 先读[当前通用方法](assets/kb-snapshot/standards/current-method.md)，再读[字段合同](references/execution-v1.6.md)和schemas。仅使用release-policy与Manifest允许的当前资料；18篇插画口播、108执行段及15组封面是本轮参考，不是18笔事实已核的订单或18篇效果已验证的成品。旧样例、旧资料路径和旧快照禁止回退。
 
