@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "releases/3.0.1/**"
+      - "releases/3.0.2/**"
       - ".github/workflows/package-skill.yml"
 
 permissions:
@@ -23,19 +23,19 @@ jobs:
       - name: Install runtime test dependency
         run: python -m pip install --upgrade pip openpyxl
       - name: Run regression suite
-        working-directory: releases/3.0.1
+        working-directory: releases/3.0.2
         run: python -m unittest discover -s scripts -p "test_*.py" -v
       - name: Build standalone Skill ZIP
         run: |
           mkdir -p dist/spoken-script-engine
-          cp -R releases/3.0.1/. dist/spoken-script-engine/
+          cp -R releases/3.0.2/. dist/spoken-script-engine/
           find dist/spoken-script-engine -type d -name "__pycache__" -prune -exec rm -rf {} +
           cd dist
-          zip -qr spoken-script-engine-skill-3.0.1.zip spoken-script-engine
+          zip -qr spoken-script-engine-skill-3.0.2.zip spoken-script-engine
       - name: Upload Skill package artifact
         uses: actions/upload-artifact@v4
         with:
-          name: spoken-script-engine-skill-3.0.1
-          path: dist/spoken-script-engine-skill-3.0.1.zip
+          name: spoken-script-engine-skill-3.0.2
+          path: dist/spoken-script-engine-skill-3.0.2.zip
           if-no-files-found: error
           retention-days: 14
