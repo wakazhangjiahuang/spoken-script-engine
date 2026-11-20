@@ -1,0 +1,6 @@
+{"id":"AI-VIDEO-NEG-001","status":"negative_pattern","source_field":"cover_main/opening","pattern":"剪辑师天塌了？","failure":"冲突强于用户利益；正文讲的是转写、粗剪、画面匹配等部分工序，不足以支撑岗位被取代的暗示。","repair":"改为具体任务和用户成本，例如口播剪辑最耗时间的步骤，AI能帮到哪一步。"}
+{"id":"AI-VIDEO-NEG-002","status":"negative_pattern","source_field":"subtitle/suspense","pattern":"AI工程师-打假 / 问问AI开发老司机","failure":"嘉宾身份占据表达位置，没有告诉观众看完能得到什么判断。","repair":"把悬念改成观众关心的判断问题，并在正文给出对应证据。"}
+{"id":"AI-VIDEO-NEG-003","status":"negative_pattern","source_field":"cover/opening","pattern":"成片如牛来？ / AI剪辑密码","failure":"语义不清，不能形成可预测的观看回报。","repair":"用具体可观察的质量维度和同一原片对照。"}
+{"id":"AI-VIDEO-NEG-004","status":"negative_pattern","source_field":"cover_main","pattern":"老奶奶都会","failure":"未经独立操作验证的人物能力承诺，容易把工作人员代操作误包装成小白可用。","repair":"拍真实体验者独立操作，记录提示次数、卡点和人工接手；否则降级为流程演示。"}
+{"id":"AI-VIDEO-NEG-005","status":"negative_pattern","source_field":"opening/calling","pattern":"评论区calling：AI","failure":"把内部字段名读给观众，语言不自然；Calling和评论钩子容易机械重复。","repair":"改成自然单一动作，并说明用户回应后实际会得到什么。"}
+{"id":"AI-VIDEO-NEG-006","status":"negative_pattern","source_field":"opening/suspense","pattern":"现在一篇口播稿直接生成视频，喝杯咖啡的时间","failure":"隐藏素材准备、分镜、渲染和校对步骤，制造未经测量的时间承诺。","repair":"区分素材准备、执行、渲染、返工和验收时间；没有计时数据不写具体耗时。"}
