@@ -1,0 +1,17 @@
+{
+  "package_name": "spoken-script-engine",
+  "skill_package_version": "3.1.2",
+  "spoken_batch_contract_version": "3.0.0",
+  "topic_gate_contract_version": "1.1.0",
+  "expression_contract_version": "1.0.0",
+  "video_execution_contract_version": "1.0.0",
+  "ai_video_asset_overlay": "20261120-ai-video-assets-v1.2",
+  "source_priority": [
+    "current_user_request_and_attachments",
+    "confirmed_team_standard_guide",
+    "final_corrected_H3_workbook_structure",
+    "approved_domain_assets",
+    "general_methods"
+  ],
+  "privacy": "original AI video workbook and Word guide included only in private plugin/Skill archive; public GitHub receives curated redacted examples only"
+}
