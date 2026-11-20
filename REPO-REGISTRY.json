@@ -6,10 +6,10 @@
   "registry": "REPO-REGISTRY.json",
   "manifest_ref": "b9ec69778a89de636804f9a8147b24d1f0110ab7",
   "asset_ref": "b9ec69778a89de636804f9a8147b24d1f0110ab7",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "base_path": "releases/3.1.1/",
   "manifest_path": "releases/3.1.1/references/ai-video-workbook-schema.json",
-  "engine_path": "releases/3.1.1/",
+  "engine_path": "releases/3.1.2/",
   "previous_root_assets": "removed_from_current_branch_history_retained",
   "checked_at": "2026-11-20",
   "engine_ref_policy": "registry_commit",
@@ -25,5 +25,5 @@
     "ai_video_expression"
   ],
   "reference_overlay_version": "20261120-ai-video-assets-v1.1",
-  "public_repository_policy": "Only curated/redacted general guidance and synthetic examples; full user Word guide and source workbook remain in private plugin asset bundle."
+  "public_repository_policy": "Only curated/redacted general guidance and examples; full user Word guide and source workbook remain in private plugin asset bundle."
 }
