@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "sheets": {
+    "01_抖音": "same as 02/03 platform sheet; 17 columns including content task, audience, cover title/subtitle, 0-3s, 3-8s, body, Calling, comment, shot mapping, caption, keywords, estimate, diagnostics, full read-aloud script",
+    "04_拍摄执行卡": {
+      "columns": 8,
+      "required": [
+        "执行段ID",
+        "平台",
+        "建议剪辑时段（估算）",
+        "段落功能",
+        "对应台词（逐字同全文）",
+        "具体画面、机位、动作与切点",
+        "重点字幕",
+        "素材、真实性与拍摄注意"
+      ]
+    },
+    "05_AI数字人口播执行卡": {
+      "columns": 37,
+      "header_row": 4,
+      "data_start_row": 5,
+      "required": [
+        "视频ID",
+        "平台",
+        "H3镜头ID",
+        "对应04执行卡ID",
+        "成片时间码（与04时间轴对齐）",
+        "H3单次生成时长(s)",
+        "本镜任务/叙事功能",
+        "本镜台词（逐字；D02的A/B标签不朗读）",
+        "参考素材选择（Reference Selection）",
+        "参考标签映射（Reference Role Mapping）",
+        "H3单镜头Prompt（可复制）",
+        "生成后验收点"
+      ]
+    }
+  },
+  "modes": {
+    "recording": "04 only",
+    "h3": "05 only",
+    "combined": "04+05 shared IDs, script text, timeline, speaker IDs and asset IDs"
+  },
+  "assets": {
+    "P01": "identity only",
+    "P02": "scene only",
+    "A01": "optional authorized voice sample; omit Audio 1 if absent",
+    "R*": "real footage/evidence; post-insert, not H3 generation input"
+  }
+}
