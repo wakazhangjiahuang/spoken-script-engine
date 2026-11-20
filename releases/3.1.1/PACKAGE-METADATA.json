@@ -1,0 +1,11 @@
+{
+  "package_name": "spoken-script-engine",
+  "skill_package_version": "3.1.1",
+  "spoken_batch_contract_version": "3.0.0",
+  "topic_gate_contract_version": "1.1.0",
+  "expression_contract_version": "1.0.0",
+  "video_execution_contract_version": "1.0.0",
+  "ai_video_overlay": "20261120-ai-video-assets-v1.1",
+  "public_repo_policy": "Public repository contains curated/redacted guidance and examples only. The complete user workbook and Word guide remain in the private plugin bundle.",
+  "privacy_note": "Do not publish raw source workbook, full guide, client/customer data, private assets or unreviewed personal footage."
+}
