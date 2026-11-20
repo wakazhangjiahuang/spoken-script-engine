@@ -1,0 +1,2 @@
+{"asset_id": "AI-VIDEO-WORKBOOK-20261120", "type": "private_source_workbook", "status": "candidate_structure_reference", "scope": "three_platform_scripts_04_recording_05_h3", "sheets": ["00_使用总览", "01_抖音", "02_视频号", "03_小红书", "04_拍摄执行卡", "05_AI数字人口播执行卡"], "note": "Original wording fields require expression review; use as schema/production reference, not blanket positive few-shot."}
+{"asset_id": "AI-VIDEO-GUIDE-20261120", "type": "production_standard", "status": "accepted_standard", "scope": "topic_to_script_to_recording_h3_and_qa"}
