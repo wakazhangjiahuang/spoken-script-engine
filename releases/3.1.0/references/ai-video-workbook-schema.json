@@ -1,0 +1,8 @@
+{
+ "source":"user-provided final corrected AI video workbook",
+ "public_repo_scope":"schema and redacted topic index only; full workbook and Word guide remain in private plugin bundle because repository visibility is public",
+ "script_samples":9,
+ "recording_04":{"rows":72,"columns":8,"header_row":1},
+ "h3_05":{"rows":101,"columns":37,"header_row":4,"data_start_row":5},
+ "h3_headers":["视频ID","平台","H3镜头ID","对应04执行卡ID","成片时间码（与04时间轴对齐）","H3单次生成时长(s)","本镜任务/叙事功能","本镜台词（逐字；D02的A/B标签不朗读）","画面类型","生成/合成方式","H3输入模式","出镜主体/Speaker ID","人物身份锁定","表情/情绪","口播/声音要求","主体动作/手势（单一主动作）","景别/构图","机位/角度","主运镜类型","运镜幅度/速度/终点","场景/背景/光线","镜头内动作时间线","参考素材选择（Reference Selection）","参考标签映射（Reference Role Mapping）","本镜需补拍素材ID","补拍素材类型","补拍内容/画面要求","补拍具体拍法（机位/构图/动作）","素材验收/命名","后期插入位置/用途","重点字幕（后期叠加）","声音设计","前后镜头连续性","H3负面约束","H3单镜头Prompt（可复制）","生成后验收点","生成状态/文件路径"]
+}

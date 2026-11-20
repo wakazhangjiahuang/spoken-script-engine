@@ -1,0 +1,12 @@
+{
+  "version": "3.0.1",
+  "engine_contract_version": "3.0.0",
+  "knowledge_release": "20261118-evening",
+  "sheets": "00使用总览 + selected platform tables + shooting execution cards",
+  "platform_columns": 17,
+  "shooting_columns": 8,
+  "source": "20261118-evening: six uploaded source artifacts; 18 illustration script references, 108 shot segments, 15 separate cover references",
+  "sample_scope": "illustration_only",
+  "legacy_fallback": false,
+  "renderer": "scripts/export_xlsx.py"
+}

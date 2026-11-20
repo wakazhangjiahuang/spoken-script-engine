@@ -1,0 +1,8 @@
+{
+ "package_name":"spoken-script-engine","skill_package_version":"3.1.0","engine_contract_version":"3.0.0",
+ "topic_gate_contract_version":"1.0.0","video_execution_contract_version":"1.0.0",
+ "knowledge_snapshot":"20261118-evening","ai_video_overlay":"20261120-ai-video-assets-v1",
+ "source_registry":"GitHub repository root: REPO-REGISTRY.json (not included in standalone Skill ZIP)",
+ "package_scope":"standalone Skill bundle; excludes plugin manifests",
+ "compatibility":"Feature release; preserves the 3.0.0 spoken-batch contract and adds topic/video execution extensions"
+}

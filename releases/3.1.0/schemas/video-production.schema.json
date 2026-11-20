@@ -1,0 +1,10 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "title":"spoken-script-engine video production extension 1.0",
+ "type":"object","required":["mode"],
+ "properties":{
+  "mode":{"enum":["recording","h3","combined"]},
+  "model_profile":{"type":"object","required":["model_name","min_seconds","max_seconds","checked_at","source_basis","verification_status"],"properties":{"model_name":{"type":"string"},"min_seconds":{"type":"number"},"max_seconds":{"type":"number"},"checked_at":{"type":"string"},"source_basis":{"type":"string"},"verification_status":{"enum":["VERIFIED","NOT_VERIFIED","SAMPLE_REFERENCE"]}}},
+  "h3_cards":{"type":"array","items":{"type":"object","required":["video_id","platform","h3_shot_id","segment_id","timecode","generation_seconds","purpose","dialogue","visual_type","generation_method","input_mode","speaker_id","identity_lock","emotion","voice_requirements","main_action","framing_composition","camera_angle","movement","movement_spec","scene_light","action_timeline","reference_selection","reference_role_mapping","reshoot_asset_ids","reshoot_type","reshoot_content","reshoot_shooting","asset_acceptance","post_insert","subtitle","sound_design","continuity","negative_constraints","prompt","post_generation_qa","status_path"],"additionalProperties":true}}
+ }
+}

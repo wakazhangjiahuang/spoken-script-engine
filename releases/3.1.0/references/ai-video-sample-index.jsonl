@@ -1,0 +1,9 @@
+{"sample_id":"D01","platform":"douyin","topic":"AI剪辑可接手哪些重复工序","evidence":"同一原片、转写/粗剪时间线、真实屏录、人工验收","sample_status":"structure_reference_only; H3 and platform performance NOT_RUN"}
+{"sample_id":"D02","platform":"douyin","topic":"模板化剪辑工作流配置与真实耗时拆分","evidence":"官方方案、真实账号、配置/执行/渲染/验收记录","sample_status":"structure_reference_only; H3 and platform performance NOT_RUN"}
+{"sample_id":"D03","platform":"douyin","topic":"零基础用户能否独立完成一次剪辑工作流","evidence":"本人操作、提示次数、卡点、人工接手和修改结果","sample_status":"structure_reference_only; H3 and platform performance NOT_RUN"}
+{"sample_id":"W01","platform":"channels","topic":"AI剪辑成片质量的验收标准","evidence":"原片、AI初剪、人工修订版和验收项","sample_status":"structure_reference_only; H3 and platform performance NOT_RUN"}
+{"sample_id":"W02","platform":"channels","topic":"一份文案如何转成讲解视频","evidence":"原文、口播结构、逐句分镜、真实素材与成片核对","sample_status":"structure_reference_only; H3 and platform performance NOT_RUN"}
+{"sample_id":"W03","platform":"channels","topic":"企业固定栏目如何选择数字人并设置授权与审核","evidence":"授权素材、样片、业务审核和真实产品资料","sample_status":"structure_reference_only; H3 and platform performance NOT_RUN"}
+{"sample_id":"X01","platform":"xiaohongshu","topic":"WorkBuddy调用剪辑Skill的完整操作","evidence":"真实环境屏录、提交、预览、修改闭环","sample_status":"structure_reference_only; H3 and platform performance NOT_RUN"}
+{"sample_id":"X02","platform":"xiaohongshu","topic":"图文/PPT/口播稿转视频的内容复用流程","evidence":"原稿、内容结构、分镜、素材匹配和成片核对","sample_status":"structure_reference_only; H3 and platform performance NOT_RUN"}
+{"sample_id":"X03","platform":"xiaohongshu","topic":"数字人制作前的方案、授权、短样片与验收","evidence":"人物/声音授权、短稿、口型/声音/字幕检查","sample_status":"structure_reference_only; H3 and platform performance NOT_RUN"}

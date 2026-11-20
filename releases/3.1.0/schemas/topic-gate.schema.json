@@ -1,0 +1,13 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "title":"spoken-script-engine topic gate 1.0",
+ "type":"object",
+ "required":["status","confirmation_source","confirmation_text","candidates","approved_topic_ids"],
+ "properties":{
+  "status":{"enum":["USER_APPROVED","USER_LOCKED"]},
+  "confirmation_source":{"enum":["current_user_turn","explicit_user_request"]},
+  "confirmation_text":{"type":"string","minLength":1},
+  "approved_topic_ids":{"type":"array","minItems":1,"uniqueItems":true,"items":{"type":"string"}},
+  "candidates":{"type":"array","minItems":1,"items":{"type":"object","required":["candidate_id","platform","topic_title","core_question","target_audience","audience_job","audience_pain_or_desire","why_care","viewer_payoff","story_mechanism","proof_basis","proof_status","calling_reason","platform_expression","differentiation","self_audit"],"properties":{"candidate_id":{"type":"string"},"platform":{"enum":["douyin","channels","xiaohongshu"]},"topic_title":{"type":"string"},"target_audience":{"type":"string"},"why_care":{"type":"string"},"viewer_payoff":{"type":"string"},"proof_status":{"enum":["available","planned","not_required","missing"]}}}}
+ }
+}

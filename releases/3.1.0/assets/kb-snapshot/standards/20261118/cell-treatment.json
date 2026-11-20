@@ -1,0 +1,6453 @@
+[
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!A2",
+    "disposition": "stable_identity",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!B2",
+    "disposition": "task_context",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!C2",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!D2",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!E2",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!F2",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!G2",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!H2",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!I2",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!J2",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!K2",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!L2",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!M2",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!N2",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!O2",
+    "disposition": "source_count_recompute",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!P2",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!Q2",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "XHS-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!A3",
+    "disposition": "stable_identity",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!B3",
+    "disposition": "task_context",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!C3",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!D3",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!E3",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!F3",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!G3",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!H3",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!I3",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!J3",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!K3",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!L3",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!M3",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!N3",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!O3",
+    "disposition": "source_count_recompute",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!P3",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!Q3",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "XHS-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!A4",
+    "disposition": "stable_identity",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!B4",
+    "disposition": "task_context",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!C4",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!D4",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!E4",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!F4",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!G4",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!H4",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!I4",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!J4",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!K4",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!L4",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!M4",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!N4",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!O4",
+    "disposition": "source_count_recompute",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!P4",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!Q4",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "XHS-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!A5",
+    "disposition": "stable_identity",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!B5",
+    "disposition": "task_context",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!C5",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!D5",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!E5",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!F5",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!G5",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!H5",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!I5",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!J5",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!K5",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!L5",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!M5",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!N5",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!O5",
+    "disposition": "source_count_recompute",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!P5",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!Q5",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "XHS-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!A6",
+    "disposition": "stable_identity",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!B6",
+    "disposition": "task_context",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!C6",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!D6",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!E6",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!F6",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!G6",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!H6",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!I6",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!J6",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!K6",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!L6",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!M6",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!N6",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!O6",
+    "disposition": "source_count_recompute",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!P6",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!Q6",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "XHS-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!A7",
+    "disposition": "stable_identity",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!B7",
+    "disposition": "task_context",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!C7",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!D7",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!E7",
+    "disposition": "latest_cover_override",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!F7",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!G7",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!H7",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!I7",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!J7",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!K7",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!L7",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!M7",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!N7",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!O7",
+    "disposition": "source_count_recompute",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!P7",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!Q7",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "XHS-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!A2",
+    "disposition": "stable_identity",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!B2",
+    "disposition": "task_context",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!C2",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!D2",
+    "disposition": "latest_cover_override",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!E2",
+    "disposition": "latest_cover_override",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!F2",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!G2",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!H2",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!I2",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!J2",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!K2",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!L2",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!M2",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!N2",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!O2",
+    "disposition": "source_count_recompute",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!P2",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!Q2",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "DY-AC01"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!A3",
+    "disposition": "stable_identity",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!B3",
+    "disposition": "task_context",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!C3",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!D3",
+    "disposition": "latest_cover_override",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!E3",
+    "disposition": "latest_cover_override",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!F3",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!G3",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!H3",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!I3",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!J3",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!K3",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!L3",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!M3",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!N3",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!O3",
+    "disposition": "source_count_recompute",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!P3",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!Q3",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "DY-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!A4",
+    "disposition": "stable_identity",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!B4",
+    "disposition": "task_context",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!C4",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!D4",
+    "disposition": "latest_cover_override",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!E4",
+    "disposition": "latest_cover_override",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!F4",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!G4",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!H4",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!I4",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!J4",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!K4",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!L4",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!M4",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!N4",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!O4",
+    "disposition": "source_count_recompute",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!P4",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!Q4",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "DY-AC04"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!A5",
+    "disposition": "stable_identity",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!B5",
+    "disposition": "task_context",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!C5",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!D5",
+    "disposition": "unendorsed_cover_in_18_script_archive",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!E5",
+    "disposition": "unendorsed_cover_in_18_script_archive",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!F5",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!G5",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!H5",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!I5",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!J5",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!K5",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!L5",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!M5",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!N5",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!O5",
+    "disposition": "source_count_recompute",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!P5",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!Q5",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "DY-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!A6",
+    "disposition": "stable_identity",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!B6",
+    "disposition": "task_context",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!C6",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!D6",
+    "disposition": "latest_cover_override",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!E6",
+    "disposition": "latest_cover_override",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!F6",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!G6",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!H6",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!I6",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!J6",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!K6",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!L6",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!M6",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!N6",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!O6",
+    "disposition": "source_count_recompute",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!P6",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!Q6",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "DY-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!A7",
+    "disposition": "stable_identity",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!B7",
+    "disposition": "task_context",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!C7",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!D7",
+    "disposition": "latest_cover_override",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!E7",
+    "disposition": "latest_cover_override",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!F7",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!G7",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!H7",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!I7",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!J7",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!K7",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!L7",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!M7",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!N7",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!O7",
+    "disposition": "source_count_recompute",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!P7",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!Q7",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "DY-AC09"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!A2",
+    "disposition": "stable_identity",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!B2",
+    "disposition": "task_context",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!C2",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!D2",
+    "disposition": "latest_cover_override",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!E2",
+    "disposition": "latest_cover_override",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!F2",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!G2",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!H2",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!I2",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!J2",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!K2",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!L2",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!M2",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!N2",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!O2",
+    "disposition": "source_count_recompute",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!P2",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!Q2",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "WX-AC02"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!A3",
+    "disposition": "stable_identity",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!B3",
+    "disposition": "task_context",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!C3",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!D3",
+    "disposition": "unendorsed_cover_in_18_script_archive",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!E3",
+    "disposition": "unendorsed_cover_in_18_script_archive",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!F3",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!G3",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!H3",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!I3",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!J3",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!K3",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!L3",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!M3",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!N3",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!O3",
+    "disposition": "source_count_recompute",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!P3",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!Q3",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "WX-AC03"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!A4",
+    "disposition": "stable_identity",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!B4",
+    "disposition": "task_context",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!C4",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!D4",
+    "disposition": "latest_cover_override",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!E4",
+    "disposition": "latest_cover_override",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!F4",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!G4",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!H4",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!I4",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!J4",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!K4",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!L4",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!M4",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!N4",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!O4",
+    "disposition": "source_count_recompute",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!P4",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!Q4",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "WX-AC05"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!A5",
+    "disposition": "stable_identity",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!B5",
+    "disposition": "task_context",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!C5",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!D5",
+    "disposition": "unendorsed_cover_in_18_script_archive",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!E5",
+    "disposition": "unendorsed_cover_in_18_script_archive",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!F5",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!G5",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!H5",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!I5",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!J5",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!K5",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!L5",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!M5",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!N5",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!O5",
+    "disposition": "source_count_recompute",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!P5",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!Q5",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "WX-AC06"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!A6",
+    "disposition": "stable_identity",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!B6",
+    "disposition": "task_context",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!C6",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!D6",
+    "disposition": "latest_cover_override",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!E6",
+    "disposition": "latest_cover_override",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!F6",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!G6",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!H6",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!I6",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!J6",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!K6",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!L6",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!M6",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!N6",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!O6",
+    "disposition": "source_count_recompute",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!P6",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!Q6",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "WX-AC07"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!A7",
+    "disposition": "stable_identity",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!B7",
+    "disposition": "task_context",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!C7",
+    "disposition": "audience_task_not_job_exclusivity",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!D7",
+    "disposition": "latest_cover_override",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!E7",
+    "disposition": "latest_cover_override",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!F7",
+    "disposition": "locked_source_expression_not_verified_fact",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!G7",
+    "disposition": "locked_source_expression_not_timing_proof",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!H7",
+    "disposition": "body_reference_check_actual_promise",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!I7",
+    "disposition": "must_reconcile_with_Q",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!J7",
+    "disposition": "same_action_not_second_request",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!K7",
+    "disposition": "storyboard_summary_not_six_shot_limit",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!L7",
+    "disposition": "publish_description_separate_from_cover",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!M7",
+    "disposition": "relevant_terms_not_algorithm_promise",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!N7",
+    "disposition": "estimate_not_human_measurement",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!O7",
+    "disposition": "source_count_recompute",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!P7",
+    "disposition": "self_score_not_acceptance",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!Q7",
+    "disposition": "full_text_reference_compare_split_and_cards",
+    "sample_id": "WX-AC08"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!A1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!B1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!C1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!D1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!E1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!F1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!G1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!H1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!I1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!J1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!K1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!L1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!M1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!N1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!O1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!P1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "01_小红书6稿!Q1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!A1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!B1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!C1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!D1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!E1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!F1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!G1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!H1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!I1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!J1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!K1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!L1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!M1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!N1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!O1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!P1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "02_抖音6稿!Q1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!A1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!B1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!C1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!D1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!E1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!F1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!G1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!H1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!I1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!J1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!K1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!L1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!M1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!N1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!O1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!P1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "03_视频号6稿!Q1",
+    "disposition": "column_contract"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A1",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B1",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C1",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D1",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E1",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F1",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G1",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H1",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A2",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B2",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C2",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D2",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E2",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F2",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G2",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H2",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A3",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B3",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C3",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D3",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E3",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F3",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G3",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H3",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A4",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B4",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C4",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D4",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E4",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F4",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G4",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H4",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A5",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B5",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C5",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D5",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E5",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F5",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G5",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H5",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A6",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B6",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C6",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D6",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E6",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F6",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G6",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H6",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A7",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B7",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C7",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D7",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E7",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F7",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G7",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H7",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A8",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B8",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C8",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D8",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E8",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F8",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G8",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H8",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A9",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B9",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C9",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D9",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E9",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F9",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G9",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H9",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A10",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B10",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C10",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D10",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E10",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F10",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G10",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H10",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A11",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B11",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C11",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D11",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E11",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F11",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G11",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H11",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A12",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B12",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C12",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D12",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E12",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F12",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G12",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H12",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A13",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B13",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C13",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D13",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E13",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F13",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G13",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H13",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A14",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B14",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C14",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D14",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E14",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F14",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G14",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H14",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A15",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B15",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C15",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D15",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E15",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F15",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G15",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H15",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A16",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B16",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C16",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D16",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E16",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F16",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G16",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H16",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A17",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B17",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C17",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D17",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E17",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F17",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G17",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H17",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A18",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B18",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C18",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D18",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E18",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F18",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G18",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H18",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A19",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B19",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C19",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D19",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E19",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F19",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G19",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H19",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A20",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B20",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C20",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D20",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E20",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F20",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G20",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H20",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A21",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B21",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C21",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D21",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E21",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F21",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G21",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H21",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A22",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B22",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C22",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D22",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E22",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F22",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G22",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H22",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A23",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B23",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C23",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D23",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E23",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F23",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G23",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H23",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A24",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B24",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C24",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D24",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E24",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F24",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G24",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H24",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A25",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B25",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C25",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D25",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E25",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F25",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G25",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H25",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A26",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B26",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C26",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D26",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E26",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F26",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G26",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H26",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A27",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B27",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C27",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D27",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E27",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F27",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G27",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H27",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A28",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B28",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C28",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D28",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E28",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F28",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G28",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H28",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A29",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B29",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C29",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D29",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E29",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F29",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G29",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H29",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A30",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B30",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C30",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D30",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E30",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F30",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G30",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H30",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A31",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B31",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C31",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D31",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E31",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F31",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G31",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H31",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A32",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B32",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C32",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D32",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E32",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F32",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G32",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H32",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A33",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B33",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C33",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D33",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E33",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F33",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G33",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H33",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A34",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B34",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C34",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D34",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E34",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F34",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G34",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H34",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A35",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B35",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C35",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D35",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E35",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F35",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G35",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H35",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A36",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B36",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C36",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D36",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E36",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F36",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G36",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H36",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A37",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B37",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C37",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D37",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E37",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F37",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G37",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H37",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A38",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B38",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C38",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D38",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E38",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F38",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G38",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H38",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A39",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B39",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C39",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D39",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E39",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F39",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G39",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H39",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A40",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B40",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C40",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D40",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E40",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F40",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G40",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H40",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A41",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B41",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C41",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D41",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E41",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F41",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G41",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H41",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A42",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B42",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C42",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D42",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E42",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F42",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G42",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H42",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A43",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B43",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C43",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D43",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E43",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F43",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G43",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H43",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A44",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B44",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C44",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D44",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E44",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F44",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G44",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H44",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A45",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B45",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C45",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D45",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E45",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F45",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G45",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H45",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A46",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B46",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C46",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D46",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E46",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F46",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G46",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H46",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A47",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B47",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C47",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D47",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E47",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F47",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G47",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H47",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A48",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B48",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C48",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D48",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E48",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F48",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G48",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H48",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A49",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B49",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C49",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D49",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E49",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F49",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G49",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H49",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A50",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B50",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C50",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D50",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E50",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F50",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G50",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H50",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A51",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B51",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C51",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D51",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E51",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F51",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G51",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H51",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A52",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B52",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C52",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D52",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E52",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F52",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G52",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H52",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A53",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B53",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C53",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D53",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E53",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F53",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G53",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H53",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A54",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B54",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C54",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D54",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E54",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F54",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G54",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H54",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A55",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B55",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C55",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D55",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E55",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F55",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G55",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H55",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A56",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B56",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C56",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D56",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E56",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F56",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G56",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H56",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A57",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B57",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C57",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D57",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E57",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F57",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G57",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H57",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A58",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B58",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C58",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D58",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E58",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F58",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G58",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H58",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A59",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B59",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C59",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D59",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E59",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F59",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G59",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H59",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A60",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B60",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C60",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D60",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E60",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F60",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G60",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H60",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A61",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B61",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C61",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D61",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E61",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F61",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G61",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H61",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A62",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B62",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C62",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D62",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E62",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F62",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G62",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H62",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A63",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B63",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C63",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D63",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E63",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F63",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G63",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H63",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A64",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B64",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C64",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D64",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E64",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F64",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G64",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H64",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A65",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B65",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C65",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D65",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E65",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F65",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G65",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H65",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A66",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B66",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C66",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D66",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E66",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F66",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G66",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H66",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A67",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B67",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C67",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D67",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E67",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F67",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G67",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H67",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A68",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B68",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C68",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D68",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E68",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F68",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G68",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H68",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A69",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B69",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C69",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D69",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E69",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F69",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G69",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H69",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A70",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B70",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C70",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D70",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E70",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F70",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G70",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H70",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A71",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B71",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C71",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D71",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E71",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F71",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G71",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H71",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A72",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B72",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C72",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D72",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E72",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F72",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G72",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H72",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A73",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B73",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C73",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D73",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E73",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F73",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G73",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H73",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A74",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B74",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C74",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D74",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E74",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F74",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G74",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H74",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A75",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B75",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C75",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D75",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E75",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F75",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G75",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H75",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A76",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B76",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C76",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D76",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E76",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F76",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G76",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H76",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A77",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B77",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C77",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D77",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E77",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F77",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G77",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H77",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A78",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B78",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C78",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D78",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E78",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F78",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G78",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H78",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A79",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B79",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C79",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D79",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E79",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F79",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G79",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H79",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A80",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B80",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C80",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D80",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E80",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F80",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G80",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H80",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A81",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B81",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C81",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D81",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E81",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F81",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G81",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H81",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A82",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B82",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C82",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D82",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E82",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F82",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G82",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H82",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A83",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B83",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C83",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D83",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E83",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F83",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G83",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H83",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A84",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B84",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C84",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D84",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E84",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F84",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G84",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H84",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A85",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B85",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C85",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D85",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E85",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F85",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G85",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H85",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A86",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B86",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C86",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D86",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E86",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F86",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G86",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H86",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A87",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B87",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C87",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D87",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E87",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F87",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G87",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H87",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A88",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B88",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C88",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D88",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E88",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F88",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G88",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H88",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A89",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B89",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C89",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D89",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E89",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F89",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G89",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H89",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A90",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B90",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C90",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D90",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E90",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F90",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G90",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H90",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A91",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B91",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C91",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D91",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E91",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F91",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G91",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H91",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A92",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B92",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C92",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D92",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E92",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F92",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G92",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H92",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A93",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B93",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C93",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D93",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E93",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F93",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G93",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H93",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A94",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B94",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C94",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D94",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E94",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F94",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G94",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H94",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A95",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B95",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C95",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D95",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E95",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F95",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G95",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H95",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A96",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B96",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C96",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D96",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E96",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F96",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G96",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H96",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A97",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B97",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C97",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D97",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E97",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F97",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G97",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H97",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A98",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B98",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C98",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D98",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E98",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F98",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G98",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H98",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A99",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B99",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C99",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D99",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E99",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F99",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G99",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H99",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A100",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B100",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C100",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D100",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E100",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F100",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G100",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H100",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A101",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B101",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C101",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D101",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E101",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F101",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G101",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H101",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A102",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B102",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C102",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D102",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E102",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F102",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G102",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H102",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A103",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B103",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C103",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D103",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E103",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F103",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G103",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H103",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A104",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B104",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C104",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D104",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E104",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F104",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G104",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H104",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A105",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B105",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C105",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D105",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E105",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F105",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G105",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H105",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A106",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B106",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C106",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D106",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E106",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F106",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G106",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H106",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A107",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B107",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C107",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D107",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E107",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F107",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G107",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H107",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A108",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B108",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C108",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D108",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E108",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F108",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G108",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H108",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!A109",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!B109",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!C109",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!D109",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!E109",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!F109",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!G109",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  },
+  {
+    "source": "SRC6",
+    "locator": "04_拍摄执行卡!H109",
+    "disposition": "shooting_card_exact_speech_visual_action_subtitle_material_state"
+  }
+]

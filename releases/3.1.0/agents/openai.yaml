@@ -1,0 +1,8 @@
+interface:
+  display_name: 口播稿引擎
+  short_description: 先确认受众与选题，再交付口播及04/05视频执行卡
+  default_prompt: 使用 $spoken-script-engine，按本轮平台、主题与篇数执行；先识别目标受众、关我什么事、利他价值和证据，完成内部反方审查后交付选题确认板，等待我确认，再生成口播稿与所选视频模式的XLSX。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
