@@ -1,0 +1,38 @@
+{
+  "contract_version": "1.0.0",
+  "profile_id": "ai_video_v4_1",
+  "scope": "AI video business content only",
+  "score_scale": {"min": 0, "max": 5},
+  "minimum_editorial_floor": 70,
+  "minimum_candidate_score": 75,
+  "strong_candidate_score": 85,
+  "dimensions": [
+    {"id": "audience_need", "name": "用户需求与目标受众准确性", "weight": 15, "description": "共同任务明确；用户原始语言或需求信号可追溯；观看回报与用户有关。"},
+    {"id": "cover_click_reason", "name": "主标题、副标题及点击理由", "weight": 15, "description": "主题清楚；主副互补；入口与材料匹配；信息缺口具体且可兑现。"},
+    {"id": "opening_bridge", "name": "黄金开场与3–8秒承接", "weight": 15, "description": "开场唤醒用户；承接新增信息；两段自然推进而非重复。"},
+    {"id": "body_payoff", "name": "正文故事、方法与价值兑现", "weight": 20, "description": "问题/欲望、疑虑、推进、方法或证据、结论/边界；有真实信息增量。"},
+    {"id": "evidence_credibility", "name": "事实证据与可信度", "weight": 10, "description": "强主张有Claim_ID和来源；事实、推断、未知分开；没有虚构或过度归因。"},
+    {"id": "platform_native", "name": "平台原生表达", "weight": 10, "description": "入口、内容组织、证据和行动符合平台展示/搜索/社交传播任务。"},
+    {"id": "cta_comment", "name": "Calling与评论转化", "weight": 10, "description": "一个主要行动；下一步理由具体；评论容易回答并能识别真实需求。"},
+    {"id": "human_voice_originality", "name": "真人表达自然度与原创性", "weight": 5, "description": "口语自然、人设一致、无机械模板、无不必要AI腔。"}
+  ],
+  "score_bands": [
+    {"min": 85, "max": 100, "status": "STRONG_CANDIDATE"},
+    {"min": 75, "max": 84.999, "status": "CANDIDATE"},
+    {"min": 70, "max": 74.999, "status": "REVISE"},
+    {"min": 0, "max": 69.999, "status": "REWRITE"}
+  ],
+  "hard_gates": [
+    {"id": "facts", "name": "事实边界"},
+    {"id": "promise_payoff", "name": "承诺兑现"},
+    {"id": "proof", "name": "证据绑定"},
+    {"id": "platform", "name": "平台适配"},
+    {"id": "marketing", "name": "用户价值与营销相关性"},
+    {"id": "human_voice", "name": "真人表达"},
+    {"id": "direction", "name": "内容/分镜方向可执行"},
+    {"id": "raw_first8", "name": "前8秒结构"},
+    {"id": "eight_deliverables", "name": "关键字段完整"}
+  ],
+  "score_formula": "sum(dimension.score / 5 * dimension.weight)",
+  "release_policy": "Hard-gate failure blocks regardless of score. 70-74 requires revision; 75-84 is a publish candidate; 85-100 is a strong candidate. Human/user validation and performance remain separate statuses."
+}
