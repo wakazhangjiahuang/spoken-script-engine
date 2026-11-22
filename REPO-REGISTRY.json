@@ -6,8 +6,8 @@
   "registry": "REPO-REGISTRY.json",
   "manifest_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
   "ai_video_sample_manifest_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
-  "asset_ref": "39a27d6daad260bf92133dd6915320143dbb57f1",
-  "active_overlay_ref": "39a27d6daad260bf92133dd6915320143dbb57f1",
+  "asset_ref": "f24ab0ccb72fa57c4abce9c8b2b64c98b9f1f23e",
+  "active_overlay_ref": "f24ab0ccb72fa57c4abce9c8b2b64c98b9f1f23e",
   "version": "3.3.0",
   "base_path": "releases/3.1.1/",
   "manifest_path": "releases/3.1.1/references/ai-video-workbook-schema.json",
@@ -42,5 +42,6 @@
   ],
   "reference_overlay_version": "20261123-illustration-v2.0-runtime-quality-gates",
   "public_repository_policy": "Public repository contains only generic rules, redacted governance, schemas and validators. Original user Word/XLSX, client data, original lock baseline, raw artwork, footage and permissions remain private.",
-  "source_pin_policy": "The active 3.3.0 overlay is read from asset_ref. The AI-video sample index remains pinned to manifest_ref. Never use unpinned main as a runtime source."
+  "source_pin_policy": "The active 3.3.0 overlay is read from asset_ref. The AI-video sample index remains pinned to manifest_ref. Never use unpinned main as a runtime source.",
+  "validator_revision": "20261123-04-05-role-and-reporting-fix"
 }
