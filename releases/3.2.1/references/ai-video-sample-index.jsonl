@@ -1,0 +1,9 @@
+{"asset_id":"A01-V5.0","type":"benchmark_reference","status":"benchmark_reference_only_not_performance_verified","path":"samples/ai-video/A01-benchmark-V5.0.md","few_shot_policy":"REFERENCE_ONLY_NOT_ACCEPTED_POSITIVE_FEWSHOT","user_calibrated_score":70,"independent_score":"NOT_ESTABLISHED"}
+{"asset_id":"SIX-CASES-V1.0","type":"candidate_collection","status":"candidate_not_performance_verified","path":"samples/ai-video/six-standard-samples-V1.0.md","few_shot_policy":"DO_NOT_AUTO_PROMOTE_TO_ACCEPTED_POSITIVE","filename_score_note":"Filename text '60分' is not a per-case score record."}
+{"asset_id":"S01-LIVE-DEMO","type":"adjacent_task_candidate","status":"candidate_not_performance_verified","case_id":"S01","path":"samples/ai-video/six-standard-samples-V1.0.md","relation_to_A01":"narrower product-demo tutorial","retrieval_exclusion":"do_not_co_retrieve_with_A01_as_same_level_positive"}
+{"asset_id":"S02-FORUM-EXPERT","type":"case_candidate","status":"candidate_not_performance_verified","case_id":"S02","path":"samples/ai-video/six-standard-samples-V1.0.md"}
+{"asset_id":"S03-SERVICE-EXPLAINER","type":"case_candidate","status":"candidate_not_performance_verified","case_id":"S03","path":"samples/ai-video/six-standard-samples-V1.0.md"}
+{"asset_id":"S04-FAQ-DIGITAL","type":"case_candidate","status":"candidate_not_performance_verified","case_id":"S04","path":"samples/ai-video/six-standard-samples-V1.0.md"}
+{"asset_id":"S05-PRODUCT-SELECTION","type":"case_candidate","status":"candidate_not_performance_verified","case_id":"S05","path":"samples/ai-video/six-standard-samples-V1.0.md"}
+{"asset_id":"S06-EXPERT-TRAINING","type":"case_candidate","status":"candidate_not_performance_verified","case_id":"S06","path":"samples/ai-video/six-standard-samples-V1.0.md"}
+{"asset_id":"SAMPLE-GOVERNANCE-V1.0","type":"retrieval_governance","status":"active","path":"references/ai-video-sample-governance.md"}

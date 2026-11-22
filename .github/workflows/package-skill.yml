@@ -6,6 +6,7 @@ on:
     paths:
       - "releases/3.1.0/**"
       - "releases/3.2.0/**"
+      - "releases/3.2.1/**"
       - "REPO-REGISTRY.json"
       - "README.md"
       - ".github/workflows/package-skill.yml"
@@ -36,6 +37,10 @@ jobs:
         working-directory: releases/3.2.0/skills/spoken-script-engine
         run: python -m unittest discover -s scripts -p "test_*.py" -v
 
+      - name: Run 3.2.1 sample governance tests
+        working-directory: releases/3.2.1
+        run: python -m unittest discover -s scripts -p "test_*.py" -v
+
       - name: Build explicitly labeled V4.1 overlay package
         run: |
           mkdir -p dist/spoken-script-engine-v4.1-overlay
@@ -45,10 +50,26 @@ jobs:
           cd dist
           zip -qr spoken-script-engine-v4.1-overlay-3.2.0.zip spoken-script-engine-v4.1-overlay
 
+      - name: Build sample governance overlay
+        run: |
+          mkdir -p dist/spoken-script-engine-ai-video-sample-overlay
+          cp -R releases/3.2.1/. dist/spoken-script-engine-ai-video-sample-overlay/
+          find dist/spoken-script-engine-ai-video-sample-overlay -type d -name "__pycache__" -prune -exec rm -rf {} +
+          cd dist
+          zip -qr spoken-script-engine-ai-video-sample-overlay-3.2.1.zip spoken-script-engine-ai-video-sample-overlay
+
       - name: Upload V4.1 overlay artifact
         uses: actions/upload-artifact@v4
         with:
           name: spoken-script-engine-v4.1-overlay-3.2.0
           path: dist/spoken-script-engine-v4.1-overlay-3.2.0.zip
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload sample governance overlay artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: spoken-script-engine-ai-video-sample-overlay-3.2.1
+          path: dist/spoken-script-engine-ai-video-sample-overlay-3.2.1.zip
           if-no-files-found: error
           retention-days: 14
