@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "spoken-script-engine/v4.1-failure-record.schema.json",
+  "title": "V4.1 Loop Learning Failure Record",
+  "type": "object",
+  "required": ["failure_id", "created_at", "skill_version", "task_id", "root_cause", "failed_fields", "original_output_ref", "repair_scope", "regression_cases", "status"],
+  "properties": {
+    "failure_id": {"type": "string", "pattern": "^FAIL-[A-Z0-9-]+$"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "skill_version": {"type": "string"},
+    "task_id": {"type": "string"},
+    "root_cause": {"enum": ["需求受众", "营销入口", "标题副标题", "开场承接", "正文兑现", "证据", "平台适配", "真人表达", "路由", "工具", "Schema", "导出", "版本", "未知"]},
+    "failed_fields": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "user_feedback_quote": {"type": "string"},
+    "original_output_ref": {"type": "string"},
+    "repair_scope": {"type": "array", "items": {"type": "string"}},
+    "expected_improvement": {"type": "string"},
+    "side_effect_risks": {"type": "array", "items": {"type": "string"}},
+    "regression_cases": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "status": {"enum": ["OPEN", "REPAIRED", "REGRESSION_PENDING", "VERIFIED", "REJECTED"]},
+    "reviewer": {"type": "string"},
+    "release_version": {"type": "string"}
+  }
+}

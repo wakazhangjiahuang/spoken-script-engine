@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "spoken-script-engine/v4.1-batch-manifest.schema.json",
+  "title": "V4.1 Batch Count Contract",
+  "type": "object",
+  "required": ["batch_id", "unit_type", "expected_topics", "expected_scripts", "expected_by_platform"],
+  "properties": {
+    "batch_id": {"type": "string", "minLength": 1},
+    "unit_type": {"const": "platform_script"},
+    "expected_topics": {"type": "integer", "minimum": 1},
+    "expected_scripts": {"type": "integer", "minimum": 1},
+    "expected_by_platform": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "integer", "minimum": 0}},
+    "batch_stage": {"enum": ["sample_calibration", "batch_1", "batch_2", "batch_3", "batch_4", "final"]},
+    "expected_business_lines": {"type": "array", "items": {"enum": ["A", "B", "C"]}},
+    "blind_test_scope": {"enum": ["pilot_only", "all_scripts", "not_required"]}
+  }
+}
