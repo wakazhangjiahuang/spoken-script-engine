@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Illustration independent review",
+  "type": "object",
+  "required": [
+    "batch_sha256",
+    "reviewer",
+    "items",
+    "target_user_blind_read",
+    "non_author_read_test",
+    "fact_and_rights_audit"
+  ],
+  "properties": {
+    "batch_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "reviewer": {
+      "type": "object",
+      "required": [
+        "mode",
+        "identity",
+        "independent",
+        "same_model_role",
+        "blind_packet_sha256"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "human",
+            "independent_thread",
+            "isolated_review"
+          ]
+        },
+        "identity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "independent": {
+          "const": true
+        },
+        "same_model_role": {
+          "const": false
+        },
+        "blind_packet_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "required": [
+          "script_id",
+          "sample_class",
+          "scores",
+          "hard_gates",
+          "decision"
+        ],
+        "properties": {
+          "script_id": {
+            "type": "string"
+          },
+          "sample_class": {
+            "const": "DERIVED_SCRIPT"
+          },
+          "scores": {
+            "type": "object",
+            "required": [
+              "audience_and_task",
+              "entry_and_click_reason",
+              "first_8_seconds",
+              "professional_judgment_and_payoff",
+              "facts_evidence_and_rights",
+              "platform_native_expression",
+              "calling_and_action",
+              "spoken_naturalness"
+            ]
+          },
+          "hard_gates": {
+            "type": "object",
+            "required": [
+              "lock_fields",
+              "facts",
+              "rights",
+              "promise_payoff",
+              "platform_fit",
+              "professional_value",
+              "script_04_05_mapping"
+            ]
+          },
+          "decision": {
+            "enum": [
+              "PASS",
+              "REVISE",
+              "FAIL",
+              "VALIDATION_PENDING",
+              "PUBLISH_HOLD"
+            ]
+          }
+        }
+      }
+    },
+    "target_user_blind_read": {
+      "type": "object",
+      "required": [
+        "status",
+        "participants"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "NOT_RUN"
+          ]
+        },
+        "participants": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "non_author_read_test": {
+      "type": "object",
+      "required": [
+        "status",
+        "reader",
+        "measured_seconds"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "NOT_RUN"
+          ]
+        },
+        "reader": {
+          "type": "string"
+        },
+        "measured_seconds": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "fact_and_rights_audit": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "PENDING"
+          ]
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

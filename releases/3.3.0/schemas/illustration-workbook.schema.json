@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Illustration V2.0 six-sheet workbook contract",
+  "type": "object",
+  "required": [
+    "sheets",
+    "platform_script_count",
+    "shooting_segments",
+    "h3_shot_duration_seconds",
+    "locked_fields"
+  ],
+  "properties": {
+    "sheets": {
+      "const": [
+        "00_使用总览",
+        "01_抖音",
+        "02_视频号",
+        "03_小红书",
+        "04_拍摄执行卡",
+        "05_AI数字人口播执行卡"
+      ]
+    },
+    "platform_script_count": {
+      "const": {
+        "抖音": 6,
+        "微信视频号": 6,
+        "小红书": 6
+      }
+    },
+    "shooting_segments": {
+      "const": {
+        "per_script": 6,
+        "total": 108
+      }
+    },
+    "h3_shot_duration_seconds": {
+      "const": {
+        "minimum": 4,
+        "maximum": 15,
+        "mapping": [
+          "Script_ID",
+          "04执行段ID"
+        ]
+      }
+    },
+    "locked_fields": {
+      "const": {
+        "fields": [
+          "封面主标题",
+          "封面副标题",
+          "0–3秒｜黄金三秒（原文锁定）",
+          "3–8秒（原文锁定）"
+        ],
+        "scripts": 18,
+        "cells": 72,
+        "policy": "exact_read_only"
+      }
+    }
+  },
+  "additionalProperties": false
+}
