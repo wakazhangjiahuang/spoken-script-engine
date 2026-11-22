@@ -4,26 +4,35 @@
   "visibility": "public",
   "visibility_status": "VERIFIED_PUBLIC",
   "registry": "REPO-REGISTRY.json",
-  "manifest_ref": "b9ec69778a89de636804f9a8147b24d1f0110ab7",
-  "asset_ref": "b9ec69778a89de636804f9a8147b24d1f0110ab7",
-  "version": "3.1.3",
+  "manifest_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
+  "asset_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
+  "version": "3.2.1",
   "base_path": "releases/3.1.1/",
   "manifest_path": "releases/3.1.1/references/ai-video-workbook-schema.json",
-  "engine_path": "releases/3.1.3/",
+  "engine_path": "releases/3.1.1/",
+  "overlay_paths": [
+    "releases/3.1.3/",
+    "releases/3.2.0/",
+    "releases/3.2.1/"
+  ],
+  "active_overlay_path": "releases/3.2.1/",
   "previous_root_assets": "removed_from_current_branch_history_retained",
-  "checked_at": "2026-11-20",
+  "checked_at": "2026-11-22",
   "engine_ref_policy": "registry_commit",
-  "source_release": "20261118-evening",
+  "source_release": "20261122-ai-video-v5.0-samples-v1.0",
   "manifest_sha256": "4730d19c0b6559eb6c836014ae407606c7744e79be79327ac8bc0fd0b638fc7e",
   "legacy_fallback": false,
   "sample_scope": [
     "illustration_domain_reference",
-    "curated_ai_video_examples"
+    "curated_ai_video_examples",
+    "A01_benchmark_reference_only",
+    "six_ai_video_case_candidates"
   ],
   "reference_overlay_scope": [
     "ai_video_production",
-    "ai_video_expression"
+    "ai_video_expression",
+    "ai_video_sample_governance"
   ],
-  "reference_overlay_version": "20261120-ai-video-assets-v1.3",
-  "public_repository_policy": "Only curated/redacted general guidance and examples; full user Word guide and source workbook remain in private plugin asset bundle."
+  "reference_overlay_version": "20261122-ai-video-samples-v1.0",
+  "public_repository_policy": "Public repository includes only user-approved Markdown sample documents, redacted governance, schemas and tests. Original V4.1 Word guide, corrected workbook, client data, raw footage and authorization materials remain private."
 }
