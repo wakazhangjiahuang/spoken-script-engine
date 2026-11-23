@@ -1,0 +1,13 @@
+{
+ "version":"3.4.4",
+ "scope":"targeted_delivery_quality_repair_no_audience_rebuild",
+ "preserve":["AI_VIDEO_V4.1","AI_VIDEO_TEAM_GUIDE_20261123","ILLUSTRATION_V2.0","COVER_TITLE_GUIDE_V4","existing_audiences_and_needs","locked_fields","benchmark_governance"],
+ "spoken_anchors":["concrete_input","constraints","chosen_option","rejected_option","option_tradeoff","decision_reason","observable_payoff","applicability_boundary","viewer_action"],
+ "content_value_review":["need_is_specific","click_value_is_user_centered","opening_adds_new_information","body_demonstrates_a_concrete_case","tradeoff_is_explained_in_spoken_words","viewer_can_transfer_the_judgment","calling_has_a_user_value_exchange"],
+ "score_policy":{
+  "ai_video":{"dimension_floor":3,"core_dimensions_floor":4,"core_dimensions":["audience_need","cover_click_reason","opening_bridge","body_payoff"],"total_floor":80,"formal_validator":"scripts/validate_v41.py"},
+  "illustration":{"dimension_floor":3,"core_dimensions_floor":4,"core_dimensions":["audience_and_task","entry_and_click_reason","first_8_seconds","professional_judgment_and_payoff"],"total_floor":80}},
+ "negative_regression":"assets/qa/negative-six-script-regression-v1.jsonl",
+ "non_compensatory":true,
+ "external_validation":"NOT_RUN until real voice, target-user blind-read, rights and platform evidence exists"
+}
