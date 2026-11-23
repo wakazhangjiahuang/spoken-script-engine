@@ -1,0 +1,14 @@
+{
+  "version": "3.5.0",
+  "policy": "non_compensatory",
+  "plan_gates": ["source_need_exact", "target_audience_and_shared_task", "why_now", "click_reason", "promised_payoff", "proof_plan", "three_distinct_entries", "selection_and_counterevidence"],
+  "script_gates": ["cover_main_sub", "first_8_progression", "body_payoff_anchor", "professional_decision", "worked_example_before_after", "observable_delta_spoken", "transfer_rule_spoken", "calling_value_exchange"],
+  "critical_dimensions_minimum": 4,
+  "other_dimensions_minimum": 3,
+  "editorial_score_minimum": 70,
+  "internal_target_score": 80,
+  "independent_validation_required_for_pass": true,
+  "negative_regression_fixture": "assets/qa/negative-six-script-regression-v2.jsonl",
+  "regression_test": "tests/test_content_quality_v350.py",
+  "release_rule": "any_core_gate_failure_blocks_release; average_score_never_compensates"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "spoken-script-engine/v3.5.0/content-proof.schema.json",
+  "title": "Content payoff and worked example contract",
+  "type": "object",
+  "required": ["input_snapshot", "decision_criterion", "before_state", "after_state", "observable_delta", "transfer_rule", "spoken_anchor", "result_anchor", "transfer_anchor"],
+  "properties": {
+    "input_snapshot": {"type": "string", "minLength": 12},
+    "decision_criterion": {"type": "string", "minLength": 12},
+    "before_state": {"type": "string", "minLength": 12},
+    "after_state": {"type": "string", "minLength": 12},
+    "observable_delta": {"type": "string", "minLength": 12},
+    "transfer_rule": {"type": "string", "minLength": 12},
+    "spoken_anchor": {"$ref": "#/$defs/anchor"},
+    "result_anchor": {"$ref": "#/$defs/anchor"},
+    "transfer_anchor": {"$ref": "#/$defs/anchor"}
+  },
+  "$defs": {
+    "anchor": {
+      "type": "object",
+      "required": ["segment_id", "quote"],
+      "properties": {
+        "segment_id": {"type": "string", "minLength": 1},
+        "quote": {"type": "string", "minLength": 8}
+      }
+    }
+  }
+}
