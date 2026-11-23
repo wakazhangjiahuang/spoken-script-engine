@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "spoken-script-engine source inventory v3.6.0",
+  "type": "object",
+  "required": ["status", "checked_assets", "relevant_real_case_ids", "selected_real_case_ids", "excluded_relevant_source_ids", "selection_reason"],
+  "properties": {
+    "status": {"enum": ["complete", "no_source_materials"]},
+    "checked_assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["asset_id", "locator", "source_quote", "read"],
+        "properties": {
+          "asset_id": {"type": "string", "minLength": 1},
+          "locator": {"type": "string", "minLength": 1},
+          "source_quote": {"type": "string", "minLength": 1},
+          "read": {"const": true}
+        }
+      }
+    },
+    "relevant_real_case_ids": {"type": "array", "items": {"type": "string"}},
+    "selected_real_case_ids": {"type": "array", "items": {"type": "string"}},
+    "excluded_relevant_source_ids": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "reason"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "reason": {"type": "string", "minLength": 12}
+        }
+      }
+    },
+    "selection_reason": {"type": "string", "minLength": 12},
+    "no_source_reason": {"type": "string", "minLength": 20}
+  }
+}
