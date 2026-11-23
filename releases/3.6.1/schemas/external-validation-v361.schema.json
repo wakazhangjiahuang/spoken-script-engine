@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "spoken-script-engine external validation and outcome feedback v3.6.1",
+  "type": "object",
+  "required": [
+    "external_validation"
+  ],
+  "properties": {
+    "external_validation": {
+      "type": "object",
+      "required": [
+        "human_voice_test",
+        "target_user_blind_read",
+        "rights_and_permissions",
+        "platform_outcome"
+      ],
+      "properties": {
+        "human_voice_test": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "script_id",
+              "status",
+              "reader_id",
+              "reader_is_author",
+              "measured_seconds",
+              "target_seconds",
+              "evidence_path",
+              "evidence_sha256"
+            ],
+            "properties": {
+              "script_id": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "NOT_RUN",
+                  "PASSED",
+                  "FAILED"
+                ]
+              },
+              "reader_id": {
+                "type": "string"
+              },
+              "reader_is_author": {
+                "type": "boolean"
+              },
+              "measured_seconds": {
+                "type": "number"
+              },
+              "target_seconds": {
+                "type": "number"
+              },
+              "evidence_path": {
+                "type": "string"
+              },
+              "evidence_sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "reader_confirmation": {
+                "type": "string"
+              },
+              "recording_present": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "target_user_blind_read": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "script_id",
+              "status",
+              "participants",
+              "author_present",
+              "blind_packet_sha256",
+              "correct_topic_count",
+              "correct_value_count",
+              "evidence_path",
+              "evidence_sha256"
+            ],
+            "properties": {
+              "script_id": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "NOT_RUN",
+                  "PASSED",
+                  "FAILED"
+                ]
+              },
+              "participants": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 5,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "participant_id",
+                    "topic_understood",
+                    "value_understood"
+                  ],
+                  "properties": {
+                    "participant_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "topic_understood": {
+                      "type": "boolean"
+                    },
+                    "value_understood": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "author_present": {
+                "type": "boolean"
+              },
+              "blind_packet_sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "correct_topic_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "correct_value_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "evidence_path": {
+                "type": "string"
+              },
+              "evidence_sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        },
+        "rights_and_permissions": {
+          "type": "object",
+          "required": [
+            "assets"
+          ],
+          "properties": {
+            "assets": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "asset_id",
+                  "rights_status"
+                ],
+                "properties": {
+                  "asset_id": {
+                    "type": "string"
+                  },
+                  "rights_status": {
+                    "enum": [
+                      "USER_OWNED",
+                      "LICENSED",
+                      "AUTHORIZED",
+                      "PUBLIC_DOMAIN",
+                      "NOT_REQUIRED"
+                    ]
+                  },
+                  "evidence_path": {
+                    "type": "string"
+                  },
+                  "evidence_sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  },
+                  "scope": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "platform_outcome": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "script_id",
+              "status",
+              "post_id",
+              "post_url",
+              "published_at",
+              "captured_at",
+              "data_source",
+              "metrics",
+              "evidence_path",
+              "evidence_sha256",
+              "analysis"
+            ],
+            "properties": {
+              "script_id": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "NOT_RUN",
+                  "PASSED",
+                  "FAILED"
+                ]
+              },
+              "post_id": {
+                "type": "string"
+              },
+              "post_url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "published_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "captured_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "data_source": {
+                "type": "string"
+              },
+              "metrics": {
+                "type": "object",
+                "minProperties": 1
+              },
+              "evidence_path": {
+                "type": "string"
+              },
+              "evidence_sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "analysis": {
+                "type": "object",
+                "required": [
+                  "baseline_or_comparator",
+                  "diagnosis",
+                  "attribution_limit",
+                  "next_action"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

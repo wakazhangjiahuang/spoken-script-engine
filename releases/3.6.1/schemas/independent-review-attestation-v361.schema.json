@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "spoken-script-engine independent reviewer attestation v3.6.1",
+  "type": "object",
+  "required": [
+    "reviewer_attestation"
+  ],
+  "properties": {
+    "reviewer_attestation": {
+      "type": "object",
+      "required": [
+        "reviewer_id",
+        "generator_id",
+        "reviewer_session_id",
+        "generator_session_id",
+        "reviewer_mode",
+        "independence_level",
+        "independent",
+        "same_model_role",
+        "reviewed_at",
+        "review_evidence_path",
+        "review_evidence_sha256",
+        "blind_packet_path",
+        "blind_packet_sha256",
+        "batch_sha256",
+        "decision_sha256",
+        "source_manifest_sha256",
+        "attestation_method",
+        "contains_scores",
+        "reviewer_model",
+        "generator_model"
+      ],
+      "properties": {
+        "reviewer_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generator_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewer_session_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generator_session_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewer_mode": {
+          "enum": [
+            "human",
+            "separate_model"
+          ]
+        },
+        "independence_level": {
+          "enum": [
+            "human",
+            "separate_model"
+          ]
+        },
+        "reviewer_model": {
+          "type": "string"
+        },
+        "generator_model": {
+          "type": "string"
+        },
+        "independent": {
+          "const": true
+        },
+        "same_model_role": {
+          "const": false
+        },
+        "reviewed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "review_evidence_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_evidence_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "blind_packet_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "blind_packet_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "batch_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "decision_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_manifest_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "attestation_method": {
+          "type": "string",
+          "minLength": 8
+        },
+        "reviewer_confirmation": {
+          "type": "string"
+        },
+        "contains_scores": {
+          "const": false
+        }
+      }
+    }
+  }
+}
