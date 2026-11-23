@@ -18,7 +18,7 @@
     "registry": "REPO-REGISTRY.json",
     "registry_commit": "PENDING_V361_REGISTRY_COMMIT",
     "manifest_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
-    "asset_ref": "PENDING_V361_OVERLAY_COMMIT",
+    "asset_ref": "b9b3ae7f9574debdd7543f45ba11fca8530fa0f8",
     "version": "3.6.1",
     "visibility": "public",
     "base_path": "releases/3.1.1/",

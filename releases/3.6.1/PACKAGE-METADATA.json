@@ -64,7 +64,7 @@
     "Adds run_pipeline_v3_6_1.py as sole formal entrypoint; unrun external validation remains VALIDATION_PENDING and average scores never compensate for a failed criterion."
   ],
   "ai_video_sample_source_commit": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
-  "github_asset_ref": "PENDING_V361_OVERLAY_COMMIT",
+  "github_asset_ref": "b9b3ae7f9574debdd7543f45ba11fca8530fa0f8",
   "github_registry_commit": "PENDING_V361_REGISTRY_COMMIT",
   "source_release": "20261123-spoken-script-engine-v3.6.1-four-layer-evidence-closure"
 }
