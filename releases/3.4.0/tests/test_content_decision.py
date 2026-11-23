@@ -1,5 +1,7 @@
-import unittest
-from scripts.validate_content_decision import validate_script, validate_batch
+import sys, unittest
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from scripts.validate_content_decision import validate_script, validate_batch, validate_review
 
 def sample():
     return {
@@ -41,6 +43,14 @@ class ContentDecisionTests(unittest.TestCase):
         b = {"scripts": [{"id": f"OLD-{i}", "segments": []} for i in range(6)]}
         errors = validate_batch(b)
         self.assertEqual(sum(x.endswith("PROFESSIONAL_DECISION_MISSING") for x in errors), 6)
+    def test_review_requires_anchored_quotes_and_three_of_five_floor(self):
+        dims = {"audience_need", "cover_click_reason", "opening_bridge", "body_payoff", "evidence_credibility", "platform_native", "cta_comment", "human_voice_originality"}
+        quote = "先补齐三项，再定细节密度。"
+        item = {"script_id":"T-01","scorecard":{d:{"score":4,"quote":quote,"reason":"该判断具体影响Brief处理顺序。"} for d in dims},"professional_decision_review":{"passed":True,"quote":quote,"reason":"决策与正文完全一致并说明了选择依据。"}}
+        batch={"scripts":[sample()]}; review={"items":[item]}
+        self.assertEqual(validate_review(batch,review,dims),[])
+        item["scorecard"]["body_payoff"]["score"]=2
+        self.assertIn("T-01:DIMENSION_BELOW_3:body_payoff",validate_review(batch,review,dims))
 
 if __name__ == "__main__":
     unittest.main()
