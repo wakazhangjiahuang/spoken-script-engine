@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """v3.4.4 authoritative entrypoint: source binding + spoken-depth + domain review."""
 from __future__ import annotations
-import argparse,json,sys,zipfile
+import argparse,hashlib,json,sys,zipfile
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
 ROOT=HERE.parent
@@ -78,7 +78,12 @@ def _preflight(a):
  if domain=='ai_video':
   if not a.v41_review:errors.append('AI_VIDEO_V4_1_REVIEW_REQUIRED')
   else:
-   review=_read(a.v41_review);result=validate_v41_review(batch,review)
+   review=_read(a.v41_review)
+   raw_sha=hashlib.sha256(Path(a.input).read_bytes()).hexdigest()
+   payload_sha=hashlib.sha256(json.dumps(batch,ensure_ascii=False,separators=(',',':')).encode('utf-8')).hexdigest()
+   if review.get('batch_sha256') not in (raw_sha,payload_sha):errors.append('AI_VIDEO_V4_1_REVIEW_NOT_BOUND_TO_BATCH_BYTES')
+   review['batch_sha256_payload']=payload_sha
+   result=validate_v41_review(batch,review)
    if result.get('status') in ('NEEDS_REVISION','INVALID_INPUT'):
     errors.extend(['AI_VIDEO_V4_1_FORMAL_VALIDATOR:'+x for x in result.get('errors',[])])
    if a.require_v41_full_validation and result.get('status')!='PASS':
