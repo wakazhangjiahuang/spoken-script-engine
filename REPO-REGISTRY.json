@@ -6,9 +6,9 @@
   "registry": "REPO-REGISTRY.json",
   "manifest_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
   "ai_video_sample_manifest_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
-  "asset_ref": "18f613c040242f303893c4f7f614148f94e60a62",
-  "active_overlay_ref": "18f613c040242f303893c4f7f614148f94e60a62",
-  "version": "3.5.1",
+  "asset_ref": "8eb716d2388b9495e8422ba28ae48d1afbecf6d2",
+  "active_overlay_ref": "8eb716d2388b9495e8422ba28ae48d1afbecf6d2",
+  "version": "3.6.0",
   "base_path": "releases/3.1.1/",
   "manifest_path": "releases/3.1.1/references/ai-video-workbook-schema.json",
   "engine_path": "releases/3.1.1/",
@@ -22,13 +22,14 @@
     "releases/3.4.2/",
     "releases/3.4.3/",
     "releases/3.5.0/",
-    "releases/3.5.1/"
+    "releases/3.5.1/",
+    "releases/3.6.0/"
   ],
-  "active_overlay_path": "releases/3.5.1/",
+  "active_overlay_path": "releases/3.6.0/",
   "previous_root_assets": "removed_from_current_branch_history_retained",
   "checked_at": "2026-11-23",
   "engine_ref_policy": "asset_ref_for_active_overlay_manifest_ref_for_ai_video_sample_registry_commit_for_registry_pin",
-  "source_release": "20261123-spoken-script-engine-v3.5.1-formal-v41-review-gate",
+  "source_release": "20261123-spoken-script-engine-v3.6.0-source-first-marketing-quality",
   "manifest_sha256": "4730d19c0b6559eb6c836014ae407606c7744e79be79327ac8bc0fd0b638fc7e",
   "legacy_fallback": false,
   "sample_scope": [
@@ -70,10 +71,21 @@
     "exact_batch_sha_binding_for_review",
     "independent_reviewer_identity_gate",
     "fast_screen_deep_review_critic_routing_gate",
-    "require_v41_full_validation_enforced"
+    "require_v41_full_validation_enforced",
+    "two_domain_specific_benchmark_classes",
+    "source_inventory_before_planning",
+    "prefer_real_user_project_case_policy",
+    "explicit_content_mode_routing",
+    "simulation_authorization_and_spoken_disclosure",
+    "quote_bound_marketing_review",
+    "capability_amplification_evidence_gate",
+    "next_level_value_review",
+    "source_fidelity_review",
+    "v3.6.0_single_entrypoint",
+    "external_validation_pending_status"
   ],
-  "reference_overlay_version": "20261123-v3.5.1-formal-v41-review-gate",
+  "reference_overlay_version": "20261123-v3.6.0-source-first-marketing-quality",
   "public_repository_policy": "Public repository contains only generic rules, redacted governance, schemas and validators. Original user Word/XLSX, client data, original lock baseline, raw artwork, footage and permissions remain private.",
-  "source_pin_policy": "The active v3.5.1 patch overlay is pinned by asset_ref and applied on the v3.5.0 content-payoff baseline; AI-video sample index and governance remain pinned to manifest_ref. Do not treat unpinned main as runtime source.",
-  "validator_revision": "20261123-v3.5.1-formal-v41-review-routing-batch-integrity"
+  "source_pin_policy": "The active v3.6.0 patch overlay is pinned by asset_ref and applied on the v3.5.1 formal-review baseline; AI-video sample index and governance remain pinned to manifest_ref. Public repository contains only redacted benchmark mechanisms and generic contracts. Do not treat unpinned main as runtime source.",
+  "validator_revision": "20261123-v3.6.0-source-inventory-content-mode-marketing-review"
 }

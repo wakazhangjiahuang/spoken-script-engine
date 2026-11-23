@@ -4,9 +4,17 @@ on:
   push:
     branches: [main]
     paths:
-      - "releases/3.1.0/**"
-      - "releases/3.2.0/**"
-      - "releases/3.2.1/**"
+      - "releases/3.5.0/**"
+      - "releases/3.5.1/**"
+      - "releases/3.6.0/**"
+      - "REPO-REGISTRY.json"
+      - "README.md"
+      - ".github/workflows/package-skill.yml"
+  pull_request:
+    paths:
+      - "releases/3.5.0/**"
+      - "releases/3.5.1/**"
+      - "releases/3.6.0/**"
       - "REPO-REGISTRY.json"
       - "README.md"
       - ".github/workflows/package-skill.yml"
@@ -41,35 +49,36 @@ jobs:
         working-directory: releases/3.2.1
         run: python -m unittest discover -s scripts -p "test_*.py" -v
 
-      - name: Build explicitly labeled V4.1 overlay package
-        run: |
-          mkdir -p dist/spoken-script-engine-v4.1-overlay
-          cp -R releases/3.2.0/skills/spoken-script-engine/. dist/spoken-script-engine-v4.1-overlay/
-          cp releases/3.2.0/README.md dist/spoken-script-engine-v4.1-overlay/RELEASE-README.md
-          find dist/spoken-script-engine-v4.1-overlay -type d -name "__pycache__" -prune -exec rm -rf {} +
-          cd dist
-          zip -qr spoken-script-engine-v4.1-overlay-3.2.0.zip spoken-script-engine-v4.1-overlay
+      - name: Run v3.5.0 content-payoff regression suite
+        working-directory: releases/3.5.0
+        run: python -m unittest discover -s scripts -p "test_content_quality_v350.py" -v
 
-      - name: Build sample governance overlay
-        run: |
-          mkdir -p dist/spoken-script-engine-ai-video-sample-overlay
-          cp -R releases/3.2.1/. dist/spoken-script-engine-ai-video-sample-overlay/
-          find dist/spoken-script-engine-ai-video-sample-overlay -type d -name "__pycache__" -prune -exec rm -rf {} +
-          cd dist
-          zip -qr spoken-script-engine-ai-video-sample-overlay-3.2.1.zip spoken-script-engine-ai-video-sample-overlay
+      - name: Run v3.5.1 formal V4.1 wiring regression suite
+        working-directory: releases/3.5.1
+        run: python -m unittest discover -s tests -p "test_formal_v41_gate_v351.py" -v
 
-      - name: Upload V4.1 overlay artifact
+      - name: Run v3.6.0 marketing and source-fidelity regression suite
+        working-directory: releases/3.6.0
+        run: |
+          python -m py_compile scripts/marketing_quality_gate_v360.py scripts/run_pipeline_v3_6.py
+          python -m unittest discover -s tests -p "test_marketing_quality_gate_v360.py" -v
+          python -m unittest discover -s tests -p "test_release_manifest_v360.py" -v
+          python -m json.tool references/benchmark-governance-v360.json > /dev/null
+          python -m json.tool schemas/marketing-review-v360.schema.json > /dev/null
+          python -m json.tool schemas/source-inventory-v360.schema.json > /dev/null
+
+      - name: Build v3.6.0 overlay package
+        run: |
+          mkdir -p dist/spoken-script-engine-v3.6.0
+          cp -R releases/3.6.0/. dist/spoken-script-engine-v3.6.0/
+          find dist/spoken-script-engine-v3.6.0 -type d -name "__pycache__" -prune -exec rm -rf {} +
+          cd dist
+          zip -qr spoken-script-engine-v3.6.0-overlay.zip spoken-script-engine-v3.6.0
+
+      - name: Upload v3.6.0 overlay artifact
         uses: actions/upload-artifact@v4
         with:
-          name: spoken-script-engine-v4.1-overlay-3.2.0
-          path: dist/spoken-script-engine-v4.1-overlay-3.2.0.zip
-          if-no-files-found: error
-          retention-days: 14
-
-      - name: Upload sample governance overlay artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: spoken-script-engine-ai-video-sample-overlay-3.2.1
-          path: dist/spoken-script-engine-ai-video-sample-overlay-3.2.1.zip
+          name: spoken-script-engine-v3.6.0-overlay
+          path: dist/spoken-script-engine-v3.6.0-overlay.zip
           if-no-files-found: error
           retention-days: 14
