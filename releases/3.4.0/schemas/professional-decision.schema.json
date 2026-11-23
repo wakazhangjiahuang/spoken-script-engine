@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "spoken-script-engine/v3.4.0/professional-decision.schema.json",
+  "title": "Professional decision unit",
+  "type": "object",
+  "required": ["audience_need_ref", "viewer_task", "case_mode", "concrete_input", "constraints", "options_considered", "chosen_option", "rejected_option", "decision_reason", "source_status", "evidence_refs", "applicability_boundary", "viewer_action", "spoken_anchor"],
+  "properties": {
+    "audience_need_ref": {"type": "object", "required": ["source_asset_id", "source_locator", "source_quote"], "properties": {"source_asset_id": {"type": "string", "minLength": 1}, "source_locator": {"type": "string", "minLength": 1}, "source_quote": {"type": "string", "minLength": 4}}},
+    "viewer_task": {"type": "string", "minLength": 8},
+    "case_mode": {"enum": ["real", "simulated", "method"]},
+    "concrete_input": {"type": "string", "minLength": 10},
+    "constraints": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 5}},
+    "options_considered": {"type": "array", "minItems": 2, "items": {"type": "object", "required": ["option", "tradeoff"], "properties": {"option": {"type": "string", "minLength": 2}, "tradeoff": {"type": "string", "minLength": 5}}}},
+    "chosen_option": {"type": "string", "minLength": 2},
+    "rejected_option": {"type": "string", "minLength": 2},
+    "decision_reason": {"type": "string", "minLength": 12},
+    "source_status": {"enum": ["USER_PROVIDED", "VERIFIED", "PUBLIC_SOURCE", "INFERENCE", "SIMULATED", "UNKNOWN"]},
+    "evidence_refs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "applicability_boundary": {"type": "string", "minLength": 8},
+    "viewer_action": {"type": "string", "minLength": 8},
+    "spoken_anchor": {"type": "object", "required": ["segment_id", "quote"], "properties": {"segment_id": {"type": "string", "minLength": 1}, "quote": {"type": "string", "minLength": 8}}},
+    "simulation_disclosure": {"type": "object", "required": ["segment_id", "quote"], "properties": {"segment_id": {"type": "string", "minLength": 1}, "quote": {"type": "string", "minLength": 4}}}
+  },
+  "allOf": [
+    {"if": {"properties": {"case_mode": {"const": "simulated"}}, "required": ["case_mode"]}, "then": {"required": ["simulation_disclosure"]}},
+    {"if": {"properties": {"source_status": {"const": "SIMULATED"}}, "required": ["source_status"]}, "then": {"required": ["simulation_disclosure"]}}
+  ]
+}
