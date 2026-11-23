@@ -6,9 +6,9 @@
   "registry": "REPO-REGISTRY.json",
   "manifest_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
   "ai_video_sample_manifest_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
-  "asset_ref": "6c4b16d24542c79b37c3b6cc83742b039adfa6a6",
-  "active_overlay_ref": "6c4b16d24542c79b37c3b6cc83742b039adfa6a6",
-  "version": "3.6.0",
+  "asset_ref": "0a67b571c3fb96e7257c32607277d74587b89ab3",
+  "active_overlay_ref": "0a67b571c3fb96e7257c32607277d74587b89ab3",
+  "version": "3.6.1",
   "base_path": "releases/3.1.1/",
   "manifest_path": "releases/3.1.1/references/ai-video-workbook-schema.json",
   "engine_path": "releases/3.1.1/",
@@ -23,13 +23,14 @@
     "releases/3.4.3/",
     "releases/3.5.0/",
     "releases/3.5.1/",
-    "releases/3.6.0/"
+    "releases/3.6.0/",
+    "releases/3.6.1/"
   ],
-  "active_overlay_path": "releases/3.6.0/",
+  "active_overlay_path": "releases/3.6.1/",
   "previous_root_assets": "removed_from_current_branch_history_retained",
-  "checked_at": "2026-11-23",
+  "checked_at": "2026-11-24",
   "engine_ref_policy": "asset_ref_for_active_overlay_manifest_ref_for_ai_video_sample_registry_commit_for_registry_pin",
-  "source_release": "20261123-spoken-script-engine-v3.6.0-source-first-marketing-quality",
+  "source_release": "20261124-spoken-script-engine-v3.6.1-four-layer-evidence-closure",
   "manifest_sha256": "4730d19c0b6559eb6c836014ae407606c7744e79be79327ac8bc0fd0b638fc7e",
   "legacy_fallback": false,
   "sample_scope": [
@@ -82,10 +83,19 @@
     "next_level_value_review",
     "source_fidelity_review",
     "v3.6.0_single_entrypoint",
-    "external_validation_pending_status"
+    "external_validation_pending_status",
+    "four_layer_source_fact_claim_traceability",
+    "three_plus_distinct_marketing_entry_competition",
+    "five_mode_narrative_routing",
+    "fifteen_point_non_compensatory_per_script_acceptance",
+    "independent_reviewer_attestation_and_blind_packet_sha_binding",
+    "human_voice_test_and_target_user_blind_read",
+    "rights_permissions_evidence",
+    "real_platform_outcome_feedback",
+    "v3.6.1_single_formal_entrypoint"
   ],
-  "reference_overlay_version": "20261123-v3.6.0-source-first-marketing-quality",
+  "reference_overlay_version": "20261124-v3.6.1-four-layer-evidence-closure",
   "public_repository_policy": "Public repository contains only generic rules, redacted governance, schemas and validators. Original user Word/XLSX, client data, original lock baseline, raw artwork, footage and permissions remain private.",
-  "source_pin_policy": "The active v3.6.0 patch overlay is pinned by asset_ref and applied on the v3.5.1 formal-review baseline; AI-video sample index and governance remain pinned to manifest_ref. Public repository contains only redacted benchmark mechanisms and generic contracts. Do not treat unpinned main as runtime source.",
-  "validator_revision": "20261123-v3.6.0-source-inventory-content-mode-marketing-review"
+  "source_pin_policy": "The active v3.6.1 overlay is pinned by asset_ref and applied on the v3.6.0 source-first marketing baseline; AI-video sample index/governance remains pinned to manifest_ref. Registry metadata is pinned separately by registry_commit. Public repository contains only generic contracts, redacted governance, schemas, validators and tests. Do not treat unpinned main as runtime source.",
+  "validator_revision": "20261124-v3.6.1-source-fact-decision-draft-15point-independent-external-validation"
 }
