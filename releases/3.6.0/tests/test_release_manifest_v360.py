@@ -8,11 +8,16 @@ REPO_ROOT = Path(__file__).resolve().parents[3]
 class PublicReleaseManifestV360Tests(unittest.TestCase):
     def test_registry_targets_v360_overlay(self):
         registry = json.loads((REPO_ROOT / "REPO-REGISTRY.json").read_text(encoding="utf-8"))
-        self.assertEqual(registry["version"], "3.6.0")
-        self.assertEqual(registry["active_overlay_path"], "releases/3.6.0/")
+        # This is a historical 3.6.0 regression suite. The root registry may advance,
+        # but the 3.6.0 overlay must remain in the ordered compatibility chain.
+        version = tuple(int(x) for x in registry["version"].split("."))
+        self.assertGreaterEqual(version, (3, 6, 0))
         self.assertIn("releases/3.6.0/", registry["overlay_paths"])
         self.assertEqual(registry["asset_ref"], registry["active_overlay_ref"])
         self.assertNotEqual(registry["asset_ref"], "PENDING_V360_OVERLAY_COMMIT")
+        self.assertIn(registry["active_overlay_path"], registry["overlay_paths"])
+        if registry["version"] == "3.6.0":
+            self.assertEqual(registry["active_overlay_path"], "releases/3.6.0/")
 
     def test_required_release_files_exist(self):
         for path in [
