@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "spoken-script-engine marketing review v3.6.0",
+  "type": "object",
+  "required": ["marketing_reviewer", "marketing_checks", "external_validation"],
+  "properties": {
+    "marketing_reviewer": {
+      "type": "object",
+      "required": ["reviewer_id", "generator_id", "mode", "independent", "same_model_role"],
+      "properties": {
+        "reviewer_id": {"type": "string", "minLength": 1},
+        "generator_id": {"type": "string", "minLength": 1},
+        "mode": {"enum": ["human", "separate_model"]},
+        "independent": {"const": true},
+        "same_model_role": {"const": false}
+      }
+    },
+    "marketing_checks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["script_id", "user_relevance", "click_chain", "promise_payoff", "content_mode_fit", "capability_amplification", "next_level_value", "source_fidelity"],
+        "properties": {
+          "script_id": {"type": "string", "minLength": 1},
+          "user_relevance": {"type": "object", "required": ["passed", "quote", "reason"], "properties": {"passed": {"const": true}, "quote": {"type": "string", "minLength": 8}, "reason": {"type": "string", "minLength": 20}}},
+          "click_chain": {"type": "object", "required": ["passed", "hook_quote", "bridge_quote", "new_information_quote", "reason"], "properties": {"passed": {"const": true}, "hook_quote": {"type": "string", "minLength": 8}, "bridge_quote": {"type": "string", "minLength": 8}, "new_information_quote": {"type": "string", "minLength": 8}, "reason": {"type": "string", "minLength": 20}}},
+          "promise_payoff": {"type": "object", "required": ["passed", "promise_quote", "payoff_quote", "reason"], "properties": {"passed": {"const": true}, "promise_quote": {"type": "string", "minLength": 8}, "payoff_quote": {"type": "string", "minLength": 8}, "reason": {"type": "string", "minLength": 20}}},
+          "content_mode_fit": {"type": "object", "required": ["passed", "mode", "evidence_quote", "reason"], "properties": {"passed": {"const": true}, "mode": {"enum": ["real_commercial_case", "ai_workflow_tutorial", "design_decision_analysis", "business_opportunity_analysis", "hypothetical_scenario"]}, "evidence_quote": {"type": "string", "minLength": 8}, "reason": {"type": "string", "minLength": 20}}},
+          "capability_amplification": {"type": "object", "required": ["applicable", "reason"], "properties": {"applicable": {"type": "boolean"}, "passed": {"type": "boolean"}, "quote": {"type": "string"}, "human_ai_boundary": {"type": "string"}, "evidence_ref": {"type": "string"}, "reason": {"type": "string", "minLength": 20}}},
+          "next_level_value": {"type": "object", "required": ["passed", "quote", "next_need", "reason"], "properties": {"passed": {"const": true}, "quote": {"type": "string", "minLength": 8}, "next_need": {"type": "string", "minLength": 12}, "reason": {"type": "string", "minLength": 20}}},
+          "source_fidelity": {"type": "object", "required": ["passed", "used_fact_ids", "reason"], "properties": {"passed": {"const": true}, "used_fact_ids": {"type": "array", "items": {"type": "string"}}, "ignored_relevant_sources": {"type": "array"}, "reason": {"type": "string", "minLength": 20}}}
+        }
+      }
+    },
+    "external_validation": {
+      "type": "object",
+      "required": ["human_voice_test", "target_user_blind_read", "rights_and_permissions", "platform_outcome"],
+      "properties": {
+        "human_voice_test": {"enum": ["NOT_RUN", "PASSED", "FAILED"]},
+        "target_user_blind_read": {"enum": ["NOT_RUN", "PASSED", "FAILED"]},
+        "rights_and_permissions": {"enum": ["NOT_RUN", "PASSED", "FAILED"]},
+        "platform_outcome": {"enum": ["NOT_RUN", "PASSED", "FAILED"]}
+      }
+    }
+  }
+}
