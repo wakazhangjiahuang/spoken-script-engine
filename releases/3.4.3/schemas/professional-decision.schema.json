@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "spoken-script-engine/v3.4.3/professional-decision.schema.json",
+  "title": "Source-bound professional decision spoken in the script",
+  "type": "object",
+  "required": ["audience_need_ref","viewer_task","case_mode","concrete_input","constraints","options_considered","chosen_option","rejected_option","decision_reason","source_status","evidence_refs","applicability_boundary","viewer_action","spoken_anchors"],
+  "properties": {
+    "audience_need_ref": {"type":"object","required":["source_asset_id","source_locator","source_quote"],"properties":{"source_asset_id":{"type":"string","minLength":1},"source_locator":{"type":"string","minLength":3},"source_quote":{"type":"string","minLength":6}},"additionalProperties":false},
+    "viewer_task":{"type":"string","minLength":8},
+    "case_mode":{"enum":["real","simulated","method"]},
+    "concrete_input":{"type":"string","minLength":20},
+    "constraints":{"type":"array","minItems":2,"items":{"type":"string","minLength":6}},
+    "options_considered":{"type":"array","minItems":2,"items":{"type":"object","required":["option","tradeoff"],"properties":{"option":{"type":"string","minLength":3},"tradeoff":{"type":"string","minLength":10}},"additionalProperties":false}},
+    "chosen_option":{"type":"string","minLength":3},
+    "rejected_option":{"type":"string","minLength":3},
+    "decision_reason":{"type":"string","minLength":20},
+    "source_status":{"enum":["USER_PROVIDED","VERIFIED","PUBLIC_SOURCE","INFERENCE","SIMULATED","UNKNOWN"]},
+    "evidence_refs":{"type":"array","minItems":1,"items":{"type":"string","minLength":3}},
+    "applicability_boundary":{"type":"string","minLength":15},
+    "viewer_action":{"type":"string","minLength":10},
+    "spoken_anchors":{"type":"object","required":["chosen_option","rejected_option","decision_reason","applicability_boundary","viewer_action"],"properties":{"chosen_option":{"$ref":"#/$defs/anchor"},"rejected_option":{"$ref":"#/$defs/anchor"},"decision_reason":{"$ref":"#/$defs/anchor"},"applicability_boundary":{"$ref":"#/$defs/anchor"},"viewer_action":{"$ref":"#/$defs/anchor"}},"additionalProperties":false},
+    "simulation_disclosure":{"type":"object","required":["segment_id","quote"],"properties":{"segment_id":{"type":"string","minLength":1},"quote":{"type":"string","minLength":6}},"additionalProperties":false}
+  },
+  "allOf":[{"if":{"properties":{"case_mode":{"const":"simulated"}},"required":["case_mode"]},"then":{"required":["simulation_disclosure"]}}],
+  "$defs":{"anchor":{"type":"object","required":["segment_id","quote"],"properties":{"segment_id":{"type":"string","minLength":1},"quote":{"type":"string","minLength":6}},"additionalProperties":false}},
+  "additionalProperties":true
+}

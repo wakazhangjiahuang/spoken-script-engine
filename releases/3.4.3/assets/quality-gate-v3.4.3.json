@@ -1,0 +1,59 @@
+{
+  "version": "3.4.3",
+  "purpose": "Targeted repair of source-to-generation and professional-decision quality gaps; no audience framework expansion.",
+  "must_read_sources": {
+    "illustration": [
+      "ILLUSTRATION-GUIDANCE-V2.0",
+      "COVER-TITLE-GUIDE-V4"
+    ],
+    "ai_video": [
+      "AI-VIDEO-BUSINESS-GUIDE-V4.1",
+      "AI-VIDEO-TEAM-GUIDE-20261123"
+    ]
+  },
+  "gates": [
+    "source_text_loaded",
+    "source_need_exact_quote",
+    "plan_script_need_ref_equal",
+    "professional_decision_spoken_anchors",
+    "distinct_options_and_tradeoffs",
+    "simulation_disclosure",
+    "dimension_floor_3_of_5",
+    "weighted_score_floor",
+    "independent_review",
+    "hard_gates_non_compensatory",
+    "external_evidence_sha"
+  ],
+  "illustration": {
+    "weights": {
+      "audience_and_task": 15,
+      "entry_and_click_reason": 15,
+      "first_8_seconds": 15,
+      "professional_judgment_and_payoff": 20,
+      "facts_evidence_and_rights": 15,
+      "platform_native_expression": 10,
+      "calling_and_action": 5,
+      "spoken_naturalness": 5
+    },
+    "dimension_floor": 3,
+    "total_floor": 70
+  },
+  "ai_video": {
+    "rubric": "assets/ai-video/v4.1/quality-rubric.json",
+    "dimension_floor": 3,
+    "total_floor": 70,
+    "validator": "scripts/validate_v41.py"
+  },
+  "release_states": [
+    "REWRITE",
+    "REVISE",
+    "CANDIDATE",
+    "STRONG_CANDIDATE",
+    "VALIDATION_PENDING",
+    "PUBLISH_HOLD"
+  ],
+  "non_claims": [
+    "No prediction of click-through, retention, reach, conversion or revenue from editorial score alone.",
+    "No external review or audience test may be marked PASS without actual evidence."
+  ]
+}
