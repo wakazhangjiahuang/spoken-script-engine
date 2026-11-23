@@ -72,6 +72,9 @@ jobs:
           python -m unittest discover -s tests -p "test_acceptance_contract_v361.py" -v
           python -m unittest discover -s tests -p "test_release_manifest_v361.py" -v
           for f in schemas/*.json; do python -m json.tool "$f" > /dev/null; done
+      - name: Test complete Skill assembler
+        run: python -m unittest scripts.test_assemble_skill_release -v
+
       - name: Assemble complete v3.6.1 Skill package
         run: python scripts/assemble_skill_release.py --repo . --output-dir dist/complete-skill --zip dist/spoken-script-engine-v3.6.1-skill.zip
       - name: Build v3.6.1 overlay package

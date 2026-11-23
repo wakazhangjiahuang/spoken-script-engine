@@ -16,7 +16,7 @@
 ## 发布结构
 
 - 基础包：`releases/3.1.1/`
-- 历史补丁：`releases/3.1.3/`、`releases/3.2.0/`、`releases/3.2.1/`、`releases/3.3.0/`、`releases/3.4.x/`
+- 历史补丁：`releases/3.1.3/`、`releases/3.2.0/`、`releases/3.2.1/`、`releases/3.3.0/`、`releases/3.4.x/`（3.4.2运行文件已合并至3.4.3，完整包构建会逐项核验保留文件）
 - 专业内容兑现与V4.1正式审查：`releases/3.5.0/`、`releases/3.5.1/`
 - 来源优先与营销质量：`releases/3.6.0/`
 - 四层证据闭环：`releases/3.6.1/`
