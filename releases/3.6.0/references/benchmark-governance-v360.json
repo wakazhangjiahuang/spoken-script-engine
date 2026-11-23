@@ -1,0 +1,32 @@
+{
+  "version": "3.6.0",
+  "policy": "Two domain-specific positive references. Extract transferable mechanisms only; never copy wording, mix domains, score benchmark source text, or automatically use either benchmark as few-shot copy.",
+  "benchmarks": [
+    {
+      "benchmark_key": "illustration_commercial_case",
+      "benchmark_id": "ILLUSTRATION-COMMERCIAL-CASE-BENCHMARK",
+      "domain": "illustration",
+      "benchmark_type": "commercial_illustration_case",
+      "source_status": "USER_PROVIDED",
+      "performance_status": "NOT_INDEPENDENTLY_VERIFIED",
+      "role": "mechanism_reference_only",
+      "few_shot_allowed": false,
+      "score_as_script": false,
+      "transferable_mechanisms": ["buyer_context_and_product_specificity", "customer_brief_to_visual_decision", "tool_choice_as_support_not_final_product", "original_artwork_to_product_translation", "commercial_result_with_source_boundary", "portfolio_value_as_next_level_need"],
+      "non_transferable": ["Do not copy the original cover or opening verbatim.", "Do not transplant customer, amount, product, season or art direction into an unrelated project.", "Do not upgrade USER_PROVIDED to independently VERIFIED without original evidence.", "Do not present the tool as the final purchased deliverable when the value is original product-ready artwork."]
+    },
+    {
+      "benchmark_key": "ai_video_marketing_method",
+      "benchmark_id": "AI-VIDEO-A01",
+      "domain": "ai_video",
+      "benchmark_type": "ai_video_marketing_method",
+      "source_status": "calibrated_reference_not_performance_verified",
+      "performance_status": "NOT_PERFORMANCE_VERIFIED",
+      "role": "mechanism_reference_only",
+      "few_shot_allowed": false,
+      "score_as_script": false,
+      "transferable_mechanisms": ["audience_identity_and_shared_task", "cognitive_contrast_and_specific_information_gap", "concrete_value_preview", "workflow_payoff_with_visible_inputs_and_outputs", "capability_amplification_with_human_ai_boundary", "next_level_value_after_current_payoff"],
+      "non_transferable": ["Do not copy distinctive suspense phrases.", "Do not call multi-platform distribution viral spread without a traceable sharing mechanism.", "Do not claim backend interaction-data analysis without exported data or an authorized interface.", "Do not claim a solo creator or small team can independently complete the workflow without a non-expert test."]
+    }
+  ]
+}
