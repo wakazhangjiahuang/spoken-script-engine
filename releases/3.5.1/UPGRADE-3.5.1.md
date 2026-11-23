@@ -1,0 +1,1 @@
+v3.5.1 retains all v3.5.0 content-value gates and wires the formal AI-video V4.1 validator into the sole entrypoint, with exact batch SHA, independent reviewer and review-routing checks, and an effective full-validation flag.
