@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "spoken-script-engine draft delivery contract v3.6.1",
+  "type": "object",
+  "required": ["scripts"],
+  "properties": {
+    "scripts": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["script_id", "plan_id", "selected_entry_candidate_id", "platform", "content_mode", "cover_main", "cover_sub", "segments", "source_fact_ids", "claim_evidence", "narrative_map", "calling", "platform_fit"],
+        "properties": {
+          "script_id": {"type": "string", "minLength": 1},
+          "plan_id": {"type": "string", "minLength": 1},
+          "selected_entry_candidate_id": {"type": "string", "minLength": 1},
+          "platform": {"enum": ["抖音", "微信视频号", "小红书", "douyin", "channels", "xiaohongshu"]},
+          "content_mode": {"enum": ["real_commercial_case", "ai_workflow_tutorial", "design_decision_analysis", "business_opportunity_analysis", "hypothetical_scenario"]},
+          "cover_main": {"type": "string", "minLength": 6},
+          "cover_sub": {"type": "string", "minLength": 6},
+          "segments": {"type": "array", "minItems": 4, "items": {"type": "object", "required": ["id", "role", "text"], "properties": {"id": {"type": "string"}, "role": {"type": "string"}, "text": {"type": "string", "minLength": 1}, "duration_seconds": {"type": "number", "exclusiveMinimum": 0}}}},
+          "source_fact_ids": {"type": "array", "items": {"type": "string"}},
+          "source_asset_ids": {"type": "array", "items": {"type": "string"}},
+          "claim_evidence": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["fact_id", "spoken_claim_quote", "source_asset_id", "source_file", "source_sha256", "source_locator", "source_quote"], "properties": {"fact_id": {"type": "string"}, "spoken_claim_quote": {"type": "string", "minLength": 4}, "source_asset_id": {"type": "string"}, "source_file": {"type": "string"}, "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "source_locator": {"type": "string"}, "source_quote": {"type": "string", "minLength": 4}}}},
+          "narrative_map": {"type": "object", "required": ["content_mode", "stages"], "properties": {"content_mode": {"type": "string"}, "stages": {"type": "array", "minItems": 5, "items": {"type": "object", "required": ["stage_id", "quote"], "properties": {"stage_id": {"type": "string"}, "quote": {"type": "string", "minLength": 8}, "segment_id": {"type": "string"}}}}}},
+          "calling": {"type": "object", "required": ["action", "reason", "user_payoff", "quote"], "properties": {"action": {"type": "string", "minLength": 5}, "reason": {"type": "string", "minLength": 12}, "user_payoff": {"type": "string", "minLength": 12}, "quote": {"type": "string", "minLength": 8}}},
+          "platform_fit": {"type": "object", "required": ["platform", "user_task", "native_expression_reason", "quote"], "properties": {"platform": {"type": "string"}, "user_task": {"type": "string", "minLength": 12}, "native_expression_reason": {"type": "string", "minLength": 20}, "quote": {"type": "string", "minLength": 8}}}
+        }
+      }
+    }
+  }
+}
