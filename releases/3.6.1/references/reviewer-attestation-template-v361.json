@@ -1,0 +1,24 @@
+{
+  "reviewer_attestation": {
+    "reviewer_id": "",
+    "generator_id": "",
+    "reviewer_session_id": "",
+    "generator_session_id": "",
+    "reviewer_mode": "separate_model",
+    "reviewer_model": "",
+    "generator_model": "",
+    "independence_level": "separate_model",
+    "independent": true,
+    "same_model_role": false,
+    "reviewed_at": "",
+    "review_evidence_path": "",
+    "review_evidence_sha256": "",
+    "blind_packet_path": "",
+    "blind_packet_sha256": "",
+    "batch_sha256": "",
+    "decision_sha256": "",
+    "source_manifest_sha256": "",
+    "attestation_method": "separate_model_session_log",
+    "contains_scores": false
+  }
+}

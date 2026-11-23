@@ -1,0 +1,116 @@
+{
+  "delivery_acceptance": [
+    {
+      "script_id": "REPLACE_WITH_SCRIPT_ID",
+      "checks": [
+        {
+          "criterion_id": "user_need",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "topic_selection",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "cover",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "opening_0_3",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "bridge_3_8",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "body_mode",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "promise_payoff",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "capability_amplification",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。",
+          "not_applicable_reason": "仅当本篇不涉及AI能力、产能、人力或效率主张时填写具体不适用理由。"
+        },
+        {
+          "criterion_id": "next_level_value",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。",
+          "next_need": "待填写：从当前兑现价值自然延伸的下一层用户需求。"
+        },
+        {
+          "criterion_id": "calling",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "evidence",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "platform_fit",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "oral_delivery",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "independent_review",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        },
+        {
+          "criterion_id": "outcome_feedback",
+          "status": "PENDING",
+          "quotes": [],
+          "evidence_refs": [],
+          "reason": "待独立评审引用本篇实际成品或外部验证证据后作出判断；不得预先填PASS。"
+        }
+      ]
+    }
+  ]
+}

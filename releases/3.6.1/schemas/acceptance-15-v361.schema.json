@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "spoken-script-engine 15-point non-compensatory delivery acceptance v3.6.1",
+  "type": "object",
+  "required": ["delivery_acceptance"],
+  "properties": {
+    "delivery_acceptance": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["script_id", "checks"],
+        "properties": {
+          "script_id": {"type": "string", "minLength": 1},
+          "checks": {
+            "type": "array", "minItems": 15, "maxItems": 15,
+            "items": {
+              "type": "object",
+              "required": ["criterion_id", "status", "reason"],
+              "properties": {
+                "criterion_id": {"enum": ["user_need", "topic_selection", "cover", "opening_0_3", "bridge_3_8", "body_mode", "promise_payoff", "capability_amplification", "next_level_value", "calling", "evidence", "platform_fit", "oral_delivery", "independent_review", "outcome_feedback"]},
+                "status": {"enum": ["PASS", "FAIL", "PENDING", "NOT_APPLICABLE"]},
+                "quotes": {"type": "array", "items": {"type": "string", "minLength": 4}},
+                "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1}},
+                "reason": {"type": "string", "minLength": 20},
+                "not_applicable_reason": {"type": "string", "minLength": 20}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
