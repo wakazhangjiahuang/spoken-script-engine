@@ -6,8 +6,8 @@
   "registry": "REPO-REGISTRY.json",
   "manifest_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
   "ai_video_sample_manifest_ref": "486ad53295dd3e7d1268b570dadd55f47d5bab90",
-  "asset_ref": "04c41571b5bb69e05051671599a1114d403e97c8",
-  "active_overlay_ref": "04c41571b5bb69e05051671599a1114d403e97c8",
+  "asset_ref": "a89e0b4f7056ff2cdcba01f994db85ea48f26e40",
+  "active_overlay_ref": "a89e0b4f7056ff2cdcba01f994db85ea48f26e40",
   "version": "3.4.4",
   "base_path": "releases/3.1.1/",
   "manifest_path": "releases/3.1.1/references/ai-video-workbook-schema.json",
@@ -49,6 +49,6 @@
   ],
   "reference_overlay_version": "20261123-v3.4.4-content-depth-quality-gates",
   "public_repository_policy": "Public repository contains only generic rules, redacted governance, schemas and validators. Original user Word/XLSX, client data, original lock baseline, raw artwork, footage and permissions remain private.",
-  "source_pin_policy": "The active v3.4.4 patch overlay is pinned by asset_ref. It is applied on the v3.4.3 source-bound baseline; AI-video sample index and governance remain pinned to manifest_ref. Do not treat unpinned main as runtime source.",
+  "source_pin_policy": "The active v3.4.4 patch overlay is pinned by asset_ref and applied on the v3.4.3 source-bound baseline; AI-video sample index and governance remain pinned to manifest_ref. Do not treat unpinned main as runtime source.",
   "validator_revision": "20261123-v3.4.4-spoken-depth-formal-v41-validator-negative-regression"
 }
