@@ -1,0 +1,618 @@
+diff --git a/schemas/decision-competition-v361.schema.json b/schemas/decision-competition-v361.schema.json
+index d8e4635..96bbf0d 100644
+--- a/schemas/decision-competition-v361.schema.json
++++ b/schemas/decision-competition-v361.schema.json
+@@ -2,41 +2,169 @@
+   "$schema": "https://json-schema.org/draft/2020-12/schema",
+   "title": "spoken-script-engine marketing entry competition v3.6.1",
+   "type": "object",
+-  "required": ["marketing_entry_competition"],
+   "properties": {
+     "marketing_entry_competition": {
++      "$ref": "#/$defs/competition"
++    },
++    "topic_competitions": {
++      "type": "array",
++      "minItems": 1,
++      "items": {
++        "type": "object",
++        "required": [
++          "plan_id",
++          "competition"
++        ],
++        "properties": {
++          "plan_id": {
++            "type": "string",
++            "minLength": 1
++          },
++          "competition": {
++            "$ref": "#/$defs/competition"
++          }
++        }
++      }
++    }
++  },
++  "$defs": {
++    "competition": {
+       "type": "object",
+-      "required": ["candidates", "selected_candidate_id", "comparison_summary", "decision_reason", "tradeoffs"],
++      "required": [
++        "candidates",
++        "selected_candidate_id",
++        "comparison_summary",
++        "decision_reason",
++        "tradeoffs"
++      ],
+       "properties": {
+-        "selected_candidate_id": {"type": "string", "minLength": 1},
+-        "comparison_summary": {"type": "string", "minLength": 30},
+-        "decision_reason": {"type": "string", "minLength": 30},
+-        "tradeoffs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 12}},
++        "selected_candidate_id": {
++          "type": "string",
++          "minLength": 1
++        },
++        "comparison_summary": {
++          "type": "string",
++          "minLength": 30
++        },
++        "decision_reason": {
++          "type": "string",
++          "minLength": 30
++        },
++        "tradeoffs": {
++          "type": "array",
++          "minItems": 1,
++          "items": {
++            "type": "string",
++            "minLength": 12
++          }
++        },
+         "candidates": {
+-          "type": "array", "minItems": 3,
++          "type": "array",
++          "minItems": 3,
+           "items": {
+             "type": "object",
+-            "required": ["candidate_id", "entry_type", "target_user", "user_need", "hook", "click_reason", "promised_payoff", "evidence_refs", "delivery_plan", "commercial_value", "risk", "counter_evidence", "selected"],
++            "required": [
++              "candidate_id",
++              "entry_type",
++              "target_user",
++              "user_need",
++              "hook",
++              "click_reason",
++              "promised_payoff",
++              "evidence_refs",
++              "delivery_plan",
++              "commercial_value",
++              "risk",
++              "counter_evidence",
++              "selected"
++            ],
+             "properties": {
+-              "candidate_id": {"type": "string", "minLength": 1},
+-              "entry_type": {"type": "string", "minLength": 4},
+-              "target_user": {"type": "string", "minLength": 12},
+-              "user_need": {"type": "string", "minLength": 12},
+-              "hook": {"type": "string", "minLength": 12},
+-              "click_reason": {"type": "string", "minLength": 12},
+-              "promised_payoff": {"type": "string", "minLength": 12},
+-              "evidence_refs": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+-              "delivery_plan": {"type": "string", "minLength": 12},
+-              "commercial_value": {"type": "string", "minLength": 12},
+-              "risk": {"type": "string", "minLength": 12},
+-              "counter_evidence": {"type": "string", "minLength": 12},
+-              "selected": {"type": "boolean"},
+-              "selection_reason": {"type": "string"},
+-              "rejection_reason": {"type": "string"}
++              "candidate_id": {
++                "type": "string",
++                "minLength": 1
++              },
++              "entry_type": {
++                "type": "string",
++                "minLength": 4
++              },
++              "target_user": {
++                "type": "string",
++                "minLength": 12
++              },
++              "user_need": {
++                "type": "string",
++                "minLength": 12
++              },
++              "hook": {
++                "type": "string",
++                "minLength": 12
++              },
++              "click_reason": {
++                "type": "string",
++                "minLength": 12
++              },
++              "promised_payoff": {
++                "type": "string",
++                "minLength": 12
++              },
++              "evidence_refs": {
++                "type": "array",
++                "minItems": 1,
++                "items": {
++                  "type": "string"
++                }
++              },
++              "delivery_plan": {
++                "type": "string",
++                "minLength": 12
++              },
++              "commercial_value": {
++                "type": "string",
++                "minLength": 12
++              },
++              "risk": {
++                "type": "string",
++                "minLength": 12
++              },
++              "counter_evidence": {
++                "type": "string",
++                "minLength": 12
++              },
++              "selected": {
++                "type": "boolean"
++              },
++              "selection_reason": {
++                "type": "string"
++              },
++              "rejection_reason": {
++                "type": "string"
++              }
+             }
+           }
+         }
+       }
+     }
+-  }
++  },
++  "oneOf": [
++    {
++      "required": [
++        "marketing_entry_competition"
++      ],
++      "not": {
++        "required": [
++          "topic_competitions"
++        ]
++      }
++    },
++    {
++      "required": [
++        "topic_competitions"
++      ],
++      "not": {
++        "required": [
++          "marketing_entry_competition"
++        ]
++      }
++    }
++  ]
+ }
+diff --git a/scripts/acceptance_contract_v361.py b/scripts/acceptance_contract_v361.py
+index f5e5193..1b554c2 100644
+--- a/scripts/acceptance_contract_v361.py
++++ b/scripts/acceptance_contract_v361.py
+@@ -239,6 +239,29 @@ def validate_source_inventory(brief: dict, run_dir: str | Path) -> list[str]:
+ 
+ def validate_decision_competition(decision: dict, brief: dict, domain: str, run_dir: str | Path) -> list[str]:
+     errors = []
++    if isinstance(decision, dict) and 'topic_competitions' in decision:
++        if 'marketing_entry_competition' in decision:
++            return ['TOPIC_AND_BATCH_COMPETITIONS_ARE_AMBIGUOUS']
++        rows = decision.get('topic_competitions')
++        plans = _items(decision.get('selected'))
++        if not isinstance(rows, list) or not rows or any(not isinstance(x, dict) for x in rows):
++            return ['TOPIC_COMPETITIONS_MISSING_OR_INVALID']
++        plan_ids = [_s(x.get('id') or x.get('plan_id')) for x in plans if isinstance(x, dict)]
++        row_ids = [_s(x.get('plan_id')) for x in rows]
++        if len(plan_ids) != len(plans) or any(not x for x in plan_ids) or len(set(plan_ids)) != len(plan_ids):
++            errors.append('TOPIC_COMPETITION_SELECTED_PLAN_IDS_INVALID')
++        if len(set(row_ids)) != len(row_ids):
++            errors.append('TOPIC_COMPETITION_PLAN_IDS_DUPLICATED')
++        if set(row_ids) != set(plan_ids):
++            errors.append('TOPIC_COMPETITION_PLAN_COVERAGE_MISMATCH')
++        if errors:
++            return errors
++        by_plan = {_s(x['plan_id']): x for x in rows}
++        for plan in plans:
++            pid = _s(plan.get('id') or plan.get('plan_id'))
++            one = {'selected': [plan], 'marketing_entry_competition': by_plan[pid].get('competition')}
++            errors.extend(pid + ':' + e for e in validate_decision_competition(one, brief, domain, run_dir))
++        return errors
+     comp = decision.get("marketing_entry_competition") if isinstance(decision, dict) else None
+     if not isinstance(comp, dict):
+         return ["MARKETING_ENTRY_COMPETITION_MISSING"]
+@@ -543,6 +566,43 @@ def _validate_external(run: Path, review: dict, scripts: list[dict], attestation
+     return "PASS", [], report
+ 
+ 
++def visible_review_copy(script: dict) -> dict:
++    """Actual delivery only. This verifies review input fidelity, not quality."""
++    cover = script.get('cover') if isinstance(script.get('cover'), dict) else {}
++    return {
++        'script_id': _s(script.get('script_id') or script.get('id')),
++        'platform': _s(script.get('platform')),
++        'target_audience': _s(script.get('audience') or script.get('target_audience')),
++        'publish_title': _s(script.get('title')),
++        'cover_main': _s(script.get('cover_main') or cover.get('main')),
++        'cover_sub': _s(script.get('cover_sub') or cover.get('sub')),
++        'segments': [{k: seg[k] for k in ('id', 'role', 'duration_seconds', 'text', 'visual', 'subtitle', 'shot') if k in seg}
++                     for seg in _items(script.get('segments')) if isinstance(seg, dict)],
++        'comment_hook': script.get('comment_hook'),
++    }
++
++
++def validate_blind_copy(blind_data: dict, scripts: list[dict]) -> list[str]:
++    rows = blind_data.get('actual_copy') if isinstance(blind_data, dict) else None
++    if not isinstance(rows, list) or not rows:
++        return ['BLIND_PACKET_ACTUAL_COPY_MISSING']
++    if any(not isinstance(x, dict) for x in rows):
++        return ['BLIND_PACKET_ACTUAL_COPY_INVALID']
++    expected = {x['script_id']: x for x in map(visible_review_copy, scripts)}
++    ids = [_s(x.get('script_id')) for x in rows]
++    if len(set(ids)) != len(ids) or set(ids) != set(expected):
++        return ['BLIND_PACKET_ACTUAL_COPY_COVERAGE_MISMATCH']
++    return ['BLIND_PACKET_COPY_MISMATCH:' + x['script_id'] for x in rows if x != expected[x['script_id']]]
++
++
++def _competition_for_plan(decision: dict, plan_id: str) -> dict:
++    if 'topic_competitions' in decision:
++        row = next((x for x in _items(decision.get('topic_competitions'))
++                    if isinstance(x, dict) and _s(x.get('plan_id')) == plan_id), {})
++        return row.get('competition', {})
++    return decision.get('marketing_entry_competition', {})
++
++
+ def validate_review(batch: dict, decision: dict, brief: dict, review: dict, run_dir: str | Path, batch_path: str | Path) -> dict:
+     run = Path(run_dir).resolve(); bp = Path(batch_path).resolve(); dp = run / "decision.json"
+     errors = []
+@@ -566,6 +626,9 @@ def validate_review(batch: dict, decision: dict, brief: dict, review: dict, run_
+         if blind_packet:
+             try:
+                 blind_data = json.loads(blind_packet.read_text(encoding="utf-8"))
++                if not isinstance(blind_data, dict):
++                    raise ValueError('blind packet must be an object')
++                att_errors.extend(validate_blind_copy(blind_data, scripts))
+                 blind_ids = set(map(_s, _items(blind_data.get("script_ids"))))
+                 if not script_ids.issubset(blind_ids):
+                     att_errors.append("BLIND_PACKET_DOES_NOT_COVER_EVERY_SCRIPT")
+@@ -577,9 +640,7 @@ def validate_review(batch: dict, decision: dict, brief: dict, review: dict, run_
+                 if has_score_key(blind_data):
+                     att_errors.append("BLIND_PACKET_CONTAINS_REVIEWER_OR_SCORE_CUES")
+             except (ValueError, OSError):
+-                blind_text = blind_packet.read_text(encoding="utf-8", errors="replace")
+-                if any(sid not in blind_text for sid in script_ids) or re.search(r"评分|score|reviewer", blind_text, re.I):
+-                    att_errors.append("BLIND_PACKET_NOT_BLIND_OR_SCRIPT_COVERAGE_MISSING")
++                att_errors.append('BLIND_PACKET_JSON_OBJECT_REQUIRED')
+     errors.extend(att_errors)
+     att_status = "PASS" if not att_errors else "BLOCKED"
+     ext_status, ext_errors, ext_report = _validate_external(run, review, scripts, att)
+@@ -613,7 +674,7 @@ def validate_review(batch: dict, decision: dict, brief: dict, review: dict, run_
+             if cid == "user_need" and status == "PASS" and not any(q in hook_text + " " + bridge_text for q in quotes):
+                 errors.append("USER_NEED_NOT_EXPRESSED_IN_OPENING:" + sid)
+             if cid == "topic_selection" and status == "PASS":
+-                comp = decision.get("marketing_entry_competition", {})
++                comp = _competition_for_plan(decision, _s(script.get('plan_id') or script.get('topic_id')))
+                 candidate_ids = {_s(x.get("candidate_id")) for x in _items(comp.get("candidates")) if isinstance(x, dict)}
+                 used = set(map(_s, _items(item.get("evidence_refs"))))
+                 if not candidate_ids or not candidate_ids.issubset(used) or _s(comp.get("selected_candidate_id")) not in used:
+diff --git a/scripts/ai_video_assets_v2.py b/scripts/ai_video_assets_v2.py
+index 175d0d7..cd485e3 100644
+--- a/scripts/ai_video_assets_v2.py
++++ b/scripts/ai_video_assets_v2.py
+@@ -7,6 +7,9 @@ from pathlib import Path
+ import ai_video_assets as legacy
+ from v41_routing import is_ai_video_brief
+ ROOT=legacy.ROOT
++# The routing layer replaces legacy.stage_domain_assets later. Capture the
++# original callable now so delegation cannot recurse into its own wrapper.
++_LEGACY_STAGE_DOMAIN_ASSETS=legacy.stage_domain_assets
+ CURRENT_FILES=[
+  'assets/ai-video/current/AI视频制作标准指导手册_团队执行版_20261123.docx',
+  'assets/ai-video/current/AI视频_三平台口播稿_样例_20261123.xlsx'
+@@ -31,7 +34,7 @@ def verify_current_assets():
+     return m
+ 
+ def stage_domain_assets(run_dir,brief):
+-    result=legacy.stage_domain_assets(run_dir,brief)
++    result=_LEGACY_STAGE_DOMAIN_ASSETS(run_dir,brief)
+     if not is_ai_video_brief(brief) or not result: return result
+     current_manifest=verify_current_assets()
+     run_dir=Path(run_dir); manifest_path=Path(result['manifest_path'])
+diff --git a/scripts/prepare_review.py b/scripts/prepare_review.py
+index 93c7263..2bcddee 100644
+--- a/scripts/prepare_review.py
++++ b/scripts/prepare_review.py
+@@ -16,6 +16,18 @@ def clean(value):
+     return value
+ 
+ 
++def review_guidance(pack):
++    manifest = pack.get('domain_asset_manifest', {})
++    required = set(manifest.get('required_source_asset_ids') or manifest.get('must_read_source_asset_ids') or [])
++    guides = pack.get('must_read_guidance', {})
++    selected = {k: v for k, v in guides.items()
++                if k.startswith('domains/') or v.get('source_asset_id') in required}
++    missing = required - {v.get('source_asset_id') for v in selected.values()}
++    if missing:
++        raise ValueError('current domain guidance missing from review input: ' + ','.join(sorted(missing)))
++    return selected
++
++
+ def prepare(run, batch, phase="content", content_review=None):
+     run = Path(run)
+     batch = Path(batch)
+@@ -38,6 +50,10 @@ def prepare(run, batch, phase="content", content_review=None):
+     source_manifest = read(run / "source-manifest.json")
+     marketing_schema = read(root / "schemas" / "marketing-review-v360.schema.json")
+     source_schema = read(root / "schemas" / "source-inventory-v360.schema.json")
++    if phase == 'blind':
++        from acceptance_contract_v361 import visible_review_copy
++        copies = [visible_review_copy(s) for s in b['scripts']]
++        return {'batch_sha256': sha(batch), 'script_ids': [s['script_id'] for s in copies], 'actual_copy': copies}
+     data = {
+         "review_input_version": "3.6.0",
+         "phase": phase,
+@@ -58,7 +74,7 @@ def prepare(run, batch, phase="content", content_review=None):
+         "source_manifest": source_manifest,
+         "source_directory": str((run / "sources").resolve()),
+         "rubric": pack["rubric"],
+-        "domain_standard": {k: v for k, v in pack.get("must_read_guidance", {}).items() if k.startswith("domains/")},
++        "domain_standard": review_guidance(pack),
+         "marketing_review_contract": marketing_schema,
+         "source_inventory_contract": source_schema,
+         "marketing_review_instructions": [
+@@ -102,7 +118,7 @@ if __name__ == "__main__":
+     parser.add_argument("--run", required=True, type=Path)
+     parser.add_argument("--batch", required=True, type=Path)
+     parser.add_argument("--output", required=True, type=Path)
+-    parser.add_argument("--phase", choices=["content", "fidelity"], default="content")
++    parser.add_argument("--phase", choices=["blind", "content", "fidelity"], default="content")
+     parser.add_argument("--content-review", type=Path)
+     args = parser.parse_args()
+     try:
+diff --git a/scripts/run_pipeline_v3_4.py b/scripts/run_pipeline_v3_4.py
+index 7a3e415..695ace4 100644
+--- a/scripts/run_pipeline_v3_4.py
++++ b/scripts/run_pipeline_v3_4.py
+@@ -92,11 +92,14 @@ def _preflight(a):
+     run = Path(a.run).resolve()
+     brief_path = run / 'brief.json'
+     brief = _read(brief_path) if brief_path.is_file() else {}
+-    if not brief and a.request and Path(a.request).is_file():
+-        req = _read(a.request)
+-        brief = req.get('brief', req) if isinstance(req, dict) else {}
++    if a.stage == 'intake':
++        if not a.input:
++            raise ValueError('intake requires --input structured brief; --request is the raw request')
++        brief = _read(a.input)
+     domain = _domain(brief)
+-    ensure_asset_aliases(ROOT, run, domain=domain)
++    # Core intake owns creation of a fresh run. Preflight may resolve assets, but
++    # must not create RUN before the core's exclusive mkdir.
++    ensure_asset_aliases(ROOT, None if a.stage == 'intake' else run, domain=domain)
+     if a.stage == 'intake':
+         return
+     pack, registry = _context(run, brief)
+@@ -147,6 +150,7 @@ def _postflight(a):
+     run = Path(a.run).resolve()
+     if a.stage == 'intake':
+         brief = _read(run / 'brief.json')
++        ensure_asset_aliases(ROOT, run, domain=_domain(brief))
+         pack = _read(run / 'asset-pack.json')
+         errors = _guidance_errors(run, brief, pack)
+         if errors:
+diff --git a/tests/test_acceptance_contract_v361.py b/tests/test_acceptance_contract_v361.py
+index 808682b..2d78be3 100644
+--- a/tests/test_acceptance_contract_v361.py
++++ b/tests/test_acceptance_contract_v361.py
+@@ -4,7 +4,7 @@ from pathlib import Path
+ ROOT = Path(__file__).resolve().parents[1]
+ sys.path.insert(0, str(ROOT / "scripts"))
+ from acceptance_contract_v361 import (
+-    CRITERIA, validate_source_inventory, validate_decision_competition,
++    CRITERIA, validate_source_inventory, validate_decision_competition, visible_review_copy,
+     validate_draft_delivery, validate_review,
+ )
+ 
+@@ -94,7 +94,7 @@ class FourLayerAcceptanceV361Tests(unittest.TestCase):
+         review_evidence = self.run / "review-evidence.json"
+         review_evidence.write_text(json.dumps({"reviewer_id": "reviewer-B", "batch_sha256": batch_sha, "reviewed_script_ids": ["S1"], "verdict": "DRAFT_FOR_USER_REVIEW"}), encoding="utf-8")
+         blind_packet = self.run / "blind-packet.json"
+-        blind_packet.write_text(json.dumps({"batch_sha256": batch_sha, "script_ids": ["S1"]}), encoding="utf-8")
++        blind_packet.write_text(json.dumps({"batch_sha256": batch_sha, "script_ids": ["S1"], "actual_copy": [visible_review_copy(self.script)]}, ensure_ascii=False), encoding="utf-8")
+         return {"reviewer_id": "reviewer-B", "generator_id": "generator-A", "reviewer_session_id": "session-B", "generator_session_id": "session-A", "reviewed_at": "2026-11-23T12:00:00+08:00",
+                 "independence_level": "separate_model", "independent": True, "same_model_role": False, "reviewer_mode": "separate_model", "reviewer_model": "model-B", "generator_model": "model-A",
+                 "review_evidence_path": "review-evidence.json", "review_evidence_sha256": sha(review_evidence), "blind_packet_path": "blind-packet.json", "blind_packet_sha256": sha(blind_packet),
+diff --git a/tests/test_review_packet_integrity.py b/tests/test_review_packet_integrity.py
+new file mode 100644
+index 0000000..eaf7ed0
+--- /dev/null
++++ b/tests/test_review_packet_integrity.py
+@@ -0,0 +1,124 @@
++"""Integrity and per-topic selection checks; no semantic-quality certification."""
++import copy,json,sys,unittest
++from pathlib import Path
++
++ROOT=Path(__file__).resolve().parents[1]
++sys.path.insert(0,str(ROOT/'scripts'))
++import acceptance_contract_v361 as gate
++import test_acceptance_contract_v361 as fixture
++
++class ReviewPacketIntegrityTests(unittest.TestCase):
++    def setUp(self):
++        self.f=fixture.FourLayerAcceptanceV361Tests();self.f.setUp()
++    def tearDown(self):self.f.tearDown()
++    def result(self,review):
++        f=self.f;return gate.validate_review(f.batch,f.decision,f.brief,review,f.run,f.batch_path)
++    def rewrite_packet(self,review,transform):
++        p=self.f.run/'blind-packet.json';packet=json.loads(p.read_text());transform(packet)
++        p.write_text(json.dumps(packet,ensure_ascii=False),encoding='utf-8')
++        review['reviewer_attestation']['blind_packet_sha256']=fixture.sha(p)
++
++    def test_ids_and_hash_without_copy_are_blocked(self):
++        review=self.f.make_review()
++        self.rewrite_packet(review,lambda p:p.pop('actual_copy',None))
++        r=self.result(review)
++        self.assertEqual(r['status'],'BLOCKED')
++        self.assertIn('BLIND_PACKET_ACTUAL_COPY_MISSING',r['errors'])
++
++    def test_complete_matching_copy_is_accepted_as_pending(self):
++        review=self.f.make_review();r=self.result(review)
++        self.assertEqual(r['reviewer_attestation_status'],'PASS')
++        self.assertEqual(r['status'],'VALIDATION_PENDING')
++        self.assertFalse(r['passed'])
++
++    def test_changed_body_with_recomputed_file_hash_is_blocked(self):
++        review=self.f.make_review()
++        self.rewrite_packet(review,lambda p:p['actual_copy'][0]['segments'][2].update(text='另一版未经审查的正文'))
++        r=self.result(review);self.assertEqual(r['status'],'BLOCKED')
++        self.assertTrue(any('BLIND_PACKET_COPY_MISMATCH' in e for e in r['errors']))
++
++    def test_missing_body_segment_is_blocked(self):
++        review=self.f.make_review()
++        self.rewrite_packet(review,lambda p:p['actual_copy'][0]['segments'].pop(2))
++        self.assertEqual(self.result(review)['status'],'BLOCKED')
++
++    def test_author_scores_in_packet_are_blocked(self):
++        review=self.f.make_review()
++        self.rewrite_packet(review,lambda p:p.update(author_score=5))
++        r=self.result(review);self.assertEqual(r['status'],'BLOCKED')
++        self.assertIn('BLIND_PACKET_CONTAINS_REVIEWER_OR_SCORE_CUES',r['errors'])
++
++    def test_three_plans_can_choose_three_separate_entries(self):
++        f=self.f;dec=copy.deepcopy(f.decision);base=dec.pop('marketing_entry_competition')
++        dec['selected']=[];dec['topic_competitions']=[]
++        for i in range(1,4):
++            comp=copy.deepcopy(base);chosen='C'+str(i);comp['selected_candidate_id']=chosen
++            for c in comp['candidates']:
++                c['selected']=c['candidate_id']==chosen
++                c['selection_reason']='合成测试选择：本题单独比较自己的入口，不能继承其他题目的选择。'
++                c['rejection_reason']='合成测试弃选：此入口不作为本题主入口，仍保留以便逐题核对。'
++            dec['selected'].append({'id':'P'+str(i),'selected_entry_candidate_id':chosen})
++            dec['topic_competitions'].append({'plan_id':'P'+str(i),'competition':comp})
++        self.assertEqual(gate.validate_decision_competition(dec,f.brief,'illustration',f.run),[])
++
++    def test_missing_topic_competition_cannot_silently_use_other_topic(self):
++        f=self.f;dec=copy.deepcopy(f.decision);base=dec.pop('marketing_entry_competition')
++        dec['selected'].append({'id':'P2','selected_entry_candidate_id':'C2'})
++        dec['topic_competitions']=[{'plan_id':'P1','competition':base}]
++        self.assertIn('TOPIC_COMPETITION_PLAN_COVERAGE_MISMATCH',gate.validate_decision_competition(dec,f.brief,'illustration',f.run))
++
++    def test_duplicate_topic_competition_is_blocked(self):
++        f=self.f;dec=copy.deepcopy(f.decision);base=dec.pop('marketing_entry_competition')
++        dec['topic_competitions']=[{'plan_id':'P1','competition':base},{'plan_id':'P1','competition':copy.deepcopy(base)}]
++        self.assertIn('TOPIC_COMPETITION_PLAN_IDS_DUPLICATED',gate.validate_decision_competition(dec,f.brief,'illustration',f.run))
++
++    def test_blind_packet_preparer_emits_matching_actual_copy(self):
++        import tempfile
++        from test_pipeline import fixture as make_pipeline_fixture,prepare_run
++        from prepare_review import prepare
++        with tempfile.TemporaryDirectory() as tmp:
++            batch,_=make_pipeline_fixture(platforms=('xiaohongshu',),count=1)
++            run=Path(tmp)/'run';bp=prepare_run(run,batch)
++            packet=prepare(run,bp,phase='blind')
++            self.assertEqual(gate.validate_blind_copy(packet,batch['scripts']),[])
++            self.assertEqual(packet['script_ids'],[batch['scripts'][0]['id']])
++
++    def test_decision_schema_supports_per_topic_and_rejects_ambiguous_scope(self):
++        import jsonschema
++        schema=json.loads((ROOT/'schemas/decision-competition-v361.schema.json').read_text())
++        dec=copy.deepcopy(self.f.decision);comp=dec.pop('marketing_entry_competition')
++        dec['topic_competitions']=[{'plan_id':'P1','competition':comp}]
++        jsonschema.validate(dec,schema)
++        dec['marketing_entry_competition']=comp
++        with self.assertRaises(jsonschema.ValidationError):jsonschema.validate(dec,schema)
++
++    def test_review_uses_the_candidate_ids_of_its_own_topic(self):
++        f=self.f;comp=f.decision.pop('marketing_entry_competition')
++        comp['selected_candidate_id']='OWN1'
++        for i,c in enumerate(comp['candidates'],1):c['candidate_id']='OWN'+str(i)
++        f.decision['selected'][0]['selected_entry_candidate_id']='OWN1'
++        f.decision['topic_competitions']=[{'plan_id':'P1','competition':comp}]
++        f.script['selected_entry_candidate_id']='OWN1'
++        f.decision_path.write_text(json.dumps(f.decision,ensure_ascii=False),encoding='utf-8')
++        f.batch_path.write_text(json.dumps(f.batch,ensure_ascii=False),encoding='utf-8')
++        review=f.make_review()
++        for check in review['delivery_acceptance'][0]['checks']:
++            if check['criterion_id']=='topic_selection':check['evidence_refs']=['OWN1','OWN2','OWN3']
++        self.assertEqual(self.result(review)['status'],'VALIDATION_PENDING')
++
++    def test_current_guidance_is_selected_by_source_id_not_path_prefix(self):
++        from prepare_review import review_guidance
++        pack={'domain_asset_manifest':{'required_source_asset_ids':['GUIDE','TITLE']},
++            'must_read_guidance':{'assets/private/guide.docx':{'source_asset_id':'GUIDE','text':'current guide'},
++              'assets/shared/title.txt':{'source_asset_id':'TITLE','text':'current title guide'},
++              'references/history.md':{'source_asset_id':'OLD','text':'retired example'}}}
++        selected=review_guidance(pack)
++        self.assertEqual({v['source_asset_id'] for v in selected.values()},{'GUIDE','TITLE'})
++
++    def test_review_cannot_silently_omit_a_required_current_guide(self):
++        from prepare_review import review_guidance
++        pack={'domain_asset_manifest':{'must_read_source_asset_ids':['GUIDE']},'must_read_guidance':{}}
++        with self.assertRaisesRegex(ValueError,'current domain guidance missing'):
++            review_guidance(pack)
++
++if __name__=='__main__':unittest.main()
+diff --git a/tests/test_runtime_repair_integration.py b/tests/test_runtime_repair_integration.py
+new file mode 100644
+index 0000000..d6d2158
+--- /dev/null
++++ b/tests/test_runtime_repair_integration.py
+@@ -0,0 +1,48 @@
++"""Fresh-process CLI checks, with synthetic input and real bundled domain loading."""
++import hashlib,json,subprocess,sys,tempfile,unittest
++from pathlib import Path
++
++ROOT=Path(__file__).resolve().parents[1]
++
++class RuntimeRepairIntegrationTests(unittest.TestCase):
++    def run_intake(self, domain):
++        with tempfile.TemporaryDirectory() as tmp:
++            base=Path(tmp);run=base/'new-run'
++            request=base/'request.txt'
++            quote='合成程序测试：核对启动和原始来源归档，不认证营销内容。'
++            request.write_text(quote,encoding='utf-8')
++            brief={'task_id':'synthetic-intake','topic':'合成入口检查','audience':'维护人员','goal':'验证来源归档',
++                'domain':domain,'platforms':['xiaohongshu'],'facts':[],
++                'content_context':{'scene':'桌面','problem':'检查入口','memory_point':'原件可追溯','content_type':'诊断'},
++                'voice_profile':'普通解释','objective':'education','content_task':'diagnosis',
++                'input_resolution':['合成夹具，仅验证执行契约'],
++                'production_resources':[{'id':'PHONE','description':'手机固定机位','status':'available'}],
++                'case_policy':'prefer_real','source_inventory':{'status':'complete',
++                  'selection_reason':'此处使用合成测试请求，核对程序启动、文件读取和来源归档，不认证商业事实。',
++                  'checked_assets':[{'asset_id':'A1','source_file':'sources/01.txt',
++                    'source_sha256':hashlib.sha256(request.read_bytes()).hexdigest(),'locator':'第1段','source_quote':quote,'read':True}],
++                  'fact_evidence':[],'relevant_real_case_ids':[],'selected_real_case_ids':[],'excluded_relevant_source_ids':[]}}
++            if domain=='illustration':
++                brief['audience_information']={'primary_role':'维护人员','current_problem':'核对原始资料读取',
++                    'direct_benefit':'确认领域资料正确加载','information_type':'behind_scenes','source_class':'original_work'}
++            bp=base/'brief.json';bp.write_text(json.dumps(brief,ensure_ascii=False),encoding='utf-8')
++            result=subprocess.run([sys.executable,str(ROOT/'scripts/run_pipeline_v3_6_1.py'),'intake',
++                '--run',str(run),'--input',str(bp),'--request',str(request)],capture_output=True,text=True,timeout=90)
++            self.assertEqual(result.returncode,0,(result.stdout+result.stderr)[-3500:])
++            self.assertEqual((run/'sources/01.txt').read_bytes(),request.read_bytes())
++            status=json.loads((run/'v3.6.1-validation-status.json').read_text())
++            self.assertEqual(status['stage'],'intake');self.assertEqual(status['status'],'PASS')
++            self.assertTrue((run/'asset-path-resolution.json').is_file())
++            if domain=='illustration':
++                pack=json.loads((run/'asset-pack.json').read_text())
++                loaded={v.get('source_asset_id') for v in pack['must_read_guidance'].values()}
++                self.assertIn('ILLUSTRATION-GUIDANCE-V2.0',loaded)
++            if domain=='ai_video':
++                manifest=json.loads((run/'domain-asset-manifest.json').read_text())
++                self.assertIn('AI-VIDEO-BUSINESS-GUIDE-V4.1',manifest['must_read_source_asset_ids'])
++
++    def test_plain_text_request_in_fresh_directory(self):self.run_intake('general')
++    def test_plain_text_request_illustration_route(self):self.run_intake('illustration')
++    def test_plain_text_request_ai_video_route(self):self.run_intake('ai_video')
++
++if __name__=='__main__':unittest.main()

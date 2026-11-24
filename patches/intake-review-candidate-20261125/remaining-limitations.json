@@ -1,0 +1,17 @@
+[
+  {
+    "probe": "same_customer_decision_rephrased_three_ways",
+    "module_accepted": true,
+    "errors": [],
+    "result": "SEMANTIC_LIMITATION_REMAINS",
+    "scope": "This candidate does not implement a calibrated semantic-diversity judge."
+  },
+  {
+    "probe": "generic_opening_with_incorrect_positive_review",
+    "status": "VALIDATION_PENDING",
+    "reviewer_attestation_status": "PASS",
+    "errors": [],
+    "result": "SEMANTIC_LIMITATION_REMAINS",
+    "scope": "All reviewer identities and labels here are synthetic test fixtures. No real external editorial assessment occurred; overall publication does not pass."
+  }
+]
