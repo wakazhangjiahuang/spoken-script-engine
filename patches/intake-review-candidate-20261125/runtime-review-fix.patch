@@ -328,10 +328,29 @@ index 175d0d7..cd485e3 100644
      current_manifest=verify_current_assets()
      run_dir=Path(run_dir); manifest_path=Path(result['manifest_path'])
 diff --git a/scripts/prepare_review.py b/scripts/prepare_review.py
-index 93c7263..461d0c4 100644
+index 93c7263..2bcddee 100644
 --- a/scripts/prepare_review.py
 +++ b/scripts/prepare_review.py
-@@ -38,6 +38,10 @@ def prepare(run, batch, phase="content", content_review=None):
+@@ -16,6 +16,18 @@ def clean(value):
+     return value
+ 
+ 
++def review_guidance(pack):
++    manifest = pack.get('domain_asset_manifest', {})
++    required = set(manifest.get('required_source_asset_ids') or manifest.get('must_read_source_asset_ids') or [])
++    guides = pack.get('must_read_guidance', {})
++    selected = {k: v for k, v in guides.items()
++                if k.startswith('domains/') or v.get('source_asset_id') in required}
++    missing = required - {v.get('source_asset_id') for v in selected.values()}
++    if missing:
++        raise ValueError('current domain guidance missing from review input: ' + ','.join(sorted(missing)))
++    return selected
++
++
+ def prepare(run, batch, phase="content", content_review=None):
+     run = Path(run)
+     batch = Path(batch)
+@@ -38,6 +50,10 @@ def prepare(run, batch, phase="content", content_review=None):
      source_manifest = read(run / "source-manifest.json")
      marketing_schema = read(root / "schemas" / "marketing-review-v360.schema.json")
      source_schema = read(root / "schemas" / "source-inventory-v360.schema.json")
@@ -342,7 +361,16 @@ index 93c7263..461d0c4 100644
      data = {
          "review_input_version": "3.6.0",
          "phase": phase,
-@@ -102,7 +106,7 @@ if __name__ == "__main__":
+@@ -58,7 +74,7 @@ def prepare(run, batch, phase="content", content_review=None):
+         "source_manifest": source_manifest,
+         "source_directory": str((run / "sources").resolve()),
+         "rubric": pack["rubric"],
+-        "domain_standard": {k: v for k, v in pack.get("must_read_guidance", {}).items() if k.startswith("domains/")},
++        "domain_standard": review_guidance(pack),
+         "marketing_review_contract": marketing_schema,
+         "source_inventory_contract": source_schema,
+         "marketing_review_instructions": [
+@@ -102,7 +118,7 @@ if __name__ == "__main__":
      parser.add_argument("--run", required=True, type=Path)
      parser.add_argument("--batch", required=True, type=Path)
      parser.add_argument("--output", required=True, type=Path)
@@ -406,10 +434,10 @@ index 808682b..2d78be3 100644
                  "review_evidence_path": "review-evidence.json", "review_evidence_sha256": sha(review_evidence), "blind_packet_path": "blind-packet.json", "blind_packet_sha256": sha(blind_packet),
 diff --git a/tests/test_review_packet_integrity.py b/tests/test_review_packet_integrity.py
 new file mode 100644
-index 0000000..381b1f1
+index 0000000..eaf7ed0
 --- /dev/null
 +++ b/tests/test_review_packet_integrity.py
-@@ -0,0 +1,109 @@
+@@ -0,0 +1,124 @@
 +"""Integrity and per-topic selection checks; no semantic-quality certification."""
 +import copy,json,sys,unittest
 +from pathlib import Path
@@ -517,6 +545,21 @@ index 0000000..381b1f1
 +        for check in review['delivery_acceptance'][0]['checks']:
 +            if check['criterion_id']=='topic_selection':check['evidence_refs']=['OWN1','OWN2','OWN3']
 +        self.assertEqual(self.result(review)['status'],'VALIDATION_PENDING')
++
++    def test_current_guidance_is_selected_by_source_id_not_path_prefix(self):
++        from prepare_review import review_guidance
++        pack={'domain_asset_manifest':{'required_source_asset_ids':['GUIDE','TITLE']},
++            'must_read_guidance':{'assets/private/guide.docx':{'source_asset_id':'GUIDE','text':'current guide'},
++              'assets/shared/title.txt':{'source_asset_id':'TITLE','text':'current title guide'},
++              'references/history.md':{'source_asset_id':'OLD','text':'retired example'}}}
++        selected=review_guidance(pack)
++        self.assertEqual({v['source_asset_id'] for v in selected.values()},{'GUIDE','TITLE'})
++
++    def test_review_cannot_silently_omit_a_required_current_guide(self):
++        from prepare_review import review_guidance
++        pack={'domain_asset_manifest':{'must_read_source_asset_ids':['GUIDE']},'must_read_guidance':{}}
++        with self.assertRaisesRegex(ValueError,'current domain guidance missing'):
++            review_guidance(pack)
 +
 +if __name__=='__main__':unittest.main()
 diff --git a/tests/test_runtime_repair_integration.py b/tests/test_runtime_repair_integration.py
