@@ -97,5 +97,13 @@
   "reference_overlay_version": "20261124-v3.6.1-four-layer-evidence-closure",
   "public_repository_policy": "Public repository contains only generic rules, redacted governance, schemas and validators. Original user Word/XLSX, client data, original lock baseline, raw artwork, footage and permissions remain private.",
   "source_pin_policy": "The active v3.6.1 overlay is pinned by asset_ref and applied on the v3.6.0 source-first marketing baseline; AI-video sample index/governance remains pinned to manifest_ref. Registry metadata is pinned separately by registry_commit. Public repository contains only generic contracts, redacted governance, schemas, validators and tests. Do not treat unpinned main as runtime source.",
-  "validator_revision": "20261124-v3.6.1-source-fact-decision-draft-15point-independent-external-validation"
+  "validator_revision": "20261124-v3.6.1-source-fact-decision-draft-15point-independent-external-validation",
+  "workflow_release": {
+    "version": "3.7.0",
+    "path": "releases/3.7.0/",
+    "ref": "de072064fa593deb991fb20c2a1eb2b21f1c0085",
+    "entrypoint": "scripts/run_pipeline_v3_6_1.py",
+    "base_plugin_package": "3.6.3",
+    "production_core": "3.6.1"
+  }
 }
