@@ -105,5 +105,15 @@
     "entrypoint": "scripts/run_pipeline_v3_6_1.py",
     "base_plugin_package": "3.6.3",
     "production_core": "3.6.1"
+  },
+  "knowledge_integration": {
+    "schema_version": 1,
+    "workflow_version": "3.7.0",
+    "asset_ref": "183129da3638be112feba0ef57d1e84bda53e31e",
+    "skill_entrypoint": "releases/3.7.0/SKILL.md",
+    "reference_path": "releases/3.7.0/references/knowledge-retrieval.md",
+    "mcp_server_path": "knowledge-mcp/server.py",
+    "registry_filename": "KNOWLEDGE-REGISTRY.json",
+    "visibility_required": "private"
   }
 }
