@@ -21,7 +21,7 @@
 
 ## M08–M09 九字段逐层兑现
 
-在 B 的每个 selected plan row 和 script 内填写 `v3_handoff_sha256`，值为 A 篇目的 decision_v3 规范哈希，可调用既有 `execution_contract.canonical`。script 的 `v3_content_entry` 为已选入口的客户问题，`v3_claims` 保存 claim_id、field 和实际稿件原文 quote。
+在 B 的每个 selected plan row 和 script 内填写 `v3_handoff_sha256`，值为 A 篇目的 decision_v3 规范哈希，可调用既有 `execution_contract.canonical`。selected_entry_candidate_id 与 value_map.entry_id 相同，并从已确认的叙事模式继承 content_mode。这些字段同时用于原生产校验。script 的 `v3_content_entry` 为已选入口的客户问题，`v3_claims` 保存 claim_id、field 和实际稿件原文 quote。
 
 | 字段 | 审查的问题 | 失败回退 |
 | --- | --- | --- |
@@ -35,7 +35,7 @@
 | calling | 能做哪一个动作，为什么，对用户有什么实际回报？ | M08.1 |
 | comment | 如何从评论进一步识别同一需求或促成同一个选择？ | M08.1 |
 
-三平台用同一事实底稿，分别核搜索/发现、推荐观看及社交传播的实际任务和账号功能。3 秒和 8 秒是脚本编辑节点。叙事可用真实商业案例、方法论、风险诊断、机会判断或流程拆解，选择与证据吻合的一种。评论默认独立发布。文案锁提供 EXACT/PREFIX；原始证据由摄取哈希保护，受影响的上游改动开新 A revision。
+三平台用同一事实底稿，分别核搜索/发现、推荐观看及社交传播的实际任务和账号功能。3 秒和 8 秒是脚本编辑节点。沿用既有 content_mode 注册值 real_commercial_case、ai_workflow_tutorial、design_decision_analysis、business_opportunity_analysis、hypothetical_scenario。选择与证据吻合的一种，按正文任务使用风险诊断、排查过程或同模式的专业方法。评论默认独立发布。文案锁提供 EXACT/PREFIX；原始证据由摄取哈希保护，受影响的上游改动开新 A revision。
 
 ## M10–M11 制作与交付
 
@@ -45,6 +45,6 @@
 
 ## M12–M13 验收与回流
 
-结构、事实与权利、专业语义、外部验证逐层放行。独立评审读取真实稿、证据和必要任务边界，隐藏生成者评分。逐篇给 `review.v3_acceptance`，绑定 batch_sha256 与 reviewer_id，含九字段各自的实际 quote、结论与理由，以及三道关口的字段列表、结论和理由。三关任一失败或未做即不能放行。保留原 15 项和各领域评分，并按失败字段退回相应模块。技能运行不替代真人试读、3–5 名目标客户盲读、权利审核或真实发布。未取得外部证据保留 VALIDATION_PENDING。
+结构、事实与权利、专业语义、外部验证逐层放行。独立评审读取真实稿、证据和必要任务边界，隐藏生成者评分。将 V3 检查录入原域正式评审文件（AI 视频用 --v41-review，插画用 illustration-review.json，通用域用 --review）。逐篇给 `review.v3_acceptance`，绑定 batch_sha256 与 reviewer_id，含九字段各自的实际 quote、结论与理由，以及三道关口的字段列表、结论和理由。三关任一失败或未做即不能放行。保留原 15 项和各领域评分，并按失败字段退回相应模块。技能运行不替代真人试读、3–5 名目标客户盲读、权利审核或真实发布。未取得外部证据保留 VALIDATION_PENDING。
 
 获得真实发布证据后用 `record-outcome` 保存平台、账号、帖子、时间窗口、指标定义与分母、对照基线、归因限制、原始数据文件及 SHA。未发布记 NOT_RUN。曝光、问询、预约、核销、成交和复购分别记录。只有有授权的编辑审批才晋升知识资产。

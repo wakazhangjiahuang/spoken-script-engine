@@ -4,6 +4,7 @@ import re
 import unicodedata
 
 from execution_contract import canonical
+from acceptance_contract_v361 import CONTENT_MODES
 
 FIELDS = ("audience", "content_entry", "cover_main", "cover_sub", "hook_0_3",
           "bridge_3_8", "body", "calling", "comment")
@@ -199,6 +200,8 @@ def validate_topic(topic, brief):
                          "calling_reward", "comment_task", "risk", "platform_difference",
                          "series_id", "topic_type", "presentation_form", "narrative_mode",
                          "funnel_stage", "unique_payoff"), "M06.1")
+    require(record["narrative_mode"] in CONTENT_MODES, "NARRATIVE_MODE_INVALID",
+            "M06.1/M08.1", topic["id"])
     require(record["calling_action"] == topic["next_step"], "ACTION_DRIFT", "M07", topic["id"])
     if level == "INFO_ONLY":
         require(record["content_goal"] in {"information", "scene_discovery", "education"},
@@ -229,7 +232,9 @@ def validate_draft(batch, topics):
     for script in batch["scripts"]:
         topic = topics[script["plan_id"]]
         record = topic["decision_v3"]
-        require(script.get("v3_handoff_sha256") == canonical(record),
+        require(script.get("v3_handoff_sha256") == canonical(record)
+                and script.get("content_mode") == record["narrative_mode"]
+                and script.get("selected_entry_candidate_id") == record["value_map"]["entry_id"],
                 "HANDOFF_DRIFT", "M07", topic["id"])
         fields = actual_fields(script, topic)
         text_fields(fields, FIELDS, "M08.1")

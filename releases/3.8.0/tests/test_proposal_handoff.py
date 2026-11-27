@@ -106,6 +106,8 @@ class ProposalHandoffTests(unittest.TestCase):
         row = self.topics[1]
         from execution_contract import canonical
         row["v3_handoff_sha256"] = canonical(row["decision_v3"])
+        row["selected_entry_candidate_id"] = row["decision_v3"]["value_map"]["entry_id"]
+        row["content_mode"] = row["decision_v3"]["narrative_mode"]
         check_b_plan(approval, {"selected": [row]})
         script = script_for(row)
         script["cover_main"] = "Collection | A revised suffix"

@@ -57,7 +57,7 @@ def populate(topic, source):
         "comment_task": "Identify the next sample to approve", "risk": "No actual outcomes supplied",
         "platform_difference": "Search-friendly question for product approvers", "series_id": "S1",
         "topic_type": "worked_comparison", "presentation_form": "talking_head",
-        "narrative_mode": "diagnosis", "funnel_stage": "discovery", "unique_payoff": benefit,
+        "narrative_mode": "design_decision_analysis", "funnel_stage": "discovery", "unique_payoff": benefit,
     }
     return topic
 
@@ -67,6 +67,7 @@ def script_for(topic):
     return {"id": "S" + topic["id"], "plan_id": topic["id"], "platform": topic["platform"],
             "audience": topic["audience"], "cover_main": copy["cover_main"], "cover_sub": copy["cover_sub"],
             "v3_handoff_sha256": canonical(record), "v3_content_entry": topic["buyer_decision"],
+            "content_mode": record["narrative_mode"], "selected_entry_candidate_id": record["value_map"]["entry_id"],
             "segments": [{"role": role, "text": copy[col]} for role, col in
                          (("hook", "hook"), ("suspense", "suspense"), ("value", "body"), ("calling", "calling"))],
             "comment_hook": {"line": copy["comment"]},

@@ -3,6 +3,7 @@ import argparse
 from collections import Counter
 import json
 from pathlib import Path
+from types import SimpleNamespace
 import re
 
 from execution_contract import canonical, digest, fresh, read
@@ -254,8 +255,11 @@ def check_b_plan(handoff, plan):
     require(rows.keys() == topics.keys(), "B must plan only the selected topic IDs")
     for topic_id, row in rows.items():
         if handoff["version"] == 2:
-            require(row.get("v3_handoff_sha256") == canonical(topics[topic_id]["decision_v3"]),
-                    f"HANDOFF_DRIFT [M07] {topic_id}: purchase reason, entry and promise")
+            prior = topics[topic_id]["decision_v3"]
+            require(row.get("v3_handoff_sha256") == canonical(prior)
+                    and row.get("selected_entry_candidate_id") == prior["value_map"]["entry_id"]
+                    and row.get("content_mode") == prior["narrative_mode"],
+                    f"HANDOFF_DRIFT [M07] {topic_id}: purchase reason, entry, promise or narrative mode")
         for field in PLAN:
             require(row.get(field) == topics[topic_id][field], f"{topic_id}: B changed {field}")
 
@@ -381,6 +385,7 @@ def route(argv, legacy_main):
         flags.add_argument("--run", type=Path, required=True)
         flags.add_argument("--input", type=Path)
         flags.add_argument("--review", type=Path)
+        flags.add_argument("--v41-review", type=Path)
         flags.add_argument("--output", type=Path)
         parsed, _ = flags.parse_known_args(legacy_argv)
         run = parsed.run
@@ -406,8 +411,10 @@ def route(argv, legacy_main):
                 check_b_batch(handoff, batch)
                 if handoff["version"] == 2:
                     if legacy_argv[0] in {"validate", "export"}:
-                        require(parsed.review is not None, "V3 requires the independent review")
-                        review = read(parsed.review)
+                        from run_pipeline_v3_6 import _review_path, base
+                        review_args = SimpleNamespace(review=parsed.review, v41_review=parsed.v41_review)
+                        review_path = _review_path(review_args, run, base._domain(read(run / "brief.json")))
+                        review = read(review_path)
                         reviewer = review.get("reviewer_attestation", {})
                         v3.validate_review(batch, selected_topics(handoff), review.get("v3_acceptance"),
                                            digest(parsed.input), reviewer.get("reviewer_id"))
