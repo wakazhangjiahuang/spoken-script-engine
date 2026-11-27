@@ -99,3 +99,17 @@ class DecisionV3Tests(unittest.TestCase):
         candidate["scripts"][0]["gates"][-1]["status"] = "NOT_RUN"
         with self.assertRaisesRegex(ValueError, "THREE_GATE_BLOCKED"):
             validate_review(self.batch, self.selected, candidate, "sha", "reader")
+
+    def test_visible_cover_rejects_unfounded_advantage_even_when_ledger_is_safe(self):
+        self.topic["copy"]["cover_main"] = "全城最值的温泉，周六夜场每人79元"
+        with self.assertRaisesRegex(ValueError, "VISIBLE_COPY_OVERREACH"):
+            validate_topic(self.topic, self.brief)
+
+    def test_visible_copy_and_false_claim_cannot_relabel_unsupported_price_as_fact(self):
+        self.d["claims"][0]["text"] = "周六夜场每人79元"
+        with self.assertRaisesRegex(ValueError, "VISIBLE_COPY_UNSUPPORTED_METRIC"):
+            validate_topic(self.topic, self.brief)
+        self.d["claims"][0]["text"] = self.topic["copy"]["body"]
+        self.script["segments"][2]["text"] = "汤池夜场开到凌晨"
+        with self.assertRaisesRegex(ValueError, "VISIBLE_COPY_UNSUPPORTED_AVAILABILITY"):
+            validate_draft(self.batch, self.selected, self.brief)

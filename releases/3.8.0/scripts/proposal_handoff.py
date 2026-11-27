@@ -264,7 +264,7 @@ def check_b_plan(handoff, plan):
             require(row.get(field) == topics[topic_id][field], f"{topic_id}: B changed {field}")
 
 
-def check_b_batch(handoff, batch):
+def check_b_batch(handoff, batch, brief=None):
     topics = selected_topics(handoff)
     scripts = indexed(batch["scripts"], "plan_id")
     require(scripts.keys() == topics.keys(), "B must draft only the selected topic IDs")
@@ -278,7 +278,7 @@ def check_b_batch(handoff, batch):
         actual["comment"] = script.get("comment_hook", {}).get("line")
         validate_locks(actual, topic.get("locks", {}), topic_id)
     if handoff["version"] == 2:
-        v3.validate_draft(batch, topics)
+        v3.validate_draft(batch, topics, brief)
 
 
 def run_context(run):
@@ -408,7 +408,7 @@ def route(argv, legacy_main):
             else:
                 check_b_plan(handoff, read(run / "decision.json"))
                 batch = read(parsed.input)
-                check_b_batch(handoff, batch)
+                check_b_batch(handoff, batch, read(run / "brief.json"))
                 if handoff["version"] == 2:
                     if legacy_argv[0] in {"validate", "export"}:
                         from run_pipeline_v3_6 import _review_path, base

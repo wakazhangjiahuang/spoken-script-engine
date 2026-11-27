@@ -23,6 +23,18 @@ STRENGTH = {"ADVANTAGE_VERIFIED": 3, "FIT_SUPPORTED": 2, "INFO_ONLY": 1}
 CLAIMS = {"fact": 1, "fit": 2, "comparison": 3}
 ARCHIVE = {"KB_ACCESS_DENIED", "KB_NO_MATCH", "KB_HASH_MISMATCH", "KB_VERSION_MISMATCH",
            "KB_NOT_CONFIGURED"}
+STRONG_WORDING = re.compile(
+    r"全[城国网][^，。！；？]{0,8}最|唯一|独家|第一名|行业第一|全网最低|比同行都|领先所有|"
+    r"人人都能|任何人都能|保证.{0,12}(?:获客|成交|赚钱|预约|盈利|改善|降本)|百分之百")
+AVAILABILITY = re.compile(
+    r"(?:已|现在|一定|肯定|均|都|随到随)(?:可|能)?(?:开放|营业|订到|预订|接待|使用)|"
+    r"(?:开放|营业|开)到(?:凌晨|深夜|半夜)|(?:可[以不]?|能)(?:包场|订到私汤)|"
+    r"(?:免费|赠送|包含)[^，。！；？]{0,8}(?:私汤|接送|餐食|停车)")
+METRIC = re.compile(
+    r"(?:[¥￥$]|NT\$|USD)\s*\d+(?:[.,]\d+)?|"
+    r"\d+(?:[.,]\d+)?\s*(?:万元|元|塊|折|倍|%|％)|"
+    r"(?<!\d)(?:[01]?\d|2[0-3])[:：][0-5]\d(?!\d)")
+CONDITIONAL = re.compile(r"是否|能不能|能否|可否|吗$|待核|需(?:要)?(?:问|核对|确认)|问清|不承诺|无法确认|不能据此|不等于|不代表")
 
 
 def require(condition, code, repair, detail):
@@ -124,6 +136,39 @@ def validate_claim(claim, evidence, level):
         require(claim.get("simulation_disclosed") is True, "SIMULATION_UNDISCLOSED", "M01", claim["id"])
 
 
+def validate_visible_copy(values, record, sources):
+    """Catch explicit unsupported price, business guarantees and availability in the visible copy.
+
+    This check supplements, and does not certify, semantic review of every visible claim.
+    """
+    quoted_sources = [sources[item["source_id"]].get("source_quote", "") for item in record["evidence"]
+                      if item["status"] in {"VERIFIED", "USER_PROVIDED", "PUBLIC_SOURCE"}
+                      and item["rights"] in {"authorized", "public"}]
+    source_quotes = [normalized(quote) for quote in quoted_sources]
+
+    def metric_token(value):
+        return re.sub(r"\s+", "", unicodedata.normalize("NFKC", value)).casefold()
+
+    metrics = {metric_token(match.group()) for quote in quoted_sources
+               for match in METRIC.finditer(unicodedata.normalize("NFKC", quote))}
+    for field, value in values.items():
+        for clause in re.split(r"[，,。！；\n]", value):
+            wording = STRONG_WORDING.search(clause)
+            conditional = bool(CONDITIONAL.search(clause.rstrip("？? ")))
+            if wording and not conditional:
+                require(record["purchase"]["status"] == "ADVANTAGE_VERIFIED" and
+                        any(normalized(wording.group()) in quote for quote in source_quotes),
+                        "VISIBLE_COPY_OVERREACH", "M05.1/M08.1", f"{field}: {wording.group()}")
+            availability = AVAILABILITY.search(clause)
+            if availability and not conditional:
+                require(any(normalized(availability.group()) in quote for quote in source_quotes),
+                        "VISIBLE_COPY_UNSUPPORTED_AVAILABILITY", "M01/M08.1", f"{field}: {availability.group()}")
+            for metric in METRIC.finditer(unicodedata.normalize("NFKC", clause)):
+                # Punctuation and units distinguish 79 元 from 79%, and 09:00 from 9.00 元.
+                require(metric_token(metric.group()) in metrics,
+                        "VISIBLE_COPY_UNSUPPORTED_METRIC", "M01/M08.1", f"{field}: {metric.group()}")
+
+
 def validate_topic(topic, brief):
     record = topic.get("decision_v3")
     text_fields(record, ("as_of",), "M00")
@@ -206,6 +251,8 @@ def validate_topic(topic, brief):
     if level == "INFO_ONLY":
         require(record["content_goal"] in {"information", "scene_discovery", "education"},
                 "PROJECT_CHOICE_PROOF_INSUFFICIENT", "M05.1", topic["id"])
+    validate_visible_copy(topic["copy"], record, sources)
+    validate_visible_copy({key: claim["text"] for key, claim in claims.items()}, record, sources)
     return record
 
 
@@ -228,7 +275,7 @@ def actual_fields(script, topic):
             "comment": script.get("comment_hook", {}).get("line")}
 
 
-def validate_draft(batch, topics):
+def validate_draft(batch, topics, brief=None):
     for script in batch["scripts"]:
         topic = topics[script["plan_id"]]
         record = topic["decision_v3"]
@@ -238,6 +285,9 @@ def validate_draft(batch, topics):
                 "HANDOFF_DRIFT", "M07", topic["id"])
         fields = actual_fields(script, topic)
         text_fields(fields, FIELDS, "M08.1")
+        if brief is not None:
+            sources = {row["asset_id"]: row for row in brief["source_inventory"]["checked_assets"]}
+            validate_visible_copy(fields, record, sources)
         winner = next(item for item in record["entries"] if item["id"] == record["value_map"]["entry_id"])
         require(fields["content_entry"] == winner["question"], "HANDOFF_DRIFT", "M06.1/M07", topic["id"])
         opening = [normalized(fields[key]) for key in ("cover_main", "cover_sub", "hook_0_3", "bridge_3_8")]
