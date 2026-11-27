@@ -1,0 +1,13 @@
+{
+  "repository": "wakazhangjiahuang/spoken-script-engine",
+  "skill_package_version": "3.8.0",
+  "workflow_version": "3.8.0",
+  "production_core_version": "3.6.1",
+  "asset_ref": "26f715d6a5a0ce54892eeefb3023aa2884a3e0b4",
+  "release_path": "releases/3.8.0/",
+  "entrypoint": "scripts/run_pipeline_v3_6_1.py",
+  "knowledge_mcp_path": "knowledge-mcp/v3/server.py",
+  "knowledge_mcp_version": "2.0.0",
+  "previous_workflow": "3.7.0",
+  "public_scope": "Generic runtime, tests and contracts; keep private source assets in authorized repositories."
+}
